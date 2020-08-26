@@ -1,0 +1,3202 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// ÈÕÓï(ÈÕ±¾) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Instant Reset"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "JP.chm"
+    IDS_GOHOME_DLG          "\nƒVƒXƒeƒ€‚ÍAÅ‰‚É Instant Reset ‚ğ—LŒø‚É‚µ‚½ó‘Ô‚É‚·‚Å‚ÉƒŠƒZƒbƒg‚³‚ê‚Ä‚¢‚Ü‚·Buƒtƒ@ƒCƒ‹‚Ìæ“¾v‚ğƒNƒŠƒbƒN‚·‚é‚ÆAŒ³‚ÌƒVƒXƒeƒ€ƒfƒBƒXƒNic://jã‚Ìƒ†[ƒU[‚Ìƒtƒ@ƒCƒ‹‚ªƒŠƒ\[ƒXƒ}ƒl[ƒWƒƒƒEƒBƒ“ƒhƒE‚É•\¦‚³‚ê‚Ü‚·Bƒtƒ@ƒCƒ‹‚ğ‚·‚®‚É•Ê‚ÌƒfƒBƒXƒNƒpƒX‚ÉƒRƒs[‚µ‚Ä‚­‚¾‚³‚¢BƒoƒbƒNƒAƒbƒv‚ğŠ®—¹‚µ‚½‚çAuƒtƒ@ƒCƒ‹‚ÌƒNƒŠƒAv‚ğƒNƒŠƒbƒN‚µ‚ÄAƒfƒBƒXƒN—Ìˆæ‚ğŒø—¦—Ç‚­g—p‚µ‚Ä‚­‚¾‚³‚¢B"
+    IDS_GOHOME_DLG_FILDFILE_BTN "  ƒtƒ@ƒCƒ‹‚Ìæ“¾"
+    IDS_GOHOME_DLG_CLEARFILE_BTN " ƒtƒ@ƒCƒ‹‚ÌƒNƒŠƒA"
+    IDS_GOHOME_DLG_CHECK_BTN "Ÿ‰ñ‚©‚ç•\¦‚µ‚È‚¢B"
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "‚±‚Ìƒtƒ@ƒCƒ‹‚ğ‚·‚Å‚Éæ“¾‚µ‚Ä‚¢‚Ü‚·‚©H\nuOKvƒ{ƒ^ƒ“‚ğƒNƒŠƒbƒN‚·‚é‚ÆAuƒtƒ@ƒCƒ‹‚Ìæ“¾v‚Åæ“¾‚µ‚½ƒtƒ@ƒCƒ‹‚ªíœ‚³‚ê‚Ü‚·B‚±‚ê‚É‚ÍAƒ}ƒCƒhƒLƒ…ƒƒ“ƒgAƒfƒXƒNƒgƒbƒvAƒvƒƒOƒ‰ƒ€ƒtƒ@ƒCƒ‹A©•ª‚Åì¬‚µ‚½ƒtƒHƒ‹ƒ_‚È‚Ç‚ªŠÜ‚Ü‚ê‚Ü‚·B\n‚±‚ê‚ç‚Ìƒtƒ@ƒCƒ‹‚ª•K—v‚Ì‚È‚¢‚±‚Æ‚ğŠm”F‚µ‚Ä‚©‚çAæ‚Éi‚ñ‚Å‚­‚¾‚³‚¢B"
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG "\n\nŒŸõ‚µ‚Ä‚¢‚éƒtƒ@ƒCƒ‹ƒpƒX‚Í‘¶İ‚µ‚Ü‚¹‚ñB "
+    IDS_GOHOMEERROR_DLG     "\n\n Instant Reset ‚ª³í‚É“®ì‚µ‚Ü‚¹‚ñ‚Å‚µ‚½BOS ‚ğÄ‹N“®‚µ‚ÄC•œ‚·‚é‚©AuƒXƒ^[ƒgvƒƒjƒ…[‚Å‚±‚Ìƒ\ƒtƒgƒEƒFƒA‚ğƒAƒ“ƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚­‚¾‚³‚¢B"
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "I—¹"
+    IDS_OBE_DLG             "\n\nLenovo Instant Reset ƒVƒXƒeƒ€ƒ\ƒtƒgƒEƒFƒA‚ğ‚²g—p‚¢‚½‚¾‚«A‚ ‚è‚ª‚Æ‚¤‚²‚´‚¢‚Ü‚·B‚±‚ê‚ğg—p‚µ‚ÄAÅ‰‚Éƒ\ƒtƒgƒEƒFƒA‚ğ—LŒø‚É‚µ‚½‚Ìó‘Ô‚ÉƒVƒXƒeƒ€‚ğ‚·‚Î‚â‚­ƒŠƒZƒbƒg‚Å‚«‚Ü‚·B\nƒqƒ“ƒgF‚±‚Ìƒ\ƒtƒgƒEƒFƒA‚ğŠJn‚·‚é‚ÆAWindows ‚ÌƒVƒXƒeƒ€‚Ì•œŒ³‹@”\‚Í©“®“I‚É–³Œø‚É‚È‚è‚Ü‚·B"
+    IDS_GOHOMEFAILED_DLG    "\n\nInstant Reset ‚ª³í‚É“®ì‚µ‚Ü‚¹‚ñ‚Å‚µ‚½BOS ‚ğÄ‹N“®‚µ‚ÄC•œ‚·‚é‚©AuƒXƒ^[ƒgvƒƒjƒ…[‚Å‚±‚Ìƒ\ƒtƒgƒEƒFƒA‚ğƒAƒ“ƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚­‚¾‚³‚¢B"
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "Œp‘±"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "I—¹"
+    IDS_IMPORTREG_DLG       "\n\n‚µ‚Î‚ç‚­‚¨‘Ò‚¿‚­‚¾‚³‚¢BInstant Reset ‚É‚æ‚èƒf[ƒ^‚ªÅV‚Ìî•ñ‚ÉXV‚³‚ê‚Ä‚¢‚Ü‚·B "
+    IDS_ISGOHOME_DLG        "\n\nƒVƒXƒeƒ€ƒp[ƒeƒBƒVƒ‡ƒ“‚Ìİ’è‚ÍAÅ‰‚É Instant Reset ‚ğ—LŒø‚É‚µ‚½‚Ìó‘Ô‚É•œŒ³‚³‚ê‚Ü‚·Bd—v‚Èƒf[ƒ^‚ğƒoƒbƒNƒAƒbƒv‚µ‚Ä‚­‚¾‚³‚¢B\nŒp‘±‚µ‚Ü‚·‚©H"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "Œp‘±"
+    IDS_ISGOHOME_DLG_QUIT_BTN "I—¹"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nƒVƒXƒeƒ€ƒp[ƒeƒBƒVƒ‡ƒ“‚ÍAÅ‰‚ÉInstantReset ‚ğ—LŒø‚É‚µ‚½‚Ìó‘Ô‚É•œŒ³‚³‚ê‚Ü‚·BŒp‘±‚·‚é‚ÆAƒVƒXƒeƒ€‚ªÄ‹N“®‚µ‚Ü‚·Bd—v‚Èƒf[ƒ^‚ğƒoƒbƒNƒAƒbƒv‚µ‚Ä‚­‚¾‚³‚¢B"
+    IDS_REPAIROK_MSGDLG     "\nƒ\ƒtƒgƒEƒFƒA‚ª³í‚ÉC•œ‚³‚ê‚Ü‚µ‚½B "
+    IDS_REPAIRFAILED_MSGDLG "\n\nƒ\ƒtƒgƒEƒFƒA‚ÌC•œ‚É¸”s‚µ‚Ü‚µ‚½B‚±‚ÌƒvƒƒOƒ‰ƒ€‚ğƒAƒ“ƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚­‚¾‚³‚¢B "
+    IDS_UNINSTALL_DLG       "\n\n’‹LF‚±‚ÌƒvƒƒOƒ‰ƒ€‚ğƒAƒ“ƒCƒ“ƒXƒg[ƒ‹‚µ‚Ü‚·‚©HƒRƒ“ƒsƒ…[ƒ^‚ÍA‚±‚Ìƒ\ƒtƒgƒEƒFƒA‚ğÅ‰‚Ég—p‚µ‚½‚Ìó‘Ô‚É‹­§“I‚É•œŒ³‚³‚ê‚Ü‚·Bƒ†[ƒU[‚Ìƒf[ƒ^‚Í¸‚í‚ê‚Ü‚·BƒRƒ“ƒsƒ…[ƒ^‚©‚çƒ†[ƒU[‚Ìƒf[ƒ^‚ğƒoƒbƒNƒAƒbƒv‚µ‚Ä‚­‚¾‚³‚¢B"
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\nOKv‚ğƒNƒŠƒbƒN‚·‚é‚ÆAOS ‚ªÄ‹N“®‚µAInstant Reset ‚Ì‰‰ñg—p‚Ìó‘Ô‚É•œŒ³‚³‚ê‚Ü‚·Bƒ†[ƒU[‚Ìƒf[ƒ^‚Í¸‚í‚ê‚Ü‚·BƒVƒXƒeƒ€ƒfƒBƒXƒN‚É•Û‘¶‚³‚ê‚Ä‚¢‚éd—v‚Èƒf[ƒ^‚ğƒoƒbƒNƒAƒbƒv‚µ‚Ä‚­‚¾‚³‚¢B"
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "Œp‘±"
+    IDS_UNINSTALL_DLG_QUIT_BTN "I—¹"
+    IDS_MESSAGEBOXEX_OK     "OK"
+    IDS_MESSAGEBOXEX_CANCEL "ƒLƒƒƒ“ƒZƒ‹"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\n‚±‚ÌƒvƒƒOƒ‰ƒ€‚É‚Íd—v‚Èƒtƒ@ƒCƒ‹‚ª‚ ‚è‚Ü‚¹‚ñB‚±‚Ìƒ\ƒtƒgƒEƒFƒA‚ğÄƒCƒ“ƒXƒg[ƒ‹‚µ‚ÄAƒvƒƒOƒ‰ƒ€‚ª³í‚É“®ì‚·‚é‚æ‚¤‚É‚µ‚Ä‚­‚¾‚³‚¢B "
+    IDS_REBOOTSYS_DLG       "ƒVƒXƒeƒ€‚Ì“dŒ¹‚ª‚·‚®‚ÉØ‚ê‚Ü‚·B•Û‘¶‚µ‚Ä‚¢‚È‚¢ƒtƒ@ƒCƒ‹‚ğ‚·‚×‚Ä•Û‘¶‚µ‚Ä‚­‚¾‚³‚¢B "
+    IDS_REBOOTSYS_DLG_BTN   "‚·‚®‚ÉÄ‹N“®"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Œã‚ÅƒVƒƒƒbƒgƒ_ƒEƒ“F%02d •bŒã"
+    IDS_OBE_DLG_ENABLE_BTN  " ‚·‚®‚É—LŒø‚É‚·‚é"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN "I—¹"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nLenovo Instant Reset ƒVƒXƒeƒ€ƒ\ƒtƒgƒEƒFƒA‚ª—LŒø‚É‚È‚Á‚Ä‚¢‚Ü‚·BWindows ‚ÌƒVƒXƒeƒ€‚Ì•œŒ³‹@”\‚Í–³Œø‚É‚È‚Á‚Ä‚¢‚Ü‚·B"
+    IDS_MENU_HELP           "ƒwƒ‹ƒv.lnk"
+    IDS_MENU_UNINSTALL      "ƒAƒ“ƒCƒ“ƒXƒg[ƒ‹.lnk"
+    IDS_MENU_FINDFILE       "ƒtƒ@ƒCƒ‹‚Ìæ“¾.lnk"
+    IDS_MENU_INITINSTANT    "Instant Reset‚Ì‰Šú‰».lnk"
+    IDS_IS_UNINSTALL        "\n\n‚±‚Ìƒ\ƒtƒgƒEƒFƒA‚ğƒAƒ“ƒCƒ“ƒXƒg[ƒ‹‚µ‚Ü‚·‚©H"
+    IDS_UNINSATLL_END       "\n\nƒAƒ“ƒCƒ“ƒXƒg[ƒ‹Š®—¹B"
+    IDS_INSTALL_SUCCESS     "\n\n³í‚ÉƒCƒ“ƒXƒg[ƒ‹‚³‚ê‚Ü‚µ‚½B"
+    IDS_OBE_DLG_PAGE2       "\nu‚·‚®‚É—LŒø‚É‚·‚év‚ğƒNƒŠƒbƒN‚µ‚ÄAOS ‚ğÄ‹N“®‚µA‚±‚Ìƒ\ƒtƒgƒEƒFƒA‚ğ—LŒø‚É‚µ‚Ü‚·B\n uI—¹v‚ğƒNƒŠƒbƒN‚µA‚±‚Ìƒ\ƒtƒgƒEƒFƒA‚ğŒã‚Å‹N“®‚·‚é‚±‚Æ‚à‚Å‚«‚Ü‚·B\n ƒ†[ƒU[ƒKƒCƒh‚Ì‘æ 4 Í‚ğ‚æ‚­“Ç‚ñ‚Å‚©‚çAƒ\ƒtƒgƒEƒFƒA‚ğ‚²g—p‚­‚¾‚³‚¢B"
+    IDS_START_NC_NO_FREE_SPACE "\n\n ƒfƒBƒXƒN‹ó‚«—e—Ê‚ª•s‘«‚µ‚Ä‚¢‚Ü‚·B"
+    IDS_START_NC_NO_RIGHTS  "\n ŠÇ—Òƒ†[ƒU[‚Æ‚µ‚Ä‚±‚Ìƒ\ƒtƒgƒEƒFƒA‚ğÀs‚·‚é•K—v‚ª‚ ‚è‚Ü‚·B"
+END
+
+#endif    // ÈÕÓï(ÈÕ±¾) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ÖĞÎÄ(¼òÌå£¬ÖĞ¹ú) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\NcInterface.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\InstantReset.ico"
+
+IDI_ICON1               ICON                    "res\\messageboxerror.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MESSAGEBOXEX DIALOGEX 0, 0, 227, 119
+STYLE DS_ABSALIGN | DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST | WS_EX_APPWINDOW
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "",IDC_BUTTON1,102,99,57,14
+    PUSHBUTTON      "",IDC_QUIT,169,99,50,14
+    PUSHBUTTON      "OK",IDOK,75,10,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Cancel",IDCANCEL,139,10,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "X",IDC_BUTTON2,207,10,12,12
+    LTEXT           "ÌáÊ¾£ºÇëÖØĞÂÆô¶¯ÄúµÄ²Ù×÷ÏµÍ³ÒÔÈ·±£±¾³ÌĞòµÄ¹¦ÄÜÍêÈ«³õÊ¼»¯.",IDC_STATIC,33,27,177,78,0,WS_EX_TRANSPARENT
+END
+
+IDD_IMPORTREG DIALOGEX 0, 0, 284, 152
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST | WS_EX_APPWINDOW
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,28,132,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "Cancel",IDCANCEL,85,132,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_BUTTON1,149,132,57,14,NOT WS_VISIBLE
+    PUSHBUTTON      "",IDC_QUIT,217,132,50,14,NOT WS_VISIBLE
+    LTEXT           "ÌáÊ¾£º ÇëÉÔºó,ÕıÔÚ¸üĞÂÊı¾İ.",IDC_STATIC,51,42,182,66,0,WS_EX_TRANSPARENT
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,14,127,260,14
+END
+
+IDD_PIC DIALOGEX 0, 0, 256, 160
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST | WS_EX_APPWINDOW
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "",IDC_BUTTON1,60,174,15,14
+    PUSHBUTTON      "",IDC_BUTTON2,34,174,20,19
+    PUSHBUTTON      "",IDC_APP_ICON_1,7,7,20,19
+    PUSHBUTTON      "",IDC_APP_ICON_2,36,7,20,19
+    PUSHBUTTON      "",IDC_APP_ICON_3,67,7,20,19
+    PUSHBUTTON      "",IDC_APP_ICON_4,97,7,20,19
+    PUSHBUTTON      "",IDC_APP_ICON_5,128,7,20,19
+    PUSHBUTTON      "",IDC_APP_ICON_6,158,7,20,19
+    PUSHBUTTON      "",IDC_APP_ICON_7,188,7,20,19
+    PUSHBUTTON      "",IDC_APP_ICON_8,221,7,20,19
+    PUSHBUTTON      "",IDC_APP_ICON_9,7,174,20,19
+    CONTROL         "",IDC_STATIC,"Static",SS_OWNERDRAW,81,177,19,16
+    PUSHBUTTON      "",IDC_APP_ICON_1_1,8,36,20,19
+    PUSHBUTTON      "",IDC_APP_ICON_2_1,38,36,20,19
+    PUSHBUTTON      "",IDC_APP_ICON_3_1,68,36,20,19
+    PUSHBUTTON      "",IDC_APP_ICON_4_1,98,36,20,19
+    PUSHBUTTON      "",IDC_APP_ICON_5_1,129,36,20,19
+    PUSHBUTTON      "",IDC_APP_ICON_6_1,159,36,20,19
+    PUSHBUTTON      "",IDC_APP_ICON_7_1,188,36,20,19
+    PUSHBUTTON      "",IDC_APP_ICON_7_2,188,65,20,19
+    PUSHBUTTON      "",IDC_APP_ICON_8_1,221,36,20,19
+    PUSHBUTTON      "",IDC_APP_ICON_8_2,221,65,20,19
+    PUSHBUTTON      "",IDC_APP_ICON_8_3,221,94,20,19
+    PUSHBUTTON      "",IDC_BTN_TIME,103,177,18,14
+    PUSHBUTTON      "",IDC_BTN_TIME5,103,117,18,14
+    PUSHBUTTON      "",IDC_BTN_TIMEALWAYS,103,102,18,14
+    PUSHBUTTON      "",IDC_BTN_TIME2,103,162,18,14
+    PUSHBUTTON      "",IDC_BTN_TIME3,103,147,18,14
+    PUSHBUTTON      "",IDC_BTN_TIME4,103,132,18,14
+    PUSHBUTTON      "",IDC_BTN_FRAME,146,177,18,14
+    PUSHBUTTON      "",IDC_BTN_TIME_1,122,177,18,14
+    PUSHBUTTON      "",IDC_BTN_TIME2_1,122,162,18,14
+    PUSHBUTTON      "",IDC_BTN_TIME3_1,122,147,18,14
+    PUSHBUTTON      "",IDC_BTN_TIME4_1,122,132,18,14
+    PUSHBUTTON      "",IDC_BTN_TIME5_1,122,117,18,14
+    PUSHBUTTON      "",IDC_BTN_TIMEALWAYS_1,122,102,18,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CLOSE_DOWN          BITMAP                  "Images\\Shut_dwown.bmp"
+
+IDB_CLOSE_MASK          BITMAP                  "Images\\Shut_mask.bmp"
+
+IDB_CLOSE_NOR           BITMAP                  "Images\\Shut_normal.bmp"
+
+IDB_CLOSE_ON            BITMAP                  "Images\\Shut_on.bmp"
+
+IDB_CHECK_NOR           BITMAP                  "Images\\fx1.bmp"
+
+IDB_CHECK_OVER          BITMAP                  "Images\\fx2.bmp"
+
+IDB_CHECK_DOWN          BITMAP                  "Images\\fx3.bmp"
+
+IDB_CHECK_MASK          BITMAP                  "Images\\fx4.bmp"
+
+IDB_CHECK_OVER2         BITMAP                  "Images\\fx5.bmp"
+
+IDB_BIG_BG              BITMAP                  "Images\\big_bg.bmp"
+
+IDB_BIG_BG2             BITMAP                  "Images\\480X310.bmp"
+
+IDB_BIG_BG3             BITMAP                  "Images\\500X320.bmp"
+
+IDB_BIG_BG1             BITMAP                  "Images\\big_bg0.bmp"
+
+IDB_BMP_SM_BG           BITMAP                  "Images\\360x220.bmp"
+
+IDB_SKYPE_BG1           BITMAP                  "Images\\1-1.bmp"
+
+IDB_SKYPE_BG2           BITMAP                  "Images\\2-1.bmp"
+
+IDB_SKYPE_BG3           BITMAP                  "Images\\3-1.bmp"
+
+IDB_SKYPE_CLOSE1_NOR    BITMAP                  "Images\\1-4.bmp"
+
+IDB_SKYPE_CLOSE2_NOR    BITMAP                  "Images\\2-4.bmp"
+
+IDB_SKYPE_CLOSE3_NOR    BITMAP                  "Images\\3-4.bmp"
+
+IDB_SKYPE_CLOSE1_ON     BITMAP                  "Images\\1-3.bmp"
+
+IDB_SKYPE_CLOSE2_ON     BITMAP                  "Images\\2-3.bmp"
+
+IDB_SKYPE_CLOSE3_ON     BITMAP                  "Images\\3-3.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+24                      RT_MANIFEST             "rt_manif.bin"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MESSAGEBOXEX, DIALOG
+    BEGIN
+    END
+
+    IDD_IMPORTREG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 274
+    END
+
+    IDD_PIC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+IDB_PNG_LOGO            PNG                     "Images\\LOGO.png"
+
+IDB_KEYBOARDLED_AUTO    PNG                     "Images\\OSD\\01auto.png"
+
+IDB_KEYBOARDLED_MIN     PNG                     "Images\\OSD\\02min.png"
+
+IDB_KEYBOARDLED_MAX     PNG                     "Images\\OSD\\03max.png"
+
+IDB_KEYBOARDLED_CLOSE   PNG                     "Images\\OSD\\04douse.png"
+
+IDB_CAMERA_LOCK         PNG                     "Images\\OSD\\camera_off.png"
+
+IDB_CAMERA_UNLOCK       PNG                     "Images\\OSD\\camera_on.png"
+
+IDB_CAPS_LOCK           PNG                     "Images\\OSD\\CapsLock_off.png"
+
+IDB_CAPS_UNLOCK         PNG                     "Images\\OSD\\CapsLock_on.png"
+
+IDB_FN_LOCK             PNG                     "Images\\OSD\\FnLock_off.png"
+
+IDB_FN_UNLOCK           PNG                     "Images\\OSD\\FnLock_on.png"
+
+IDB_ITS4_FA_TACHOMETER  PNG                     "Images\\OSD\\ITS4_FA_Tachometer_alt_fast.png"
+
+IDB_ITS4_LE_BATTERY     PNG                     "Images\\OSD\\ITS4_LE_Battery_Life_mode.png"
+
+IDB_ITS4_LE_INTERLLIGENTCOOL PNG                     "Images\\OSD\\ITS4_LE_IntelligentCooling.png"
+
+IDB_MIC_MUTE            PNG                     "Images\\OSD\\MicClose.png"
+
+IDB_MIC_UNMUTE          PNG                     "Images\\OSD\\MicOpen.png"
+
+IDB_NUMBER_LOCK         PNG                     "Images\\OSD\\NumberLock_off.png"
+
+IDB_NUMBER_UNLOCK       PNG                     "Images\\OSD\\NumberLock_on.png"
+
+IDB_TP_LOCK             PNG                     "Images\\OSD\\TP_off.png"
+
+IDB_TP_UNLOCK           PNG                     "Images\\OSD\\TP_on.png"
+
+IDB_CLOSE_1             PNG                     "Images\\1_close.png"
+
+IDB_CLOSE_2             PNG                     "Images\\2_close.png"
+
+IDB_TIME_1S             PNG                     "Images\\OSD\\1s.png"
+
+IDB_TIME_2S             PNG                     "Images\\OSD\\2s.png"
+
+IDB_TIME_3S             PNG                     "Images\\OSD\\3s.png"
+
+IDB_TIME_4S             PNG                     "Images\\OSD\\4s.png"
+
+IDB_TIME_5S             PNG                     "Images\\OSD\\5s.png"
+
+IDB_TIME_ALWAYS         PNG                     "Images\\OSD\\always.png"
+
+IDB_TIME_1S_1           PNG                     "Images\\OSD\\1s_1.png"
+
+IDB_TIME_2S_1           PNG                     "Images\\OSD\\2s_1.png"
+
+IDB_TIME_3S_1           PNG                     "Images\\OSD\\3s_1.png"
+
+IDB_TIME_4S_1           PNG                     "Images\\OSD\\4s_1.png"
+
+IDB_TIME_5S_1           PNG                     "Images\\OSD\\5s_1.png"
+
+IDB_TIME_ALWAYS_1       PNG                     "Images\\OSD\\always_1.png"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_PIC AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_MESSAGEBOXEX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Instant Reset"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "CHS.chm"
+    IDS_GOHOME_DLG          "\n\nÏµÍ³ÒÑ¾­ÖØÖÃÎªÊ×´ÎÆôÓÃInstant ResetÊ±µÄ×´Ì¬¡£µã»÷¡°ÕÒ»ØÎÄ¼ş¡±£¬Ô­ÓĞÏµÍ³ÅÌ£¨C£º\\£©µÄ¸öÈËÎÄ¼ş½«»á³ÊÏÖÔÚµ¯³öµÄ×ÊÔ´¹ÜÀíÆ÷ÖĞ£¬ÇëÄú¼°Ê±¸´ÖÆÎÄ¼şµ½±ğµÄ´ÅÅÌÂ·¾¶£¡ÈçÒÑÍê³É±¸·İÇëµã»÷¡°Çå¿ÕÎÄ¼ş¡±£¬ÒÔ¸üÓĞĞ§µÄÀûÓÃÄúµÄ´ÅÅÌ¿Õ¼ä£¡"
+    IDS_GOHOME_DLG_FILDFILE_BTN "      ÕÒ »Ø ÎÄ ¼ş"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "      Çå ¿Õ ÎÄ ¼ş"
+    IDS_GOHOME_DLG_CHECK_BTN "ÏÂ´Î²»ÔÙÏÔÊ¾"
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "\nÄúÊÇ·ñÒÑ¾­ÕÒ»ØÎÄ¼ş£¿µã»÷È·¶¨»áÇå³ı¡°ÕÒ»ØÎÄ¼ş¡±ÀïµÄ¸öÈËÎÄ¼ş£¬Èç£º ÎÒµÄÎÄµµ¡¢×ÀÃæÎÄ¼ş¡¢³ÌĞòÎÄ¼ş¡¢×Ô½¨ÎÄ¼ş¼ĞµÈ¡£ÇëÈ·±£ÄúÒÑ²»ĞèÒªËüÃÇºóÔÙ¼ÌĞø£¡"
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG "\n\n      ÄúÒªÕÒ»ØµÄÎÄ¼şÂ·¾¶²»´æÔÚ£¡"
+    IDS_GOHOMEERROR_DLG     "\n\n\nºÜ±§Ç¸£¡ÔÚInstant ResetÔËĞĞÊ±³öÏÖÖ´ĞĞÊ§°Ü¡£ÇëÖØĞÂÆô¶¯²Ù×÷ÏµÍ³³¢ÊÔĞŞ¸´´ËÇé¿ö£¬»òÕßÔÚ¿ªÊ¼²Ëµ¥ÖĞĞ¶ÔØ±¾Èí¼ş¡£"
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "  ÍË   ³ö"
+    IDS_OBE_DLG             "\n\n»¶Ó­Ê¹ÓÃLenovo Instant Reset ÏµÍ³Èí¼ş¡£ËüÄÜ½«ÄúµÄÏµÍ³¿ìËÙÖØÖÃÎª±¾Èí¼ş³õ´ÎÆôÓÃÊ±ºòµÄÏµÍ³×´Ì¬¡£\nÓÑÇéÌáĞÑ£ºµ±ÄúÑ¡Ôñ¿ªÆô±¾Èí¼şµÄÊ±ºò£¬Windows×Ô´øµÄÏµÍ³»¹Ô­¹¦ÄÜ½«±»×Ô¶¯¹Ø±Õ¡£"
+    IDS_GOHOMEFAILED_DLG    "\n\n\nºÜ±§Ç¸£¡ÔÚInstant ResetÔËĞĞÊ±³öÏÖÖ´ĞĞÊ§°Ü£¬ÇëÖØĞÂÆô¶¯²Ù×÷ÏµÍ³³¢ÊÔĞŞ¸´´ËÇé¿ö£¬»òÕßÔÚ¿ªÊ¼²Ëµ¥ÖĞĞ¶ÔØ±¾Èí¼ş¡£"
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "  ĞŞ   ¸´"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "  ÍË   ³ö"
+    IDS_IMPORTREG_DLG       "\n\n\n          ÇëÉÔºó£¬Instant ResetÕıÔÚ¸üĞÂÊı¾İ¡£"
+    IDS_ISGOHOME_DLG        "\n\nInstant Reset»áÊ¹ÄúµÄÏµÍ³·ÖÇøÖØÖÃÎªÆôÓÃInstant ResetÊ±¿ÌµÄ³õÊ¼×´Ì¬£¬Çë±¸·İÖØÒªÊı¾İ£¡\nÊÇ·ñ¼ÌĞøÖ´ĞĞ£¿"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "  ¼Ì    Ğø"
+    IDS_ISGOHOME_DLG_QUIT_BTN "  ÍË    ³ö"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nÄúµÄÏµÍ³·ÖÇø¼´½«ÖØÖÃÎªÊ×´ÎÆôÓÃInstant ResetÊ±µÄ×´Ì¬£¬¼ÌĞøÖ´ĞĞ»áÁ¢¼´ÖØÆôÏµÍ³£¬ÇëÈ·±£ÄúÒÑ±¸·İÖØÒªÊı¾İ£¡"
+    IDS_REPAIROK_MSGDLG     "\n\n            Èí¼şÒÑ¾­ĞŞ¸´³É¹¦¡£"
+    IDS_REPAIRFAILED_MSGDLG "\n\n          Èí¼şĞŞ¸´Ê§°Ü,ÇëĞ¶ÔØ±¾Èí¼ş¡£"
+    IDS_UNINSTALL_DLG       "\n\nÄúÊÇ·ñÒªĞ¶ÔØ±¾Èí¼ş£¿ ÏµÍ³½«±»Ç¿ÖÆÖØÖÃÎªÊ×´ÎÊ¹ÓÃ±¾Èí¼şÊ±µÄ×´Ì¬£¬ÇÒÎŞ·¨ÕÒ»ØÏµÍ³ÅÌ£¨C£º\\£©µÄ¸öÈËÎÄ¼ş£¡ÇëÏÈ±¸·İÏµÍ³ÅÌµÄ¸öÈËÊı¾İ£¡"
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\nµã»÷¡°È·¶¨¡±½«»áÖØÆô²Ù×÷ÏµÍ³£¬²¢»Ö¸´ÖÁÊ×´ÎÆôÓÃInstant ResetÊ±µÄ×´Ì¬£¬ÇÒÎŞ·¨ÕÒ»Ø¸öÈËÎÄ¼ş¡£ÇëÏÈ±¸·İÏµÍ³ÅÌµÄÖØÒªÊı¾İ£¡"
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "      ¼Ì Ğø Ğ¶ ÔØ"
+    IDS_UNINSTALL_DLG_QUIT_BTN "  ÍË      ³ö"
+    IDS_MESSAGEBOXEX_OK     "    È·   ¶¨"
+    IDS_MESSAGEBOXEX_CANCEL "    È¡   Ïû"
+    IDS_PROGRAM_FILE_NOT_EXIST "\n\n±¾³ÌĞòµÄÖØÒªÎÄ¼ş¶ªÊ§£¬ÇëÖØĞÂ°²×°±¾Èí¼ş£¬ ÒÔÈ·±£³ÌĞòµÄÕı³£ÔËĞĞ¡£"
+    IDS_REBOOTSYS_DLG       "ÏµÍ³¼´½«¹Ø»ú¡£Çë±£´æÎ´±£´æµÄÎÄ¼ş£¡"
+    IDS_REBOOTSYS_DLG_BTN   "  Á¢¼´ÖØÆô"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Àë¹Ø»ú»¹ÓĞ£º  %02d Ãë¡£"
+    IDS_OBE_DLG_ENABLE_BTN  "      Á¢ ¼´ ¿ª Æô"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN " ÍË     ³ö"
+    IDS_STOPCREATERECOVER_MSGDLG "\nLenovo Instant ResetÏµÍ³Èí¼şÒÑ¾­ÆôÓÃ£¬ ÏµÍ³»¹Ô­¹¦ÄÜÒÑ±»¹Ø±Õ£¡"
+    IDS_MENU_HELP           "°ïÖúÎÄµµ.lnk"
+    IDS_MENU_UNINSTALL      "Ğ¶ÔØ.lnk"
+    IDS_MENU_FINDFILE       "ÕÒ»ØÎÄ¼ş.lnk"
+    IDS_MENU_INITINSTANT    "³õÊ¼»¯ Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\n             ÄúÊÇ·ñÒªĞ¶ÔØ±¾Èí¼ş£¿"
+    IDS_UNINSATLL_END       "\n\n                Ğ¶ÔØÍê³É¡£"
+    IDS_INSTALL_SUCCESS     "\n\n                °²×°Íê³É¡£"
+    IDS_OBE_DLG_PAGE2       "\nÇëµã»÷¡±Á¢¼´¿ªÆô¡°£¬½«Á¢¼´ÖØĞÂÆô¶¯²Ù×÷ÏµÍ³ÒÔÆôÓÃ±¾Èí¼ş¡£\nÄúÒ²¿ÉÒÔ¡±ÍË³ö¡°£¬Ñ¡ÔñÔÚĞèÒªÊ±ºòÔÙ¿ªÆô±¾Èí¼ş¡£\nÔÚÊ¹ÓÃ±¾Èí¼şÇ°Çë²Î¿´Ê¹ÓÃËµÃ÷ÊéµÚËÄÕÂ¡£"
+    IDS_START_NC_NO_FREE_SPACE "\n\n                ´ÅÅÌ¿Õ¼ä²»×ã¡£"
+    IDS_START_NC_NO_RIGHTS  "\n ÄúĞèÒªÔÚ¹ÜÀíÔ±ÓÃ»§ÏÂÔËĞĞ±¾Èí¼ş¡£"
+END
+
+#endif    // ÖĞÎÄ(¼òÌå£¬ÖĞ¹ú) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// º«Óï(º«¹ú) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Instant Reset"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "KR.chm"
+    IDS_GOHOME_DLG          "\nInstant ResetÀ» Ã³À½ È°¼ºÈ­Çß´ø »óÅÂ·Î ½Ã½ºÅÛÀÌ Àç¼³Á¤µÇ¾î ÀÖ½À´Ï´Ù. ""ÆÄÀÏ °Ë»ö""À» Å¬¸¯ÇÏ°í ¿ø·¡ ½Ã½ºÅÛ µğ½ºÅ©(c:\\)ÀÇ »ç¿ëÀÚ ÆÄÀÏÀÌ ¸®¼Ò½º °ü¸®ÀÚ Ã¢¿¡ Ç¥½ÃµË´Ï´Ù. ´Ù¸¥ µğ½ºÅ© °æ·Î·Î ÆÄÀÏÀ» Áï½Ã º¹»çÇØ¾ß ÇÕ´Ï´Ù! ¹é¾÷À» ¿Ï·áÇß´Ù¸é ""ÆÄÀÏ Áö¿ì±â""¸¦ Å¬¸¯ÇÏ¿© Á» ´õ È¿À²ÀûÀ¸·Î µğ½ºÅ© °ø°£À» »ç¿ëÇÏ½Ê½Ã¿À!"
+    IDS_GOHOME_DLG_FILDFILE_BTN "  ÆÄÀÏ °Ë»ö"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "     ÆÄÀÏ Áö¿ì±â"
+    IDS_GOHOME_DLG_CHECK_BTN "´ÙÀ½¿¡ ÀÌ ¸Ş½ÃÁö Ç¥½Ã ¾È ÇÔ."
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "\nÆÄÀÏ °Ë»öÀÌ ¿Ï·áµÇ¾ú½À´Ï±î? \n""È®ÀÎ"" ¹öÆ°À» Å¬¸¯ÇÏ¸é ³» ¹®¼­, ¹ÙÅÁ È­¸é, ÇÁ·Î±×·¥ ÆÄÀÏ, »ç¿ëÀÚ°¡ ¸¸µç ÆÄÀÏ µîÀ» ºñ·ÔÇÑ ""ÆÄÀÏ °Ë»ö""ÀÌ ºñ¿öÁö°Ô µË´Ï´Ù. \n°è¼ÓÇÏ±â Àü¿¡ »èÁ¦ÇØµµ µÇ´Â ÆÄÀÏÀÎÁö È®ÀÎÇÏ½Ê½Ã¿À."
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG "\n\n°Ë»öÇÏ·Á´Â À§Ä¡°¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù."
+    IDS_GOHOMEERROR_DLG     "\n\nInstant Reset ÀÛ¾÷ÀÌ ½ÇÆĞÇß½À´Ï´Ù. ¿î¿µ Ã¼Á¦¸¦ Àç½ÃÀÛÇÏ¿© ¹®Á¦¸¦ ÇØ°áÇÏ°Å³ª ½ÃÀÛ ¸Ş´º¿¡¼­ ÀÌ ¼ÒÇÁÆ®¿ş¾î¸¦ Á¦°ÅÇÏ½Ê½Ã¿À. "
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "Á¾·á"
+    IDS_OBE_DLG             " \nLenovo Instant Reset ½Ã½ºÅÛ ¼ÒÇÁÆ®¿ş¾î¸¦ »ç¿ëÇØ ÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù. ÀÌ ¼ÒÇÁÆ®¿ş¾î¸¦ Ã³À½ »ç¿ëÇß´ø »óÅÂ·Î ½Ã½ºÅÛÀ» »¡¸® Àç¼³Á¤ÇÒ ¼ö ÀÖ½À´Ï´Ù. \nÈùÆ®: ÀÌ ¼ÒÇÁÆ®¿ş¾î¸¦ ½ÃÀÛÇÏ¸é WindowsÀÇ ½Ã½ºÅÛ º¹¿ø ±â´ÉÀÌ ÀÚµ¿À¸·Î ºñÈ°¼ºÈ­µË´Ï´Ù."
+    IDS_GOHOMEFAILED_DLG    "\n\nInstant Reset ÀÛ¾÷ÀÌ ½ÇÆĞÇß½À´Ï´Ù. ¿î¿µ Ã¼Á¦¸¦ Àç½ÃÀÛÇÏ¿© ¹®Á¦¸¦ ÇØ°áÇÏ°Å³ª ½ÃÀÛ ¸Ş´º¿¡¼­ ÀÌ ¼ÒÇÁÆ®¿ş¾î¸¦ Á¦°ÅÇÏ½Ê½Ã¿À. "
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "º¹±¸"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "Á¾·á"
+    IDS_IMPORTREG_DLG       "\n\n\nÀá½Ã ±â´Ù·Á ÁÖ½Ê½Ã¿À. Instant ResetÀ» »õ·Î °íÄ¡´Â ÁßÀÔ´Ï´Ù."
+    IDS_ISGOHOME_DLG        "\n\nInstant ResetÀÌ ½Ã½ºÅÛ ÆÄÆ¼¼Ç ¼³Á¤À» Instant ResetÀ» È°¼ºÈ­Çß´ø ÃÊ±â »óÅÂ·Î Àç¼³Á¤ÇÕ´Ï´Ù. Áß¿äÇÑ µ¥ÀÌÅÍ¸¦ ¹é¾÷ÇÏ½Ê½Ã¿À. \n°è¼ÓÇÏ½Ã°Ú½À´Ï±î?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "°è¼Ó"
+    IDS_ISGOHOME_DLG_QUIT_BTN "Á¾·á"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\n\n½Ã½ºÅÛ ÆÄÆ¼¼ÇÀÌ Instant ResetÀ» Ã³À½ È°¼ºÈ­Çß´ø ÃÊ±â »óÅÂ·Î Àç¼³Á¤µË´Ï´Ù. °è¼ÓÇÏ¸é ½Ã½ºÅÛÀÌ Àç½ÃÀÛµË´Ï´Ù. Áß¿äÇÑ µ¥ÀÌÅÍ¸¦ ¹é¾÷ÇÏ½Ê½Ã¿À."
+    IDS_REPAIROK_MSGDLG     "\n¼ÒÇÁÆ®¿ş¾î°¡ º¹±¸µÇ¾ú½À´Ï´Ù."
+    IDS_REPAIRFAILED_MSGDLG "\n¼ÒÇÁÆ®¿ş¾î º¹±¸ ½ÇÆĞ. ÀÌ ÇÁ·Î±×·¥À» Á¦°ÅÇÏ½Ê½Ã¿À."
+    IDS_UNINSTALL_DLG       "\n\n¾Ë¸²: ÀÌ ÇÁ·Î±×·¥À» Á¦°ÅÇÏ½Ã°Ú½À´Ï±î? ÄÄÇ»ÅÍ°¡ ÀÌ ¼ÒÇÁÆ®¿ş¾î¸¦ Ã³À½ »ç¿ëÇß´ø »óÅÂ·Î °­Á¦·Î º¹¿øµË´Ï´Ù. »ç¿ëÀÚÀÇ µ¥ÀÌÅÍ´Â ¼Õ½ÇµË´Ï´Ù. ÄÄÇ»ÅÍ¿¡¼­ »ç¿ëÀÚÀÇ µ¥ÀÌÅÍ¸¦ ¹é¾÷ÇÏ½Ê½Ã¿À."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\n""È®ÀÎ""À» Å¬¸¯ÇÏ¸é ¿î¿µ Ã¼Á¦°¡ Àç½ÃÀÛµÇ°í Instant ResetÀ» Ã³À½ »ç¿ëÇß´ø »óÅÂ·Î º¹¿øµË´Ï´Ù. »ç¿ëÀÚÀÇ ÆÄÀÏÀº ¼Õ½ÇµË´Ï´Ù. ½Ã½ºÅÛ µğ½ºÅ©¿¡ ÀúÀåµÈ Áß¿äÇÑ µ¥ÀÌÅÍ¸¦ ¹é¾÷ÇÏ½Ê½Ã¿À."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "°è¼Ó"
+    IDS_UNINSTALL_DLG_QUIT_BTN "Á¾·á"
+    IDS_MESSAGEBOXEX_OK     "È®ÀÎ"
+    IDS_MESSAGEBOXEX_CANCEL "Ãë¼Ò"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\nÀÌ ÇÁ·Î±×·¥¿¡¼­ Áß¿äÇÑ ÆÄÀÏÀÌ ¼Õ½ÇµÇ¾ú½À´Ï´Ù. ÀÌ ÇÁ·Î±×·¥ÀÌ Àß ½ÇÇàµÇ°Ô ÇÏ·Á¸é ´Ù½Ã ¼³Ä¡ÇÏ½Ê½Ã¿À."
+    IDS_REBOOTSYS_DLG       "½Ã½ºÅÛÀÌ °ğ ²¨Áı´Ï´Ù. ÀúÀåÇÏÁö ¾ÊÀº ÆÄÀÏÀ» ¸ğµÎ ÀúÀåÇÏ½Ê½Ã¿À."
+    IDS_REBOOTSYS_DLG_BTN   "Áö±İ ´Ù½Ã ½ÃÀÛ"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Á¾·á ½Ã°£: %02dÃÊ ÈÄ"
+    IDS_OBE_DLG_ENABLE_BTN  "        Áö±İ »ç¿ë"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN "Á¾·á"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\nLenovo Instant Reset ½Ã½ºÅÛ ¼ÒÇÁÆ®¿ş¾î°¡ È°¼ºÈ­µÇ¾ú½À´Ï´Ù. Windows ½Ã½ºÅÛ º¹¿ø ±â´ÉÀº ºñÈ°¼ºÈ­µË´Ï´Ù."
+    IDS_MENU_HELP           "µµ¿ò¸» ÆÄÀÏ.lnk"
+    IDS_MENU_UNINSTALL      "Á¦°Å.lnk"
+    IDS_MENU_FINDFILE       "ÆÄÀÏ °Ë»ö.lnk"
+    IDS_MENU_INITINSTANT    "Instant Reset ÃÊ±âÈ­.lnk"
+    IDS_IS_UNINSTALL        "\n\nÀÌ ¼ÒÇÁÆ®¿ş¾î¸¦ Á¦°ÅÇÏ½Ã°Ú½À´Ï±î?"
+    IDS_UNINSATLL_END       "\n\nÁ¦°Å ¿Ï·á."
+    IDS_INSTALL_SUCCESS     "\n\n¼³Ä¡°¡ ¼º°øÀûÀ¸·Î ³¡³µ½À´Ï´Ù."
+    IDS_OBE_DLG_PAGE2       "\n¿î¿µ Ã¼Á¦¸¦ Àç½ÃÀÛÇÏ¿© ÀÌ ¼ÒÇÁÆ®¿ş¾î¸¦ È°¼ºÈ­ÇÏ·Á¸é ""Áö±İ »ç¿ë""À» Å¬¸¯ÇÏ½Ê½Ã¿À. \n""Á¾·á""¸¦ Å¬¸¯ÇÏ¿© ÀÌ ¼ÒÇÁÆ®¿ş¾î¸¦ ³ªÁß¿¡ ½ÃÀÛÇÒ ¼öµµ ÀÖ½À´Ï´Ù. \nÀÌ ¼ÒÇÁÆ®¿ş¾î¸¦ »ç¿ëÇÏ±â Àü¿¡ »ç¿ë ¼³¸í¼­ÀÇ 4ÀåÀ» ÁÖÀÇ ±í°Ô ÀĞ¾î º¸½Ê½Ã¿À. "
+    IDS_START_NC_NO_FREE_SPACE "\n\n  µğ½ºÅ© °ø°£ÀÌ ºÎÁ·ÇÕ´Ï´Ù."
+    IDS_START_NC_NO_RIGHTS  "\n °ü¸®ÀÚ·Î ÀÌ ¼ÒÇÁÆ®¿ş¾î¸¦ ½ÇÇàÇØ¾ß ÇÕ´Ï´Ù. "
+END
+
+#endif    // º«Óï(º«¹ú) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ÖĞÎÄ(·±Ìå£¬ÖĞ¹úÌ¨Íå) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Instant Reset"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "CHT.chm"
+    IDS_GOHOME_DLG          "\n\n¨t²Î¤w¸g­«³]¬°­º¦¸±Ò¥ÎInstant Reset®Éªºª¬ºA¡C«ö¤@¤U¡§Â^¨úÀÉ®×¡¨¡A­ì¦³¨t²ÎºÏºĞ¡]c:\\¡^ªº¨Ï¥ÎªÌÀÉ®×±N·|Åã¥Ü¦b¼u¥Xªº¸ê·½ºŞ²z¾¹¤¤¡A½Ğ±z¥ß§Y½Æ»sÀÉ®×¨ì¨ä¥LºÏºĞ¸ô®|¡I¦p¤w§¹¦¨³Æ¥÷¡A½Ğ«ö¤@¤U¡§²M°£ÀÉ®×¡¨¡A¥H§ó¦³®Äªº§Q¥Î±zªººÏºĞªÅ¶¡¡I"
+    IDS_GOHOME_DLG_FILDFILE_BTN "  Â^¨úÀÉ®×"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "  ²M°£ÀÉ®×"
+    IDS_GOHOME_DLG_CHECK_BTN "¤U¦¸¤£¦AÅã¥Ü¡C"
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "\n±z¬O§_¤wÂ^¨úÀÉ®×¡H\n«ö¤@¤U¡§½T©w¡¨«ö¶s±N²M°£¡§Â^¨úÀÉ®×¡¨¤¤ªºÂÂÀÉ®×©M¸ê®Æ§¨¡A¦p¡G§Úªº¤å¥ó¡B®à­±¡Bµ{¦¡ÀÉ®×¡B¦Û«Ø¸ê®Æ§¨µ¥¡C\n½Ğ½T©w±z¤£»İ­n¥¦­Ì«á¦AÄ~Äò¡C"
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG "\n\n±z­nÂ^¨úªºÀÉ®×¸ô®|¤£¦s¦b¡C "
+    IDS_GOHOMEERROR_DLG     "\n\n\n«Ü©êºp¡IInstant ResetµLªk¹B§@¡C½Ğ­«·s±Ò°Ê§@·~¨t²Î¹Á¸Õ­×´_¦¹±¡ªp¡A©ÎªÌ¦b¶}©l¥\¯àªí¤¤¸Ñ°£¦w¸Ë¥»³nÅé¡C"
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "°h¥X"
+    IDS_OBE_DLG             "\n\nÅwªï¨Ï¥ÎLenovo Instant Reset ¨t²Î³nÅé¡C¥¦¯à±N±zªº¨t²Î§Ö³t­«³]¬°¥»³nÅéªì¦¸±Ò¥Î®Éªºª¬ºA¡C\n´£¥Ü¡G·í±z±Ò°Ê¥»³nÅé®É¡AWindowsªº¨t²ÎÁÙ­ì¥\¯à±N¦Û°ÊÃö³¬¡C"
+    IDS_GOHOMEFAILED_DLG    "\n\n\n«Ü©êºp¡IInstant ResetµLªk¹B§@¡C½Ğ­«·s±Ò°Ê§@·~¨t²Î¹Á¸Õ­×´_¦¹±¡ªp¡A©ÎªÌ¦b¶}©l¥\¯àªí¤¤¸Ñ°£¦w¸Ë¥»³nÅé¡C"
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "­×´_"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "°h¥X"
+    IDS_IMPORTREG_DLG       "\n\n\n½Ğµy­Ô¡AInstant Reset ¥¿¦b§ó·s¸ê®Æ¡C "
+    IDS_ISGOHOME_DLG        "\n\nInstant Reset ·|¨Ï±zªº¨t²Î¤À³Î°Ï³]©w­«³]¬°±z±Ò¥Î Instant Reset ®Éªºªì©lª¬ºA¡C½Ğ³Æ¥÷­«­n¸ê®Æ¡C \n¬O§_Ä~Äò¡H"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "Ä~Äò"
+    IDS_ISGOHOME_DLG_QUIT_BTN "°h¥X"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\n\n±zªº¨t²Î¤À³Î°Ï±N­«³]¬°±z²Ä¤@¦¸±Ò¥Î InstantReset ®Éªºªì©lª¬ºA¡CÄ~Äò°õ¦æ±N¥ß§Y­«·s±Ò°Ê¨t²Î¡C½Ğ³Æ¥÷­«­n¸ê®Æ¡C"
+    IDS_REPAIROK_MSGDLG     "\n\n³nÅé­×´_¦¨¥\¡C "
+    IDS_REPAIRFAILED_MSGDLG "\n\n³nÅé­×´_¥¢±Ñ¡C½Ğ¸Ñ°£¦w¸Ë¦¹µ{¦¡¡C "
+    IDS_UNINSTALL_DLG       "\n\n´£¥Ü¡G±z¬O§_­n¸Ñ°£¦w¸Ë¦¹µ{¦¡¡H¨t²Î±N±j¨î­«³]¬°²Ä¤@¦¸¨Ï¥Î¦¹³nÅé®Éªºª¬ºA¡C­Ó¤H¸ê®Æ±N¿ò¥¢¡C½Ğ¥ı³Æ¥÷¨t²Î¤¤ªº­Ó¤H¸ê®Æ¡C"
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\n«ö¤@¤U¡§½T©w¡¨±N­«·s±Ò°Ê§@·~¨t²Î¡A¨Ã«ì´_¬°²Ä¤@¦¸¨Ï¥Î Instant Reset ®Éªºª¬ºA¡C¨Ï¥ÎªÌÀÉ®×±N¿ò¥¢¡C½Ğ¥ı³Æ¥÷¨t²ÎºÏºĞ¤¤ªº­«­n¸ê®Æ¡C"
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "Ä~Äò"
+    IDS_UNINSTALL_DLG_QUIT_BTN "°h¥X"
+    IDS_MESSAGEBOXEX_OK     "½T©w"
+    IDS_MESSAGEBOXEX_CANCEL "¨ú®ø"
+    IDS_PROGRAM_FILE_NOT_EXIST "\n\n¦¹µ{¦¡¤w¿ò¥¢­«­nÀÉ®×¡C½Ğ­«·s¦w¸Ë¦¹³nÅé¡A¥H½T«Oµ{¦¡¥¿±`°õ¦æ¡C "
+    IDS_REBOOTSYS_DLG       "¨t²Î§Y±NÃö¾÷¡C½ĞÀx¦s©Ò¦³¥¼Àx¦sªºÀÉ®×¡C "
+    IDS_REBOOTSYS_DLG_BTN   "¥ß§Y­«·s±Ò°Ê"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "±N¦b %02d ¬í«áÃö¾÷"
+    IDS_OBE_DLG_ENABLE_BTN  "     ¥ß§Y±Ò¥Î"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN "°h¥X"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\nLenovo Instant Reset ¨t²Î³nÅé¤w±Ò¥Î¡CWindows ¨t²ÎÁÙ­ì¥\¯à¤wÃö³¬¡C"
+    IDS_MENU_HELP           "»¡©úÀÉ®×.lnk"
+    IDS_MENU_UNINSTALL      "¸Ñ°£¦w¸Ë.lnk"
+    IDS_MENU_FINDFILE       "Â^¨úÀÉ®×.lnk"
+    IDS_MENU_INITINSTANT    "ªì©l¤Æ Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\n±z¬O§_­n¸Ñ°£¦w¸Ë¥»³nÅé¡H"
+    IDS_UNINSATLL_END       "\n\n¸Ñ°£¦w¸Ë§¹¦¨¡C"
+    IDS_INSTALL_SUCCESS     "\n\n¦w¸Ë¦¨¥\¡C"
+    IDS_OBE_DLG_PAGE2       "\n½Ğ«ö¤@¤U¡§¥ß§Y±Ò¥Î¡¨¡A±N¥ß§Y­«·s±Ò°Ê§@·~¨t²Î¥H±Ò¥Î¥»³nÅé¡C\n±z¤]¥i¥H«ö¤@¤U¡§°h¥X¡¨¡A¿ï¾Ü¦b»İ­n®É¦A±Ò°Ê¥»³nÅé¡C\n¦b¨Ï¥Î¥»³nÅé«e½Ğ°Ñ¬İ¨Ï¥Î»¡©ú®Ñ²Ä¥|³¹¡C"
+    IDS_START_NC_NO_FREE_SPACE "\n\n  ºÏºĞªÅ¶¡¤£¨¬¡C"
+    IDS_START_NC_NO_RIGHTS  "\n ±z¥²¶·¥HºŞ²z­ûªº¨­¥÷°õ¦æ¥»³nÅé¡C"
+END
+
+#endif    // ÖĞÎÄ(·±Ìå£¬ÖĞ¹úÌ¨Íå) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ½İ¿ËÓï(½İ¿Ë¹²ºÍ¹ú) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CSY)
+LANGUAGE LANG_CZECH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Instant Reset"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "CZ.chm"
+    IDS_GOHOME_DLG          "\nSystém ji?byl obnoven do stavu, ve kterém se nacházel, kdy?jste poprv?aktivovali Instant Reset. Klepnìte na „Získat soubory? uivatelsk?soubory na pùvodním systémovém disku (c:\\) budou zobrazeny v okn?správce zdroj? Soubory neprodlen?zkopírujte na jin?umístìn?na disku! Jakmile bude zálohován?dokonèeno, klepnìte na „Vymazat soubory? abyste mohli prostor na disku vyuívat efektivnìji!"
+    IDS_GOHOME_DLG_FILDFILE_BTN "   Získat soubory"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "  Vymazat soubory"
+    IDS_GOHOME_DLG_CHECK_BTN "\n\nTuto zprávu pøíšt?nezobrazovat."
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "Získali jste u?soubory? \nKliknutím na tlaèítko „OK?vyprázdníte sloku „Získat soubory?vèetn?sloek Dokumenty, Plocha, Program files, sloky vytvoøen?uivatelem atd. \nPøed pokraèováním zkontrolujte, zda tyto soubory nebudete potøebovat."
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG "\n    Místo, kter?hledáte, neexistuje. "
+    IDS_GOHOMEERROR_DLG     "\n\nOmlouváme se! Pøi èinnosti programu Instant Reset došlo k chyb? Restartujte operaèn?systém, abyste chybu napravili, nebo program odinstalujte pomoc?nabídky Start. "
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "   Konec"
+    IDS_OBE_DLG             "\n\nDìkujeme, e pouíváte systémovou aplikaci Instant Reset od spoleènosti Lenovo. Program umoòuje rychle obnovit systém do stavu, kdy byl tento program poprv?spuštìn. \nTip: Kdy?tento program spustíte, funkce automatického obnoven?systému Windows bude automaticky deaktivována. "
+    IDS_GOHOMEFAILED_DLG    "\n\nOmlouváme se! Pøi èinnosti programu Instant Reset došlo k chyb? Restartujte operaèn?systém, abyste chybu napravili, nebo program odinstalujte pomoc?nabídky Start. "
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "   Opravit"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "   Konec"
+    IDS_IMPORTREG_DLG       "\n\nPoèkejte prosím. Program Instant Reset provád?aktualizaci. "
+    IDS_ISGOHOME_DLG        "\n\nProgram Instant Reset obnov?pùvodn?stav nastaven?systémového oddílu, kter?bylo platn?pøi prvním pouit?programu Instant Reset. Zálohujte dùleit?data. \nChcete pokraèovat?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "   Pokraèovat"
+    IDS_ISGOHOME_DLG_QUIT_BTN "   Konec"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nBude obnoven stav systémovıch oddíl? ve kterém byly pøi prvním pouit?programu InstantReset. Pokud budete pokraèovat, systém se restartuje. Zálohujte vešker?dùleit?data."
+    IDS_REPAIROK_MSGDLG     "\nOprava softwaru byla úspìšn? "
+    IDS_REPAIRFAILED_MSGDLG "\nOprava softwaru nebyla úspìšn? Odinstalujte tento program. "
+    IDS_UNINSTALL_DLG       "\n\nOznámen? Chcete odinstalovat tento program? Bude nucen?obnoven stav systému, ve kterém byl pøi prvním pouit?tohoto softwaru. Mùe dojít ke ztrát?uivatelskıch dat. Zálohujte osobn?data z poèítaèe."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\nKlepnutím na tlaèítko OK restartujete operaèn?systém a obnovíte jeho stav, ve kterém se nacházel pøi prvním pouit?programu Instant Reset. Mùe dojít ke ztrát?uivatelskıch dat. Zálohujte dùleit?data uloen?na systémovém disku."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "    Pokraèovat"
+    IDS_UNINSTALL_DLG_QUIT_BTN "     Konec"
+    IDS_MESSAGEBOXEX_OK     "  OK"
+    IDS_MESSAGEBOXEX_CANCEL "  Storno"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\n\nChybìj?dùleit?soubory tohoto programu. Nainstalujte tento program znovu, aby byla zajištìna jeho správn?èinnost."
+    IDS_REBOOTSYS_DLG       "Systém bude okamit?vypnut. Ulote všechny neuloen?soubory. "
+    IDS_REBOOTSYS_DLG_BTN   "Restartovat"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Vypnut?za: %02d s"
+    IDS_OBE_DLG_ENABLE_BTN  "      Povolit nyn?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN "    Konec"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nByla povolena systémov?aplikace Lenovo Instant Reset. Funkce Obnoven?systému Windows je zakázána."
+    IDS_MENU_HELP           "Nápovìda.lnk"
+    IDS_MENU_UNINSTALL      "Odinstalovat.lnk"
+    IDS_MENU_FINDFILE       "Získat soubory.lnk"
+    IDS_MENU_INITINSTANT    "Inicializovat Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\nChcete tento program odinstalovat?"
+    IDS_UNINSATLL_END       "\n\n     Odinstalace byla dokonèena."
+    IDS_INSTALL_SUCCESS     "\n\n     Instalace byla úspìšn?dokonèena."
+    IDS_OBE_DLG_PAGE2       "Klepnutím na „Povolit nyní“ restartujete operaèn?systém a aktivujete tento program. \n Mùete tak?klepnout na „Konec?a spustit tak program pozdìji. \n Ne?zaènete program pouívat, pozorn?si pøeètìte kapitolu 4 Uivatelsk?pøíruèky. "
+    IDS_START_NC_NO_FREE_SPACE "\n\n  Nedostateèn?prostor na disku."
+    IDS_START_NC_NO_RIGHTS  "\n Tento program musíte spustit jako uivatel s právy správce."
+END
+
+#endif    // ½İ¿ËÓï(½İ¿Ë¹²ºÍ¹ú) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ĞÙÑÀÀûÓï(ĞÙÑÀÀû) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_HUN)
+LANGUAGE LANG_HUNGARIAN, SUBLANG_DEFAULT
+#pragma code_page(1250)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Instant Reset"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "HU.chm"
+    IDS_GOHOME_DLG          "A rendszer már vissza lett állítva abba az állapotba, amelyben az Instant Reset els?használatakor volt. Kattintson a ""Fájlok visszaáll"" lehetõségre, ekkor a felhasznál?az eredeti rendszerlemezen (C:\\) találhat?fájljai a kért erõforrás-kezel?ablakában jelennek meg. A fájlokat azonnal át kell másolnia egy másik helyre a lemezen! Ha befejezte a biztonsági mentést, kattintson a ""Fájlok törlése"" lehetõségre a lemezterület hatékonyabb használata érdekében!"
+    IDS_GOHOME_DLG_FILDFILE_BTN "    Fájlok visszaáll"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "      Fájl törlése"
+    IDS_GOHOME_DLG_CHECK_BTN "A következ?alkalommal ne jelenjen meg."
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "Már visszaállította a fájlokat?  \nAz ""OK"" gombra kattintva a ""Fájlok visszaáll"" tartalma törlõdik, beleértve a Dokumentumok mappát, az Asztalt, a Program Files mappát, a felhasznál?által létrehozott mappákat stb.  \nA folytatás elõtt gyõzõdjön meg arról, hogy ezen fájlokra már nincs szüksége!"
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG "\n\n  A keresett hely nem találhat? "
+    IDS_GOHOMEERROR_DLG     "\n\nElnézést! Az Instant Reset által végrehajtott mûvelet meghiúsult. Indítsa újra az operációs rendszert a probléma elhárításához, vagy távolítsa el a szoftvert a Start men?használatával. "
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "  Kilépés"
+    IDS_OBE_DLG             "\n\nKöszönjük, hogy a Lenovo Instant Reset rendszoftvert választotta. A szoftver képes gyorsan visszaállítani rendszerét abba az állapotba, amelyben a szoftver els?használatakor volt. \nTipp: A szoftver elindításakor a Windows rendszer-visszaállítási funkcióját a rendszer automatikusan letiltja. "
+    IDS_GOHOMEFAILED_DLG    "\n\nElnézést! Az Instant Reset által végrehajtott mûvelet meghiúsult. Indítsa újra az operációs rendszert a probléma elhárításához, vagy távolítsa el a szoftvert a Start men?használatával. "
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "  Javítás"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "  Kilépés"
+    IDS_IMPORTREG_DLG       "\n\nKérem, várjon. Az Instant Reset frissíti az adatokat. "
+    IDS_ISGOHOME_DLG        "\n\nAz Instant Reset az Instant Reset els?használatakor érvényes állapotba állítja vissza a rendszerpartíci?beállításokat. Készítsen biztonsági másolatot fontos adatairól. \nFolytatja?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "  Folytatás"
+    IDS_ISGOHOME_DLG_QUIT_BTN "Kilépés"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nA rendszer az Instant Reset els?használatakor érvényes állapotba állítja vissza a rendszerpartíciókat. Ha folytatja, a rendszer újraindul. Készítsen biztonsági másolatot a fontos adatokról."
+    IDS_REPAIROK_MSGDLG     "\nSzoftverjavítás sikeres. "
+    IDS_REPAIRFAILED_MSGDLG "\nSzoftverjavítás sikertelen. Távolítsa el ezt a programot. "
+    IDS_UNINSTALL_DLG       "\n\nMegjegyzés: El szeretn?távolítani ezt a programot? A rendszer a szoftver els?használatakor érvényes beállításokra áll vissza. A felhasználói adatok elvesznek. Kérjük, mentse el a felhasználói adatokat."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\nAz”OK?gombra kattintva az operációs rendszer újraindul, és az Instant Reset els?használatakor érvényes állapotba áll vissza. A felhasználók fájljai elvesznek. Készítsen biztonsági másolatot a rendszerlemezen találhat?fontos adatokról."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "  Folytatás"
+    IDS_UNINSTALL_DLG_QUIT_BTN "Kilépés"
+    IDS_MESSAGEBOXEX_OK     "OK"
+    IDS_MESSAGEBOXEX_CANCEL "Mégse"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\n\nA programból fontos fájlok hiányoznak. A program helyes mûködéséhez telepítse újra a szoftvert. "
+    IDS_REBOOTSYS_DLG       "A rendszer azonnal ki fog kapcsolódni. Mentsen minden nem mentett fájlt. "
+    IDS_REBOOTSYS_DLG_BTN   "Újraindítás most"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Leállítás %02d másodperc múlva"
+    IDS_OBE_DLG_ENABLE_BTN  "Engedélyezés most"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN "Kilépés"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nA Lenovo Instant Reset rendszoftver használatba vehet? A Windows rendszer-visszaállítási funkcióját a rendszer letiltotta."
+    IDS_MENU_HELP           "Súg?lnk"
+    IDS_MENU_UNINSTALL      "Eltávolítás.lnk"
+    IDS_MENU_FINDFILE       "Fájlok visszaáll.lnk "
+    IDS_MENU_INITINSTANT    "Instant Reset inicializálása.lnk"
+    IDS_IS_UNINSTALL        "\n\nEl kívánja távolítani a szoftvert?"
+    IDS_UNINSATLL_END       "\n\nEltávolítás befejezve."
+    IDS_INSTALL_SUCCESS     "\n\nA telepítés sikeresen befejezve."
+    IDS_OBE_DLG_PAGE2       "Kattintson az ""Engedélyezés most"" lehetõségre az operációs rendszer a szoftver engedélyezése érdekében történ?újraindításához. \nA ""Kilépés"" lehetõségre kattintva kiléphet, és késõbb indíthatja el a szoftvert.\nA szoftver használata elõtt olvassa el figyelmesen ezen Felhasználói útmutat?4. fejezetét. "
+    IDS_START_NC_NO_FREE_SPACE "\n\n Nincs elegend?lemezterület."
+    IDS_START_NC_NO_RIGHTS  "\nA szoftvert rendszergazdai jogosultságokkal rendelkez?felhasználóként kell futtatnia. "
+END
+
+#endif    // ĞÙÑÀÀûÓï(ĞÙÑÀÀû) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ²¨À¼Óï(²¨À¼) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Instant Reset"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "PL.chm"
+    IDS_GOHOME_DLG          "\nSystem zosta?ju?zresetowany do stanu, w którym znajdowa?si?po pierwszym uruchomieniu programu Instant Reset. Kliknij ""Pobierz pliki"", aby wyœwietli?pliki u¿ytkowników z oryginalnego dysku systemowego (c:\\) w oknie mened¿era zasobów. Nalezy szybko skopiowa?te pliki na inny dysk! Jeœli wykonano kopi?zapasow? kliknij ""Wyczyœæ pliki"", aby bardziej efektywnie zarz¹dza?przestrzeni?dysku!"
+    IDS_GOHOME_DLG_FILDFILE_BTN "     Pobierz pliki"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "    Wyczyœæ pliki"
+    IDS_GOHOME_DLG_CHECK_BTN "Nie pokazuj nastêpnym razem."
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "Czy pliki zosta³y ju?pobrane? \nKlikniêcie przycisku ""OK"" spowoduje wyczyszczenie opcji ""Pobierz pliki"", w tym folderów Moje dokumenty, Pulpit, Pliki programów, foldery utworzone przez u¿ytkownika itd. \nPrzed kontynuowaniem upewnij si? ¿e te pliki nie s?ju?potrzebne."
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG "\n\nSzukana œcie¿ka pliku nie istnieje."
+    IDS_GOHOMEERROR_DLG     "\n\nPrzepraszamy! Wyst¹pi?b³¹d dzia³ania programu Instant Reset. Uruchom ponownie system operacyjny, aby skorygowa?problem lub odinstaluj oprogramowanie z menu Start. "
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "Wyjd?"
+    IDS_OBE_DLG             "\nDziêkujemy za korzystanie z oprogramowania systemowego Lenovo Instant Reset. Umo¿liwia ono szybkie zresetowanie systemu do stanu, w którym znajdowa?si?przy pierwszym w³¹czeniu tego oprogramowania. \nWskazówka: Po uruchomieniu tego oprogramowania funkcja przywracania systemu Windows zostanie automatycznie wy³¹czona. "
+    IDS_GOHOMEFAILED_DLG    "\n\nPrzepraszamy! Wyst¹pi?b³¹d dzia³ania programu Instant Reset. Uruchom ponownie system operacyjny, aby skorygowa?problem lub odinstaluj oprogramowanie z menu Start. "
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "Napraw"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "Wyjd?"
+    IDS_IMPORTREG_DLG       "\n\nProsz?czeka? Program Instant Reset odœwie¿a dane. "
+    IDS_ISGOHOME_DLG        "\n\nProgram Instant Reset zresetuje ustawienia partycji systemowej do pierwotnego stanu z chwili pierwszego uruchomienia programu Instant Reset. Wykonaj kopi?zapasow?wa¿nych danych. \nCzy chcesz kontynuowa?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "   Kontynuuj"
+    IDS_ISGOHOME_DLG_QUIT_BTN "Wyjd?"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nPartycje systemowe zostan?zresetowane do stanu z chwili pierwszego u¿ycia programu Instant Reset. W przypadku kontynuowania system zostanie uruchomiony ponownie. Potwierd? ¿e wykonano kopi?zapasow?wszystkich wa¿nych danych."
+    IDS_REPAIROK_MSGDLG     "\nNaprawa oprogramowania pomyœlna. "
+    IDS_REPAIRFAILED_MSGDLG "\nNaprawa oprogramowania niepomyœlna. Odinstaluj ten program."
+    IDS_UNINSTALL_DLG       "\n\nPrzypomnienie: Czy chcesz odinstalowa?ten program? System zostanie zresetowany do stanu z chwili pierwszego u¿ycia tego oprogramowania. Dane u¿ytkownika zostan?utracone. Wykonaj kopi?zapasow?danych u¿ytkownika znajduj¹cych si?na komputerze."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\nKlikniêcie ""OK.?spowoduje ponowne uruchomienie systemu operacyjnego i przywrócenie go do stanu z chwili pierwszego u¿ycia programu Instant Reset. Dane u¿ytkownika zostan?utracone. Wykonaj kopi?zapasow?wa¿nych danych z dysku systemowego."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "   Kontynuuj"
+    IDS_UNINSTALL_DLG_QUIT_BTN "Wyjd?"
+    IDS_MESSAGEBOXEX_OK     "OK"
+    IDS_MESSAGEBOXEX_CANCEL "Anuluj"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\n\nBrakuje waœnych plików tego programu. Zainstaluj oprogramowanie ponownie, aby zapewni?jego bezproblemowe dzia³anie. "
+    IDS_REBOOTSYS_DLG       "System zostanie niezw³ocznie wy³¹czony. Zapisz wszystkie niezapisane pliki. "
+    IDS_REBOOTSYS_DLG_BTN   "Uruchom pon. Teraz"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Wy³¹czenie za: %02d sekund"
+    IDS_OBE_DLG_ENABLE_BTN  "     W³¹cz teraz"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN "Wyjd?"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nOprogramowanie systemowe Lenovo Instant Reset zosta³o w³¹czone. Funkcja Przywracanie systemu Windows zosta³a wy³¹czona."
+    IDS_MENU_HELP           "Pomoc.lnk"
+    IDS_MENU_UNINSTALL      "Odinstaluj.lnk"
+    IDS_MENU_FINDFILE       "Pobierz pliki.lnk"
+    IDS_MENU_INITINSTANT    "Inicjuj Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\nCzy chcesz odinstalowa?to oprogramowanie?"
+    IDS_UNINSATLL_END       "\n\nOdinstalowanie zakoñczone."
+    IDS_INSTALL_SUCCESS     "\n\nInstalacja pomyœlna."
+    IDS_OBE_DLG_PAGE2       "Kliknij ""W³¹cz teraz"", aby uruchomi?ponownie system operacyjny w celu w³¹czenia tego oprogramowania. \nMo¿na równie?klikn¹æ ""Wyjd?"", aby uruchomi?oprogramowanie póŸniej. \nPrzed u¿yciem tego oprogramowania nale¿y uwa¿nie przeczyta?rozdzia?4 w Przewodniku u¿ytkownika. "
+    IDS_START_NC_NO_FREE_SPACE 
+                            "\n\n  Niewystarczaj¹ca iloœæ miejsca na dysku."
+    IDS_START_NC_NO_RIGHTS  "\n To oprogramowanie nale¿y uruchomi?jako Administrator. "
+END
+
+#endif    // ²¨À¼Óï(²¨À¼) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ÂŞÂíÄáÑÇÓï(ÂŞÂíÄáÑÇ) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ROM)
+LANGUAGE LANG_ROMANIAN, SUBLANG_DEFAULT
+#pragma code_page(1250)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,6
+ PRODUCTVERSION 1,1,0,6
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404e4"
+        BEGIN
+            VALUE "CompanyName", "Lenovo (Beijing) Limited"
+            VALUE "FileDescription", "Lenovo Instant Reset"
+            VALUE "FileVersion", "1.1.0.6"
+            VALUE "InternalName", " "
+            VALUE "LegalCopyright", "Lenovo (Beijing) Limited?All Rights Reserved?"
+            VALUE "OriginalFilename", "Interface.exe"
+            VALUE "ProductName", "Lenovo Instant Reset"
+            VALUE "ProductVersion", "1.1.0.6"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About NcInterface..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "RO.chm"
+    IDS_GOHOME_DLG          "\nSistemul a fost resetat deja la starea în care aşi activat Instant Reset pentru prima dat? Faceşi clic pe ""Recuperare fiºiere"", fiºierele utilizatorului de pe discul original al sistemului (c:\\) vor fi afiºate în fereastra managerului de resurse care apare. Trebuie s?copiaşi rapid fiºierele în alt?cale de disc! Dac?aşi finalizat backup-ul, faceşi clic pe ""ªtergere fiºiere"" pentru a utiliza spaşiul pe disc mai eficient!"
+    IDS_GOHOME_DLG_FILDFILE_BTN " Recuperare fiºiere "
+    IDS_GOHOME_DLG_CLEARFILE_BTN "   ªtergere fiºiere"
+    IDS_GOHOME_DLG_CHECK_BTN "Nu se mai afiºeaz? "
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "Aşi recuperat deja fiºierele dvs?  \nDac?faceşi clic pe ""OK"", aceasta va goli ""Recuperare fiºiere"", inclusiv Documentele mele,Desktop,Fiºiere de programe,dosarele create de utilizator etc.  \nVerificaşi dac?aceste fiºiere sunt inutile înainte de a continua!"
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG 
+                            "\n\n   Calea fiºierului pe care îl recuperaşi nu exist? "
+    IDS_GOHOMEERROR_DLG     "\n\nNe pare rãu! Funcşionarea Instant Reset a întâmpinat o eroare. Repornişi sistemul de operare pentru a-l corecta sau pentru a dezinstala acest software din meniul Start.  "
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "Ieºire"
+    IDS_OBE_DLG             "\n\nV?mulşumim c?aşi utilizat software-ul de sistem Lenovo Instant Reset. Acesta poate reseta rapid sistemul dvs. în starea în care se afla la activarea inişial?a acestui software. \nSugestie: Când pornişi acest software, funcşia de restaurare a sistemului din Windows va fi dezactivat?automat. "
+    IDS_GOHOMEFAILED_DLG    "\n\nNe pare rãu! Funcşionarea Instant Reset a întâmpinat o eroare. Repornişi sistemul de operare pentru a-l corecta sau pentru a dezinstala acest software din meniul Start. "
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "    Reparare"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "  Ieºire"
+    IDS_IMPORTREG_DLG       "\n\nAºteptaşi un moment. Instant Reset se reîmprospãteaz? "
+    IDS_ISGOHOME_DLG        "\n\nInstant Reset va reseta setãrile partişiei de sistem la starea inişial?din momentul în care aşi activat Instant Reset. Efectuaşi backup la datele dvs. importante.  \nDorişi s?continuaşi? "
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "      Continuare"
+    IDS_ISGOHOME_DLG_QUIT_BTN "Ieºire"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nPartişiile sistemului dvs. vor fi resetate la starea inişial?în care se aflau când aşi activat pentru prima dat?Instant Reset. Sistemul va reporni, dac?continuaşi. Efectuaşi backup la datele dvs. importante."
+    IDS_REPAIROK_MSGDLG     "\n Reparare software finalizat?cu succes. "
+    IDS_REPAIRFAILED_MSGDLG "\n Reparare software eºuat? Dezinstalaşi acest program. "
+    IDS_UNINSTALL_DLG       "\n\nSfat: Dorişi s?dezinstalaşi acest program? Computerul dvs. va fi forşat s?revin?la starea în care se afla atunci când aşi utilizat acest software pentru prima dat? Datele utilizatorilor vor fi pierdute. Faceşi backup la datele utilizatorilor de pe computer."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\nDac?faceşi clic pe ""OK"", aceasta va reporni sistemul dvs. de operare ºi îl va restaura în care era când a fost utilizat Instant Reset pentru prima dat? Fiºierele utilizatorilor vor fi pierdute. Efectuaşi backup la datele importante stocate pe discul de sistem."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "      Continuare "
+    IDS_UNINSTALL_DLG_QUIT_BTN "Ieºire"
+    IDS_MESSAGEBOXEX_OK     "  Ok"
+    IDS_MESSAGEBOXEX_CANCEL "  Anulare"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\nDin acest program lipsesc fiºiere importante. Reinstalaşi acest program pentru a v?asigura c?ruleaz?corect."
+    IDS_REBOOTSYS_DLG       "Sistemul se va opri imediat. Salvaşi toate fiºierele nesalvate. "
+    IDS_REBOOTSYS_DLG_BTN   "Reporneºte acum"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Oprire dup? %02d secunde"
+    IDS_OBE_DLG_ENABLE_BTN  "    Activare acum"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN " Ieºire"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nSoftware-ul de sistem Lenovo Instant Reset a fost activat. Funcşia Restaurare sistem Windows este dezactivat?"
+    IDS_MENU_HELP           "Ajutor.lnk"
+    IDS_MENU_UNINSTALL      "Dezinstalare.lnk"
+    IDS_MENU_FINDFILE       "Recuperare fiºiere.lnk "
+    IDS_MENU_INITINSTANT    "Inişializarea Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\n   Dorişi s?dezinstalaşi acest software?"
+    IDS_UNINSATLL_END       "\n\n     Dezinstalare finalizat?"
+    IDS_INSTALL_SUCCESS     "\n\n     Instalare finalizat?cu succes."
+    IDS_OBE_DLG_PAGE2       "Faceşi clic pe ""Activare acum"" pentru a reporni sistemul de operare în vederea activãrii acestui software. \nDe asemenea, puteşi s?faceşi clic pe ""Ieºire"" ºi s?pornişi acest software mai târziu.\nÎnainte de a utiliza acest software, citişi cu atenşie capitolul 4 din Ghidul utilizatorului."
+    IDS_START_NC_NO_FREE_SPACE "\n\n  Spaşiu insuficient pe disc."
+    IDS_START_NC_NO_RIGHTS  "\n Trebuie s?rulaşi acest software ca utilizator administrator. "
+END
+
+#endif    // ÂŞÂíÄáÑÇÓï(ÂŞÂíÄáÑÇ) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ¿ËÂŞµØÑÇÓï(¿ËÂŞµØÑÇ) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_HRV)
+LANGUAGE LANG_CROATIAN, SUBLANG_DEFAULT
+#pragma code_page(1250)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,6
+ PRODUCTVERSION 1,1,0,6
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404e4"
+        BEGIN
+            VALUE "CompanyName", "Lenovo (Beijing) Limited"
+            VALUE "FileDescription", "Lenovo Instant Reset"
+            VALUE "FileVersion", "1.1.0.6"
+            VALUE "InternalName", " "
+            VALUE "LegalCopyright", "Lenovo (Beijing) Limited?All Rights Reserved?"
+            VALUE "OriginalFilename", "Interface.exe"
+            VALUE "ProductName", "Lenovo Instant Reset"
+            VALUE "ProductVersion", "1.1.0.6"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About NcInterface..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "CR.chm"
+    IDS_GOHOME_DLG          "Sustav je ve?ponovno postavljen u stanje kad ste prvi put omoguæili funkciju Trenutaèno ponovno postavljanje. Kliknite »Dohvati datoteke?i datoteke korisnika na originalnom sistemskom disku (c:\\) prikazat æe se u prozoru zatraenog upravitelja resursima. Od vas se oèekuje da odmah kopirate datoteke na drugo mjesto na disku! Ako ste završili sigurnosno kopiranje, kliknite »Izbriši datoteke?za uèinkovitiju uporabu prostora na disku!"
+    IDS_GOHOME_DLG_FILDFILE_BTN "  Dohvati datoteke"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "   Izbriši datoteke"
+    IDS_GOHOME_DLG_CHECK_BTN "Nemoj ovo prikazati sljedeæi put."
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "Jeste li ve?dohvatili svoje datoteke?  \nAko kliknete »U redu? ispraznit æete »Dohvaæene datoteke? ukljuèujuæi Moje dokumente, Radnu površinu, Programske datoteke, Mape koje je stvorio korisnik itd. \nProvjerite jesu li ove datoteke suvišne prije nego što nastavite! "
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG 
+                            "\n\n   Put do datoteke koji dohvaæate ne postoji. "
+    IDS_GOHOMEERROR_DLG     "\n\nOprostite! Postupak Trenutaènog ponovnog postavljanja nije uspio. Ponovno pokrenite operacijski sustav kako biste to ispravili ili deinstalirajte ovaj softver na izborniku Start."
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "  Izaği"
+    IDS_OBE_DLG             "\n\nHvala što upotrebljavate sistemski softver Lenovo Trenutaèno ponovno postavljanje. On moe brzo ponovno postaviti va?sustav u stanje kad je ovaj softver bio prvi put omoguæen. \nPodsjetnik: Kad pokrenete ovaj softver, funkcija vraæanja sustava Windows bit æe automatski onemoguæena."
+    IDS_GOHOMEFAILED_DLG    "\n\nOprostite! Postupak Trenutaènog ponovnog postavljanja nije uspio. Ponovno pokrenite operacijski sustav kako biste to ispravili ili deinstalirajte ovaj softver na izborniku Start."
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "  repair"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "  Izaği"
+    IDS_IMPORTREG_DLG       "\n\nPrièekajte trenutak. Funkcija Trenutaèno ponovno postavljanje se osvjeava."
+    IDS_ISGOHOME_DLG        "\n\nFunkcija Trenutaèno ponovno postavljanje ponovno æe podesiti postavke vaše sistemske particije na poèetno stanje kad ste omoguæili funkciju Trenutaèno ponovno postavljanje. Napravite sigurnosnu kopiju svojih vanih podataka. \nelite li nastaviti?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "   Nastavi"
+    IDS_ISGOHOME_DLG_QUIT_BTN "   Izaği"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nVaše sistemske particije bit æe ponovno postavljene u poèetno stanje u kakvom su bile kad ste prvi put omoguæili funkciju Trenutaèno ponovno postavljanje. Sustav æe se ponovno pokrenuti ako nastavite. Napravite sigurnosnu kopiju svojih vanih podataka."
+    IDS_REPAIROK_MSGDLG     "\n\n\n Popravak softvera bio je uspješan."
+    IDS_REPAIRFAILED_MSGDLG "\n\n Popravak softvera nije uspio. Deinstalirajte ovaj program."
+    IDS_UNINSTALL_DLG       "\n\nSavjet: elite li deinstalirati ovaj program? Vaše raèunalo bit æe prisiljeno vratiti se na stanje u kojem je bilo kad je ovaj softver prvi put upotrijebljen. Korisnièki podaci bit æe izgubljeni. Napravite sigurnosnu kopiju korisnièkih podataka sa svog raèunala."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "Klikom na »U redu?ponovno æete pokrenuti svoj operacijski sustav i vratiti ga na stanje kad je funkcija Trenutaèno ponovno postavljanje prvi put upotrijebljena. Korisnièke datoteke bit æe izgubljene. Napravite sigurnosnu kopiju vanih podataka pohranjenih na sistemskom disku."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "   Nastavi "
+    IDS_UNINSTALL_DLG_QUIT_BTN "       Izaği"
+    IDS_MESSAGEBOXEX_OK     "  U redu"
+    IDS_MESSAGEBOXEX_CANCEL "  Odustani"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\nU ovom programu nedostaju vane datoteke. Ponovo instalirajte ovaj program kako biste osigurali njegov ispravan rad."
+    IDS_REBOOTSYS_DLG       "Odmah æe doæi do prekida napajanja sustava. Spremite sve nepohranjene datoteke."
+    IDS_REBOOTSYS_DLG_BTN   "Odmah pon. pokreni"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Iskljuèivanje nakon:  %02d sekunda"
+    IDS_OBE_DLG_ENABLE_BTN  "  Omoguæi odmah"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN " Izaği"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\nSistemski softver Lenovo Trenutaèno ponovno postavljanje je omoguæen. Funkcija vraæanja sustava Windows je onemoguæena."
+    IDS_MENU_HELP           "Datoteka pomoæi.lnk"
+    IDS_MENU_UNINSTALL      "Deinstaliraj.lnk"
+    IDS_MENU_FINDFILE       "Dohvati datoteke.lnk"
+    IDS_MENU_INITINSTANT    "Inicijaliziraj Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\n   elite li deinstalirati ovaj softver?"
+    IDS_UNINSATLL_END       "\n\n     Deinstalacija je završena."
+    IDS_INSTALL_SUCCESS     "\n\n     Instalacija je uspješno završena."
+    IDS_OBE_DLG_PAGE2       "Kliknite »Omoguæi odmah?kako biste ponovno pokrenuli operacijski sustav za omoguæavanje ovog softvera. \n Takoğer moete kliknuti »Izaği?i kasnije pokrenuti ovaj softver. \nPrije uporabe ovog softvera paljivo proèitajte poglavlje 4 Vodièa za korisnike."
+    IDS_START_NC_NO_FREE_SPACE "\n\n Nema dovoljno prostora na disku."
+    IDS_START_NC_NO_RIGHTS  "\n Trebate pokrenuti ovaj softver kao administratorski korisnik."
+END
+
+#endif    // ¿ËÂŞµØÑÇÓï(¿ËÂŞµØÑÇ) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Ë¹Âå·¥¿ËÓï(Ë¹Âå·¥¿Ë) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_SKY)
+LANGUAGE LANG_SLOVAK, SUBLANG_DEFAULT
+#pragma code_page(1250)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,6
+ PRODUCTVERSION 1,1,0,6
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404e4"
+        BEGIN
+            VALUE "CompanyName", "Lenovo (Beijing) Limited"
+            VALUE "FileDescription", "Lenovo Instant Reset"
+            VALUE "FileVersion", "1.1.0.6"
+            VALUE "InternalName", " "
+            VALUE "LegalCopyright", "Lenovo (Beijing) Limited?All Rights Reserved?"
+            VALUE "OriginalFilename", "Interface.exe"
+            VALUE "ProductName", "Lenovo Instant Reset"
+            VALUE "ProductVersion", "1.1.0.6"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About NcInterface..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "SK.chm"
+    IDS_GOHOME_DLG          "\nU?sa obnovil stav systému, ke?ste povolili funkciu Instant Reset prvıkrát. Kliknutím na tlaèidlo ""Získa?súbory"" sa súbory pouívate¾ov na pôvodnom systémovom disku (c:\\) zobrazia v okne správcu zdrojov . Oèakáva sa, e rıchlo prekopírujete súbory na in?diskov?adresu. Ak ste ukonèili zálohovanie, priestor na disku vyuijete úèinnejšie kliknutím na tlaèidlo ""Vymaza?súbory""."
+    IDS_GOHOME_DLG_FILDFILE_BTN "     Získa?súbory "
+    IDS_GOHOME_DLG_CLEARFILE_BTN "  Vymaza?súbory "
+    IDS_GOHOME_DLG_CHECK_BTN "Nabudúce nezobrazova?"
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "U?ste získali súbory?  \nKliknutím na tlaèidlo ""OK"" sa vymae prieèinok ""Získa?súbory"" vrátane prieèinkov Moje dokumenty, Plocha, Programov?súbory, prieèinky vytvoren?pouívate¾om a pod.  \nSkôr ako budete pokraèova? presvedète sa, e tieto súbory nepotrebujete."
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG 
+                            "\n\n   Cesta k súborom, ktor?získavate, neexistuje. "
+    IDS_GOHOMEERROR_DLG     "\n\n¼utujeme! Zlyhala èinnos?funkcie Instant Reset. Reštartovaním operaèného systému opravte tento softvér v ponuke Štart alebo ho odinštalujte. "
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "    Ukonèi?"
+    IDS_OBE_DLG             "\n\nÏakujeme za pouívanie systémového softvéru Instant Reset Lenovo. Môe rıchlo obnovi?váš systém do stavu, ke?bol tento softvér pôvodne povolen? \nTip: Ke?spustíte tento softvér, funkcia obnovenia systému Windows sa automaticky vypne. "
+    IDS_GOHOMEFAILED_DLG    "\n\n¼utujeme! Zlyhala èinnos?funkcie Instant Reset. Reštartovaním operaèného systému opravte tento softvér v ponuke Štart alebo ho odinštalujte. "
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "    Opravi? "
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "   Ukonèi? "
+    IDS_IMPORTREG_DLG       "\n\nPoèkajte chví¾u. Obnovuje sa funkcia Instant Reset. "
+    IDS_ISGOHOME_DLG        "\n\nFunkcia Instant Reset obnov?vaše nastavenie oblast?do pôvodného stavu, ke?ste povolili funkciu Instant Reset. Zálohujte svoje dôleit?údaje. \nChcete pokraèova? "
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "      Pokraèova?"
+    IDS_ISGOHOME_DLG_QUIT_BTN "     Ukonèi?"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nObnov?sa pôvodn?stav oblast?vášho systému , ke?bola prvıkrát povolen?funkcia Instant Reset. Ak budete pokraèova?  systém sa obnov? Zálohujte svoje dôleit?údaje."
+    IDS_REPAIROK_MSGDLG     "\n Oprava softvéru bola úspešn? "
+    IDS_REPAIRFAILED_MSGDLG "\n Oprava softvéru bola neúspešn? Odinštalujte tento program. "
+    IDS_UNINSTALL_DLG       "\n\nChcete odinštalova?tento program? Poèíta?sa bude musie?vráti?do pôvodného stavu, ke?bol tento softvér prvıkrát pouit? Údaje pouívate¾a sa stratia. Zálohujte údaje pouívate¾a zo svojho poèítaèa."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\nKliknutím na tlaèidlo ""OK"" sa reštartuje operaèn?systém a obnov?sa stav, ke?bola prvıkrát pouit?funkcia Instant Reset. Súbory pouívate¾a sa stratia. Zálohujte dôleit?údaje uloen?na systémovom disku."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "      Pokraèova?"
+    IDS_UNINSTALL_DLG_QUIT_BTN "       Ukonèi? "
+    IDS_MESSAGEBOXEX_OK     "  Ok"
+    IDS_MESSAGEBOXEX_CANCEL "  Zruši?"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\nV tomto programe chıbaj?dôleit?súbory. Preinštalovaním tohto programu zabezpeèíte jeho správnu èinnos?"
+    IDS_REBOOTSYS_DLG       "Systém sa okamite vypne. Ulote všetky neuloen?súbory. "
+    IDS_REBOOTSYS_DLG_BTN   "Reštartova?"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Vypnú po: %02d sekundách"
+    IDS_OBE_DLG_ENABLE_BTN  "  Povoli? "
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN " Ukonèi? "
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nSystémov?softvér Instant Reset Lenovo je zapnut? Funkcia obnovenia systému Windows je vypnut?"
+    IDS_MENU_HELP           "Pomoc.lnk"
+    IDS_MENU_UNINSTALL      "Odinštalova?lnk"
+    IDS_MENU_FINDFILE       "Získa?súbory.lnk"
+    IDS_MENU_INITINSTANT    "Inicializova?súbor Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\n   Chcete odinštalova?tento softvér?"
+    IDS_UNINSATLL_END       "\n\n     Odinštalovanie hotov?"
+    IDS_INSTALL_SUCCESS     "\n\n     Inštalácia sa úspešne ukonèila."
+    IDS_OBE_DLG_PAGE2       "Kliknutím na tlaèidlo ""Povoli?"" sa reštartuje operaèn?systém, aby povolil tento softvér. \nMôete kliknú aj na tlaèidlo ""Ukonèi?"" a spusti?tento softvér neskôr.\nSkôr ako pouijete tento softvér si dôkladne preèítajte 4. kapitolu Pouívate¾skej príruèky."
+    IDS_START_NC_NO_FREE_SPACE "\n\n  Nedostatok miesta na disku."
+    IDS_START_NC_NO_RIGHTS  "\n Musíte spusti?tento softvér ako správca. "
+END
+
+#endif    // Ë¹Âå·¥¿ËÓï(Ë¹Âå·¥¿Ë) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Ë¹ÂåÎÄÄáÑÇÓï(Ë¹ÂåÎÄÄáÑÇ) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_SLV)
+LANGUAGE LANG_SLOVENIAN, SUBLANG_DEFAULT
+#pragma code_page(1250)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,6
+ PRODUCTVERSION 1,1,0,6
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404e4"
+        BEGIN
+            VALUE "CompanyName", "Lenovo (Beijing) Limited"
+            VALUE "FileDescription", "Lenovo Instant Reset"
+            VALUE "FileVersion", "1.1.0.6"
+            VALUE "InternalName", " "
+            VALUE "LegalCopyright", "Lenovo (Beijing) Limited?All Rights Reserved?"
+            VALUE "OriginalFilename", "Interface.exe"
+            VALUE "ProductName", "Lenovo Instant Reset"
+            VALUE "ProductVersion", "1.1.0.6"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About NcInterface..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "SL.chm"
+    IDS_GOHOME_DLG          "\nSistem je e bil ponastavljen v stanje iz trenutka, ko ste prvi?vklopili Instant Reset. Kliknite ""Obnovi datoteke"", da se v oknu upravitelja sredstev prikaejo uporabniške datoteke, ki so shranjene na prvotnem sistemskem disku (C:\\). Priporoèamo, da te datoteke kopirate na drug disk! Èe ste datoteke e varnostno kopirali, kliknite ""Poèisti datoteke"" da bo prostor na disku uporabljen uèinkoviteje."
+    IDS_GOHOME_DLG_FILDFILE_BTN "  Obnovi datoteke"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "  Poèisti datoteke"
+    IDS_GOHOME_DLG_CHECK_BTN "Tega naslednji?ne pokai."
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "Ali ste e obnovili datoteke?  \nÈe kliknete ""V redu"", bodo datoteke na seznamu ""Obnovi datoteke"" izbrisane, vkljuèno z mapami Moji dokumenti, Namizje, Programske datoteke, uporabniškimi mapami idr. \nPred nadaljevanjem preverite, ali teh datotek res ne potrebujete ve?"
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG 
+                            "\n\n   Datoteka, ki jo elite obnoviti, ne obstaja ve?na tem mestu."
+    IDS_GOHOMEERROR_DLG     "\n\nProgramu Instant Reset to dejanje ni uspelo. Znova zaenite operacijski sistem, da ga popravite, ali odstranite programsko opremo v meniju Start."
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "   Izhod"
+    IDS_OBE_DLG             "\n\nHvala, ker uporabljate programsko opremo Lenovo Instant Reset, ki omogoèa hitro ponastavitev vašega sistema v stanje iz trenutka, ko ste prvi?vklopili program. \nNasvet: ko zaenete programsko opremo, bo funkcija obnovitve sistema Windows samodejno izklopljena."
+    IDS_GOHOMEFAILED_DLG    "\n\nProgramu Instant Reset to dejanje ni uspelo. Znova zaenite operacijski sistem, da ga popravite, ali odstranite programsko opremo v meniju Start."
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "    Popravi"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "  Izhod"
+    IDS_IMPORTREG_DLG       "\n\nPoèakajte, da se program Instant Reset osvei."
+    IDS_ISGOHOME_DLG        "\n\nProgram Instant Reset bo ponastavil nastavitve particije z vašim sistemom v prvotno stanje iz trenutka, ko ste program Instant Reset vklopili. Varnostno kopirajte pomembne podatke.  \nAli elite nadaljevati?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "   Naprej"
+    IDS_ISGOHOME_DLG_QUIT_BTN "   Izhod"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nParticije s sistemom bodo ponastavljene v prvotno stanje iz trenutka, ko ste prvi?vklopili program Instant Reset. Èe nadaljujete, se bo sistem znova zagnal. Varnostno kopirajte pomembne podatke."
+    IDS_REPAIROK_MSGDLG     "\n Programska oprema je popravljena."
+    IDS_REPAIRFAILED_MSGDLG "\nPopravilo programske opreme ni uspelo. Prosimo, odstranite ta program."
+    IDS_UNINSTALL_DLG       "\n\nNasvet: Ali elite program odstraniti? Raèunalnik se bo moral ponastaviti v stanje iz trenutka, ko ste prvi?vklopili ta program. Pri tem bodo nekateri uporabniški podatki izgubljeni. Varnostno kopirajte uporabniške podatke iz raèunalnika."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\nÈe kliknete ""V redu"", se bo operacijski sistem znova zagnal in obnovil v stanje iz trenutka, ko ste prvi?uporabili program Instant Reset. Pri tem bodo nekatere uporabniške datoteke izgubljene. Varnostno kopirajte pomembne podatke, shranjene na sistemskem disku."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "   Naprej "
+    IDS_UNINSTALL_DLG_QUIT_BTN "     Izhod"
+    IDS_MESSAGEBOXEX_OK     "  V redu"
+    IDS_MESSAGEBOXEX_CANCEL "  Preklièi"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\n\nV programu manjkajo pomembne datoteke. Za pravilno delovanje programa ga morate znova namestiti."
+    IDS_REBOOTSYS_DLG       "Sistem se bo takoj izklopil. Shranite vse neshranjene datoteke."
+    IDS_REBOOTSYS_DLG_BTN   "Znova zaeni zdaj"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Zaustavitev èez: %02d sekund"
+    IDS_OBE_DLG_ENABLE_BTN  "    Omogoèi zdaj"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN " Izhod"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nProgramska oprema Lenovo Instant Reset je omogoèena. Funkcija za obnovitev sistema Windows je onemogoèena."
+    IDS_MENU_HELP           "Datoteka pomoèi.lnk"
+    IDS_MENU_UNINSTALL      "Odstrani.lnk"
+    IDS_MENU_FINDFILE       "Obnovi datoteke.lnk"
+    IDS_MENU_INITINSTANT    "Inicializiraj Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\n   Ali elite odstraniti to programsko opremo?"
+    IDS_UNINSATLL_END       "\n\n     Odstranitev je konèana."
+    IDS_INSTALL_SUCCESS     "\n\n     Namestitev je konèana."
+    IDS_OBE_DLG_PAGE2       "Kliknite ""Omogoèi zdaj"", da znova zaenete operacijski sistem in omogoèite programsko opremo. \nÈe kliknete ""Izhod"", lahko programsko opremo zaenete pozneje.\nPred prvo uporabo programske opreme natanèno preberite 4. poglavje v Uporabniškem priroèniku."
+    IDS_START_NC_NO_FREE_SPACE "\n\n Ni dovolj prostora na disku."
+    IDS_START_NC_NO_RIGHTS  "\nTo programsko opremo lahko zaenete samo kot Skrbnik."
+END
+
+#endif    // Ë¹ÂåÎÄÄáÑÇÓï(Ë¹ÂåÎÄÄáÑÇ) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ±£¼ÓÀûÑÇÓï(±£¼ÓÀûÑÇ) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_BGR)
+LANGUAGE LANG_BULGARIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,6
+ PRODUCTVERSION 1,1,0,6
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404e4"
+        BEGIN
+            VALUE "CompanyName", "Lenovo (Beijing) Limited"
+            VALUE "FileDescription", "Lenovo Instant Reset"
+            VALUE "FileVersion", "1.1.0.6"
+            VALUE "InternalName", " "
+            VALUE "LegalCopyright", "Lenovo (Beijing) Limited?All Rights Reserved?"
+            VALUE "OriginalFilename", "Interface.exe"
+            VALUE "ProductName", "Lenovo Instant Reset"
+            VALUE "ProductVersion", "1.1.0.6"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About NcInterface..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "BG.chm"
+    IDS_GOHOME_DLG          "Ñèñòåìàò?âå÷å ?áèëà íóëèğàíà äî ñúñò?íèåò? êîãàòî ñò?àêòèâèğàëè Instant Reset çà ïúğâ?ïú? Ùğàêíåòå âúğõ?""Âúçñòàíîâè ôàéëîâ?"", ôàéëîâåò?íà ïîòğåáèòåëÿ íà îğèãèíàëíèÿ ñèñòåìåí äèñê (c:\\) ùå ñå ïîêàæà??ïîäêàíâàùèÿ ïğîçîğåö íà äèñïå÷åğ?íà ğåñóğñ? Îò âà?ñå î÷àêâà âåäíàã?äà êîïèğàòå ôàéëîâåò?íà äğóã ïú?íà äèñê? Àê?ñò?çàâúğøèë?àğõèâèğàíåòî, ùğàêíåòå âúğõ?""Èçòğèé ôàéëîâåò?"", çà äà èçïîëçâàòå ïî-åôåêòèâí?äèñêîâîò?ñè ïğîñòğàíñòâî!"
+    IDS_GOHOME_DLG_FILDFILE_BTN "Âúçñòàíîâè ôàéëîâ?"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "Èçòğèé ôàéëîâåò?"
+    IDS_GOHOME_DLG_CHECK_BTN "Íå ïîêàçâàé òîâà ñëåäâàùèÿ ïú?"
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "Âúçñòàíîâèõò?ëè âå÷å ôàéëîâåò?ñè?  \nÙğàêâàíåòî âúğõ?""OK"" ùå èçïğàçíè ""Âúçñòàíî?âàíåòî íà ôàéëîâ?"", âêëş÷èòåëí?Ìîèò?äîêóìåíò? Ğàáîòå?ïëîò, ïğîãğàìí?ôàéëîâ? ñúçäàäåí?îò ïîòğåáèòåëÿ ïàïê????  \nÏğîâåğåò?äàëè ?ìàòå íóæä?îò òåçè ôàéëîâ? ïğåä?äà ïğîäúëæèòå!"
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG 
+                            "\n\n   Ïú??íà ôàéë? êîéò?èçâëè÷àò? íå ñúùåñòâóâà. "
+    IDS_GOHOMEERROR_DLG     "\n\nÇà ñúæàëåíè?ñå ñëó÷?ãğåøêà ?Instant Reset ïî âğåì?íà ğàáîòà. Ğåñòàğòèğàéò?îïåğàöèîííàò?ñèñòåì? çà äà ÿ êîğèãèğàòå èë?äåèíñòàëèğàéòå ñîôòóåğà îò ìåíşòî ""Ñòàğ?"". "
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "Èçõî?"
+    IDS_OBE_DLG             "\nÁëàãîäàğèì âè, ÷å èçïîëçâàòå ñèñòåìíèÿ ñîôòóå?Lenovo Instant Reset. Òî?ìîæå áúğç?äà âúğí?ñèñòåìàò?äî ñúñò?íèåò? êîãàòî òîçè ñîôòóå??áå?àêòèâèğà?çà ïúğâ?ïú? \n Ïîäñêàçâàí? Êîãàòî ñòàğòèğàòå òîçè ñîôòóå? ôóíêöèÿòà çà âúçñòàíî?âàíå íà ñèñòåìàò?íà Windows àâòîìàòè÷í?ùå ñå äåàêòèâèğà. "
+    IDS_GOHOMEFAILED_DLG    "\nÇà ñúæàëåíè?ñå ñëó÷?ãğåøêà ?Instant Reset ïî âğåì?íà ğàáîòà. Ğåñòàğòèğàéò?îïåğàöèîííàò?ñèñòåì? çà äà ÿ êîğèãèğàòå èë?äåèíñòàëèğàéòå ñîôòóåğà îò ìåíşòî ""Ñòàğ?"". "
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "      Ïîïğàâ?"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "    Èçõî?"
+    IDS_IMPORTREG_DLG       "\n\nÈç÷àêàéò?ìàëê? Instant Reset ñå îáíî?âà. "
+    IDS_ISGOHOME_DLG        "\n\nInstant Reset ùå âúğí?ñèñòåìíèòå íàñòğîéê?íà ?ëà äî ïúğâîíà÷àëíîòî ñúñò?íè? êîãàòî ñò?àêòèâèğàëè Instant Reset. Àğõèâèğàéò?âàæíèò?ñè äàíí?  \nÈñêàòå ëè äà ïğîäúëæèòå?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "       Ïğîäúëæè "
+    IDS_ISGOHOME_DLG_QUIT_BTN "    Èçõî?"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nÑèñòåìíèòå ?ëîâå ùå áúäà?âúğíàò?äî ïúğâîíà÷àëíîòî ñúñò?íè? ?êîåò?ñà áèëè, êîãàòî çà ïúğâ?ïú?ñò?àêòèâèğàëè Instant Reset. Ñèñòåìàò?ùå ğåñòàğòèğà, àê?ïğîäúëæèòå. Àğõèâèğàéò?âàæíèò?ñè äàíí?"
+    IDS_REPAIROK_MSGDLG     "\n Óñïåøí?ïîïğàâêà íà ñîôòóåğà. "
+    IDS_REPAIRFAILED_MSGDLG "\nÍåóñïåøí?ïîïğàâêà íà ñîôòóåğà. Äåèíñòàëèğàéòå òàçè ïğîãğàìà. "
+    IDS_UNINSTALL_DLG       "\nÏîäñêàçâàí? Èñêàòå ëè äà äåèíñòàëèğàò?òàçè ïğîãğàìà? Êîìïşòúğúò ùå áúäå ïğèíóäåí äà ñå âúğí?äî ñúñò?íèåò? ?êîåò??áè? êîãàòî ñîôòóåğú??èçïîëçâà?çà ïúğâ?ïú? Äàííèò?íà ïîòğåáèòåëÿ ùà áúäà?çàãóáåíè. Àğõèâèğàéò?ïîòğåáèòåëñêèò?äàíí?îò êîìïşòúğ?"
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "Ùğàêâàíåòî âúğõ?""OK"" ùå ğåñòàğòèğà îïåğàöèîííàò?ñèñòåì??ùå ÿ âúçñòàíîâè äî ñúñò?íèåò? êîãàòî Instant Reset ?áèëî èçïîëçâàíå çà ïúğâ?ïú? Ôàéëîâåò?íà ïîòğåáèòåëÿ ùå áúäà?çàãóáåíè. Àğõèâèğàéò?âàæíèò?äàíí? çàïàçåíè íà ñèñòåìíèÿ äèñê."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "       Ïğîäúëæè "
+    IDS_UNINSTALL_DLG_QUIT_BTN "    Èçõî?"
+    IDS_MESSAGEBOXEX_OK     "  Ok"
+    IDS_MESSAGEBOXEX_CANCEL "   Îò?íà"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\nÎò òàçè ïğîãğàìà ëèïñâà?âàæí?ôàéëîâ? Ïğåèíñòàëèğàéò?ïğîãğàìàòà, çà äà ãàğàíòèğàò?ïğàâèëíàòà ?ğàáîòà."
+    IDS_REBOOTSYS_DLG       "Ñèñòåìàò?ùå èçêëş÷?íåçàáàâí? Çàïàçåòå âñè÷êè íåçàïàçåíè ôàéëîâ? "
+    IDS_REBOOTSYS_DLG_BTN   "Ğåñòàğòèğà?ñåãà"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Èçêëş÷âàíå ñëåä: %02d ñåêóíä?"
+    IDS_OBE_DLG_ENABLE_BTN  "   Àêòèâèğà?ñåãà"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN " Èçõî?"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nÑîôòóåğú?Lenovo Instant Reset ?àêòèâèğà? Ôóíêöèÿòà çà âúçñòàíî?âàíå íà ñèñòåìàò?íà Windows ?äåàêòèâèğàíà."
+    IDS_MENU_HELP           "Ïîìîùå?ôàéë.lnk"
+    IDS_MENU_UNINSTALL      "Äåèíñòàëèğàí?lnk"
+    IDS_MENU_FINDFILE       "Âúçñòàíîâè ôàéëîâ?lnk"
+    IDS_MENU_INITINSTANT    "Èíèöèàëèçèğàíå íà Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\n   Èñêàòå ëè äà äåèíñòàëèğàò?òîçè ñîôòóå? "
+    IDS_UNINSATLL_END       "\n\n     Äåèíñòàëèğàíåò?çàâúğø? "
+    IDS_INSTALL_SUCCESS     "\n\n     Èíñòàëèğàíåò?çàâúğø?óñïåøí?"
+    IDS_OBE_DLG_PAGE2       "Ùğàêíåòå âúğõ?""Àêòèâèğà?ñåãà"", çà äà ğåñòàğòèğàòå îïåğàöèîííàò?ñèñòåì??äà àêòèâèğàòå òîçè ñîôòóå? \nÌîæåòå ñúùî òàêà äà ùğàêíåòå âúğõ?""Èçõî?"" ?äà ñòàğòèğàòå ñîôòóåğà ïî-êúñí?\nÏğåä?äà èçïîëçâàòå ñîôòóåğà, ïğî÷åòåò?âíèìàòåëíî ãëàâ?4 íà Ğúêîâîäñòâîò?çà ïîòğåáèòåëÿ. "
+    IDS_START_NC_NO_FREE_SPACE "\n\n  Íåäîñòàòú÷íî äèñêîâ?ïğîñòğàíñòâî."
+    IDS_START_NC_NO_RIGHTS  "\n Òğÿáâ?äà ñòàğòèğàòå òîçè ñîôòóå?êàòî ïîòğåáèòåë ?àäìèíèñòğàòîğñêè ïğàâ?"
+END
+
+#endif    // ±£¼ÓÀûÑÇÓï(±£¼ÓÀûÑÇ) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ¶íÓï(¶íÂŞË¹) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Instant Reset"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "RU.chm"
+    IDS_GOHOME_DLG          "Óæ?âûïîëíåí?âîññòàíîâëåíèå ñèñòåì?äî ñîñò?íèÿ íà ìîìåíò ïåğâîã?âêëş÷åíèÿ ïğîãğàìì?Instant Reset. Íàæìèò?“Èçâëå÷ü ôàéëû”, ÷òîá?îòîáğàçèòü ôàéë?ïîëüçîâàòåëå?íà èñõîäíîì ñèñòåìíî?äèñê?(c:\\) ?ïîìîùü?âûáğàííîãî ôàéëîâîã?ìåíåäæåğ? Ğåêîìåíäóåòñÿ íåìåäëåííî ñêîïèğîâàò?ôàéë??äğóãîå ìåñò?íà äèñê? Åñëè ğåçåğâíî?êîïèğîâàíè?çàâåğøåí? íàæìèò?“Óäàëèòü ôàéëû”, ÷òîá?èñïîëüçîâàòü äèñêîâîå ïğîñòğàíñòâî áîëå?ıôôåêòèâíî."
+    IDS_GOHOME_DLG_FILDFILE_BTN "   Èçâëå÷?ôàéë?"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "   Óäàëèò?ôàéë?"
+    IDS_GOHOME_DLG_CHECK_BTN "Íå ïîêàçûâàòü ıò?ñîîáùåíè??ñëåäóşùè?ğà?"
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "Òğåáóåìû?ôàéë?óæ?èçâëå÷åí? \nÏğ?íàæàòè?êíîïêè “ÎÊ” ñîäåğæèìîå ïàïê?“Èçâëå÷ü ôàéëû” áóäå?óäàëåí? âêëş÷àÿ ïàïê?“Ìîè äîêóìåíòû”, “Ğàáî÷èé ñòîë? “Program Files? ïàïê?ïîëüçîâàòå? ??? \nÏåğå?òå?êà?ïğîäîëæèòü, óáåäèòåñ? ÷ò?îí?íå íóæí?"
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG "\n\nÈñêîìî?ìåñòîïîëîæåíèå íå ñóùåñòâóåò. "
+    IDS_GOHOMEERROR_DLG     "\n\n?ñîæàëåíè? ïğîãğàìì?Instant Reset ïåğåñòàë?ğàáîòàòü. Ïåğåçàïóñòèò?îïåğàöèîííóş ñèñòåì? ÷òîá?èñïğàâèò?îøèáêó, èë?óäàëèò?ıò?ïğîãğàìì?÷åğå?ìåíş “Ïóñê”. "
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "   Çàâåğøèò?"
+    IDS_OBE_DLG             "\nÁëàãîäàğèì çà èñïîëüçîâàíè?ñèñòåìíî?ïğîãğàìì?Lenovo Instant Reset. ?åå ïîìîùü?ìîæí?âîññòàíîâèòü ñèñòåì?äî ñîñò?íèÿ íà ìîìåíò ïåğâîíà÷àëüíîã?âêëş÷åíèÿ ıòîé ïğîãğàìì? \nÑîâå? Ïğ?çàïóñê?ïğîãğàìì?ôóíêöèÿ âîññòàíîâëåí? ñèñòåì?Windows áóäå?àâòîìàòè÷åñê?îòêëş÷åí? "
+    IDS_GOHOMEFAILED_DLG    "\n\n?ñîæàëåíè? ïğîãğàìì?Instant Reset ïåğåñòàë?ğàáîòàòü. Ïåğåçàïóñòèò?îïåğàöèîííóş ñèñòåì? ÷òîá?èñïğàâèò?îøèáêó, èë?óäàëèò?ıò?ïğîãğàìì?÷åğå?ìåíş “Ïóñê”. "
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "   Èñïğàâèò?"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "   Çàâåğøèò?"
+    IDS_IMPORTREG_DLG       "\n\nÏîäîæäèò? Âûïîëíÿåò? îáíîâëåíèå ïğîãğàìì?Instant Reset. "
+    IDS_ISGOHOME_DLG        "\n\nÏğîãğàìì?Instant Reset âûïîëíèò âîññòàíîâëåíèå íàñòğîåê ñèñòåìíîãî ğàçäåë?äî èñõîäíîã?ñîñò?íèÿ íà ìîìåíò âêëş÷åíèÿ ïğîãğàìì?Instant Reset. Ñîçäàéòå ğåçåğâíó?êîïè?âàæíûõ äàííûõ. \nÏğîäîëæèòü?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "     Ïğîäîëæèòü "
+    IDS_ISGOHOME_DLG_QUIT_BTN "      Çàâåğøèò?"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nÑèñòåìíû?ğàçäåë?áóäó?âîññòàíîâëåí?äî èñõîäíîã?ñîñò?íè?íà ìîìåíò ïåğâîã?âêëş÷åíèÿ ïğîãğàìì?Instant Reset. Ïğ?ïğîäîëæåíè?áóäå?âûïîëíåí?ïåğåçàãğóçêà êîìïüşòåğà. Ñîçäàéòå ğåçåğâíó?êîïè?âàæíûõ äàííûõ."
+    IDS_REPAIROK_MSGDLG     "\nÏğîãğàììíî?îáåñïå÷åíè?óñïåøí?èñïğàâëåíî. "
+    IDS_REPAIRFAILED_MSGDLG "\nÏğîãğàììíî?îáåñïå÷åíè?íå óäàëîñ?èñïğàâèò? Óäàëèò?ïğîãğàìì? "
+    IDS_UNINSTALL_DLG       "\n\nÏğèìå÷àíèå. Óäàëèò?ıò?ïğîãğàìì? Áóäå?ïğèíóäèòåëüí?âîññòàíîâëåí?ñîñò?íè?êîìïüşòåğà íà ìîìåíò ïåğâîã?èñïîëüçîâàíèÿ ıòîã?ïğîãğàììíîãî îáåñïå÷åíèÿ. Äàííûå ïîëüçîâàòå? áóäó?óòğà÷åíû. Ñîçäàéòå ğåçåğâíó?êîïè?äàííûõ ïîëüçîâàòå?, õğàíÿùèõñÿ íà êîìïüşòåğå."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "Ïğ?íàæàòè?êíîïêè “ÎÊ” áóäå?âûïîëíåí?ïåğåçàãğóçêà îïåğàöèîííîé ñèñòåì??åå âîññòàíîâëåíèå äî ñîñò?íèÿ íà ìîìåíò ïåğâîã?èñïîëüçîâàíèÿ ïğîãğàìì?Instant Reset. Ïîëüçîâàòåëüñêèå ôàéë?áóäó?óòğà÷åíû. Ñîçäàéòå ğåçåğâíó?êîïè?âàæíûõ äàííûõ, ñîõğàíåííû?íà ñèñòåìíî?äèñê?"
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "     Ïğîäîëæèòü "
+    IDS_UNINSTALL_DLG_QUIT_BTN "     Çàâåğøèò?"
+    IDS_MESSAGEBOXEX_OK     "OK"
+    IDS_MESSAGEBOXEX_CANCEL "  Îòìåíà "
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\n\n?ïğîãğàìì?îòñóòñòâóş?âàæíûå ôàëû. Ïîâòîğèò?óñòàíîâê?ïğîãğàìì? ÷òîá?îáåñïå÷èòü åå ïğàâèëüíóş ğàáîòó."
+    IDS_REBOOTSYS_DLG       "Ïèòàíè?ñèñòåì?áóäå?îòêëş÷åí?áå?ïğåäóïğåæäåí?. Ñîõğàíèò?âñ?íåñîõğàíåííû?ôàéë? "
+    IDS_REBOOTSYS_DLG_BTN   "Ïåğåçàãğóçèò?"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Ïåğåçàãğóçêà áóäå?âûïîëíåí?÷åğå? %02d ñå?"
+    IDS_OBE_DLG_ENABLE_BTN  "       Âêëş÷èòü "
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN "       Çàâåğøèò?"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nÑèñòåìíàÿ ïğîãğàìì?Lenovo Instant Reset âêëş÷åíà. Ôóíêöèÿ âîññòàíîâëåí? ñèñòåì?Windows îòêëş÷åí?"
+    IDS_MENU_HELP           "Ñïğàâê?lnk"
+    IDS_MENU_UNINSTALL      "Óäàëèò?lnk"
+    IDS_MENU_FINDFILE       "Èçâëå÷?ôàéë?lnk"
+    IDS_MENU_INITINSTANT    "Çàïóñòèò?ôàéë Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\nÓäàëèò?ıò?ïğîãğàìì?"
+    IDS_UNINSATLL_END       "\n\nÓäàëåíèå çàâåğøåí?"
+    IDS_INSTALL_SUCCESS     "\n\nÓñòàíîâê?óñïåøí?çàâåğøåí?"
+    IDS_OBE_DLG_PAGE2       "Íàæìèò?“Âêëş÷èòü”, ÷òîá?ïåğåçàãğóçèò?îïåğàöèîííóş ñèñòåì??âêëş÷èòü ıò?ïğîãğàìì? \nÌîæí?òàêæ?íàæàòü “Çàâåğøèòü??çàïóñòèò?ıò?ïğîãğàìì?ïîçäíå? \nÏåğå?èñïîëüçîâàíèåì ıòîé ïğîãğàìì?âíèìàòåëüí?ïğî÷èòàéòå ãëàâ?4 ğóêîâîäñòâ?ïîëüçîâàòå?. "
+    IDS_START_NC_NO_FREE_SPACE "\n\n Íåäîñòàòî÷íî ìåñò?íà äèñê?"
+    IDS_START_NC_NO_RIGHTS  "\n Íåîáõîäèìî çàïóñòèò?ıò?ïğîãğàìì??ïğàâàì?àäìèíèñòğàòîğà. "
+END
+
+#endif    // ¶íÓï(¶íÂŞË¹) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ·¨Óï resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+LANGUAGE LANG_FRENCH, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Instant Reset"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "FR.chm"
+    IDS_GOHOME_DLG          "Le système a déj?ét?réinitialis?dans l’état dans lequel il se trouvait la première fois que vous avez activ?Instant Reset. Cliquer sur ?Récupérer fichiers ?permet d’afficher les fichiers de l’utilisateur du disque système d’origine (C:\\) dans le gestionnaire de ressource demand? Vous devez copier les fichiers vers un autre chemin d’accès au disque rapidement. Si vous avez termin?la sauvegarde, veuillez cliquer sur ?Supprimer fichiers ?pour utiliser l’espace disque plus efficacement."
+    IDS_GOHOME_DLG_FILDFILE_BTN " Récupérer fichiers"
+    IDS_GOHOME_DLG_CLEARFILE_BTN " Supprimer fichiers"
+    IDS_GOHOME_DLG_CHECK_BTN "Ne plus afficher la prochaine fois."
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "Avez-vous déj?récupér?vos fichiers? \nCliquer sur le bouton ?OK ?permet de vider la liste « Récupérer fichiers ».Cela peut inclure les fichiers Mes documents, Bureau, Program Files, les dossiers créés par l’utilisateur, etc. \nVeuillez vous assurer de ne plus avoir besoin de ces fichiers avant de poursuivre."
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG 
+                            "\n\nL’emplacement que vous recherchez n’existe pas."
+    IDS_GOHOMEERROR_DLG     "\n\nDésol?! Instant Reset n’a pas réussi cette opération. Veuillez redémarrer le système d’exploitation pour corriger ce problème ou désinstaller ce logiciel dans le menu Démarrer. "
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "Quitter"
+    IDS_OBE_DLG             "\nMerci d’utiliser le logiciel système Instant Reset de Lenovo. Il peut réinitialiser rapidement votre système dans l’état dans lequel il se trouvait lorsque le logiciel a ét?activ?pour la première fois. \nConseil : Lorsque vous démarrez ce logiciel, la fonction de restauration du système de Windows est automatiquement désactivée. "
+    IDS_GOHOMEFAILED_DLG    "\n\nDésol?! Instant Reset n’a pas réussi cette opération. Veuillez redémarrer le système d’exploitation pour corriger ce problème ou désinstaller ce logiciel dans le menu Démarrer. "
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "Réparer"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "Quitter"
+    IDS_IMPORTREG_DLG       "\n\nVeuillez patienter un instant. Instant Reset est en cours de rafraîchissement."
+    IDS_ISGOHOME_DLG        "\n\nInstant Reset restaure les paramètres de la partition de votre système dans leur état d’origine au moment de l’activation d’Instant Reset. Veuillez sauvegarder les informations importantes. \nSouhaitez-vous poursuivre?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "  Continuer"
+    IDS_ISGOHOME_DLG_QUIT_BTN "Quitter"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nLes partitions de votre système seront restaurées dans leur état d’origine, c’est-?dire au moment de l’activation d’Instant Reset. Le système va être redémarr?si vous continuez. Veuillez sauvegarder les informations importantes."
+    IDS_REPAIROK_MSGDLG     "\nRéparation du logiciel terminée."
+    IDS_REPAIRFAILED_MSGDLG "\nÉchec de la réparation du logiciel. Veuillez désinstaller le programme."
+    IDS_UNINSTALL_DLG       "\n\nRemarque? Souhaitez-vous désinstaller ce programme?Votre ordinateur sera restaur?dans l’état dans lequel il se trouvait lors de la première utilisation du logiciel. Les données de l’utilisateur seront perdues. Veuillez sauvegarder les données de l’utilisateur de votre ordinateur."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "Cliquer sur « OK » permet de redémarrer votre ordinateur et de le restaurer dans l’état dans lequel il se trouvait lors de la première utilisation d’Instant Reset. Les données de l’utilisateur seront perdues. Veuillez sauvegarder les données de importantes de votre ordinateur."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "  Continuer"
+    IDS_UNINSTALL_DLG_QUIT_BTN "Quitter"
+    IDS_MESSAGEBOXEX_OK     "OK"
+    IDS_MESSAGEBOXEX_CANCEL "Annuler"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\n\nDes fichiers importants de ce programme sont manquants. Veuillez réinstaller ce programme pour vous assurer qu’il fonctionne correctement."
+    IDS_REBOOTSYS_DLG       "Le système va s’éteindre immédiatement. Veuillez enregistrer les fichiers non-enregistrés."
+    IDS_REBOOTSYS_DLG_BTN   "Redémarrer"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Mise hors tension après %02d secondes"
+    IDS_OBE_DLG_ENABLE_BTN  "Activer maintenant"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN "Quitter"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nLe logiciel système Instant Reset de Lenovo a ét?activ? La fonction Restauration du système de Windows est désactivée."
+    IDS_MENU_HELP           "Aide.lnk"
+    IDS_MENU_UNINSTALL      "Désinstaller.lnk"
+    IDS_MENU_FINDFILE       "Récupérer fichiers.lnk"
+    IDS_MENU_INITINSTANT    "Initialiser Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\nSouhaitez-vous désinstaller ce logiciel ?"
+    IDS_UNINSATLL_END       "\n\n Désinstallation terminée."
+    IDS_INSTALL_SUCCESS     "\n\n Installation terminée."
+    IDS_OBE_DLG_PAGE2       "Veuillez cliquez sur ?Activer maintenant ?pour redémarrer le système d’exploitation et activer de logiciel. \n Vous pouvez également cliquer sur ?Quitter ?et démarrer ce logiciel ultérieurement. \n Avant d’utiliser ce logiciel, veuillez lire attentivement le chapitre 4 du guide de l’utilisateur."
+    IDS_START_NC_NO_FREE_SPACE "\n\n  Espace disque insuffisant."
+    IDS_START_NC_NO_RIGHTS  "\n Vous devez exécuter ce logiciel en tant qu’administrateur. "
+END
+
+#endif    // ·¨Óï resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Òâ´óÀûÓï resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ITA)
+LANGUAGE LANG_ITALIAN, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Instant Reset"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "IT.chm"
+    IDS_GOHOME_DLG          "\nIl sistema ?gi?stato ripristinato sullo stato in cui era la prima volta che ?stato abilitato Instant Reset. Fare clic su ""Recupera file"" per visualizzare i file degli utenti sul disco di sistema originale (c:\\) nella finestra di gestione risorse. ?necessario copiare i file su un altro percorso! Una volta completato il backup, fare clic su ""Cancella file"" per usare pi?efficacemente lo spazio sul disco!"
+    IDS_GOHOME_DLG_FILDFILE_BTN "     Recupera file"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "     Cancella file"
+    IDS_GOHOME_DLG_CHECK_BTN "Non visualizzare pi?"
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "I file sono gi?stati recuperati? \nFare clic su ""OK"" per svuotare ""Recupera file"", inclusi Documenti, Desktop, Programmi, cartelle create dall'utente ecc. \nAccertarsi di non avere pi?bisogno di questi file in seguito."
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG "\n\nIl percorso cercato non esiste"
+    IDS_GOHOMEERROR_DLG     "\n\nSpiacenti! Instant Reset non ?riuscito a completare l'operazione. Riavviare il sistema operativo per correggere l'errore o disinstallare questo software dal menu Start. "
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "Esci"
+    IDS_OBE_DLG             "\nGrazie per aver usato il software di sistema Lenovo Instant Reset. Instant Reset riporta rapidamente il sistema allo stato in cui era quando questo software ?stato abilitato per la prima volta. \nSuggerimento: quando si avvia il software, la funzione di ripristino sistema di Windows verr?disabilitata automaticamente. "
+    IDS_GOHOMEFAILED_DLG    "\n\nSpiacenti! Instant Reset non ?riuscito a completare l'operazione. Riavviare il sistema operativo per correggere l'errore o disinstallare questo software dal menu Start. "
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "Ripara"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "Esci"
+    IDS_IMPORTREG_DLG       "\n\nAttendere. Aggiornamento di Instant Reset in corso. "
+    IDS_ISGOHOME_DLG        "\n\nInstant Reset ripristiner?le impostazioni delle partizioni di sistema allo stato in cui erano quando ?stato abilitato Instant Reset. Eseguire il back up dei dati importanti. \nContinuare?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "Continua"
+    IDS_ISGOHOME_DLG_QUIT_BTN "Esci"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nLe partizioni di sistema saranno ripristinate sullo stato iniziale in cui erano la prima volta in cui ?stato abilitato Instant Reset. Se si decide di continuare, il sistema verr?riavviato. Eseguire il back up dei dati importanti."
+    IDS_REPAIROK_MSGDLG     "\nRiparazione software completata"
+    IDS_REPAIRFAILED_MSGDLG "\nRiparazione software non riuscita. Disinstallare il programma."
+    IDS_UNINSTALL_DLG       "\n\nNota: si desidera disinstallare il programma? Il computer verr?riportato forzatamente allo stato in cui era la prima volta in cui ?stato usato questo software. I dati degli utenti andranno persi, eseguire il backup dei dati degli utenti dal computer."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\nFacendo clic su ""OK"" il sistema operativo sar?riavviato e riportato allo stato in cui era la prima volta che ?stato usato Instant Reset. I file degli utenti andranno persi. Eseguire il back up dei dati importanti memorizzati sul disco di sistema."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "Continua"
+    IDS_UNINSTALL_DLG_QUIT_BTN "Esci"
+    IDS_MESSAGEBOXEX_OK     "OK"
+    IDS_MESSAGEBOXEX_CANCEL "Annulla"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\n\nuesto programma manca di file importanti. Reinstallare il programma per garantire il corretto funzionamento del programma."
+    IDS_REBOOTSYS_DLG       "Il sistema si spegner?immediatamente, salvare tutti i file non ancora salvati."
+    IDS_REBOOTSYS_DLG_BTN   "Riavvia ora"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Spegnimento tra: %02d secondi"
+    IDS_OBE_DLG_ENABLE_BTN  "     Abilita subito"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN "Esci"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nIl software di sistema Lenovo Instant Reset ?stato abilitato. La funzione di ripristino sistema di Windows ?disabilitata."
+    IDS_MENU_HELP           "Guida.lnk"
+    IDS_MENU_UNINSTALL      "Disinstalla.lnk"
+    IDS_MENU_FINDFILE       "Recupera file.lnk"
+    IDS_MENU_INITINSTANT    "Inizializza Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\nSi desidera disinstallare il software?"
+    IDS_UNINSATLL_END       "\n\nDisinstallazione completa."
+    IDS_INSTALL_SUCCESS     "\n\nInstallazione completata."
+    IDS_OBE_DLG_PAGE2       "Fare clic su ""Abilita subito"" per riavviare il sistema operativo e abilitare questo software. \n?possibile anche fare clic su ""Esci"" e avviare il software successivamente. \nPrima di utilizzare questo software, leggere attentamente il capitolo 4 della Guida dell'utente. "
+    IDS_START_NC_NO_FREE_SPACE "\n\n  Spazio sul disco insufficiente."
+    IDS_START_NC_NO_RIGHTS  "\n Per eseguire questo software, accedere come amministratore. "
+END
+
+#endif    // Òâ´óÀûÓï resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// µ¤ÂóÓï(µ¤Âó) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DAN)
+LANGUAGE LANG_DANISH, SUBLANG_DEFAULT
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Instant Reset"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "DA.chm"
+    IDS_GOHOME_DLG          "\nSystemet er allerede blevet gendannet til den status, det havde, første gang du aktiverede Instant Reset. Klik p?""Hent filer"" for at f?vist brugernes filer p?den oprindelige systemdisk (c:\\) i vinduet for den forespurgte ressourcestyring. Kopier omgående filerne til en anden sti p?disken! Når du har lavet en sikkerhedskopi, skal du klikke p?""Ryd filer"" for at udnytte diskpladsen mere effektivt!"
+    IDS_GOHOME_DLG_FILDFILE_BTN "    Hent filer"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "   Ryd filer"
+    IDS_GOHOME_DLG_CHECK_BTN "Vis ikke denne meddelelse igen."
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "\nHar du kopieret filerne?  \nKlik p?""OK"" for at tømme ""Hent filer"" herunder filer i mapperne Dokumenter, Skrivebord, Programmer, brugeroprettede mapper osv.  \nKontroller, at du ikke skal bruge filerne, før du fortsætter."
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG 
+                            "\n\nDu har søgt p?en placering, der ikke findes. "
+    IDS_GOHOMEERROR_DLG     "\n\nBeklager! Instant Reset kunne ikke udføre handlingen. Genstart computeren for at løse problemet, eller afinstaller denne software via menuen Start. "
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "  Afslut"
+    IDS_OBE_DLG             "\n\nTak, fordi du valgte at bruge systemsoftwaren Lenovo Instant Reset. Softwaren gør det nemt at gendanne systemet til den status, det havde, første gang softwaren blev aktiveret. \nTip: Når du starter softwaren deaktiveres Windows Systemgendannelse. "
+    IDS_GOHOMEFAILED_DLG    "\n\nBeklager! Instant Reset kunne ikke udføre handlingen. Genstart computeren for at løse problemet, eller afinstaller denne software via menuen Start. "
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "  Reparer"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "  Afslut"
+    IDS_IMPORTREG_DLG       "\n\nVent et øjeblik. Instant Reset opdateres. "
+    IDS_ISGOHOME_DLG        "\n\nInstant Reset gendanner indstillingerne for systempartitionerne til den oprindelige status, de havde, da du aktiverede Instant Reset. Lav en sikkerhedskopi af vigtige data.  \nVil du fortsætte?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "  Fortsæt"
+    IDS_ISGOHOME_DLG_QUIT_BTN " Afslut"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nSystempartitionerne gendannes til den status, de havde, første gang du aktiverede Instant Reset. Systemet genstartes, hvis du fortsætter. Lav en sikkerhedskopi af vigtige data."
+    IDS_REPAIROK_MSGDLG     "\n\nSoftwaren blev repareret.  "
+    IDS_REPAIRFAILED_MSGDLG "\n\nSoftwaren blev ikke repareret. Afinstaller programmet. "
+    IDS_UNINSTALL_DLG       "\n\nBemærk: Skal programmet afinstalleres? Systemet gendannes til den status, det havde, første gang denne software blev brugt. Brugerens data mistes. Sikkerhedskopier alle dine data fra computeren."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\nKlik p?""OK"" for at genstarte computeren og gendanne den status, computeren havde, første gang du aktiverede Instant Reset. Brugerens filer mistes. Lav en sikkerhedskopi af vigtige data fra systemdisken."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "  Fortsæt"
+    IDS_UNINSTALL_DLG_QUIT_BTN "  Afslut"
+    IDS_MESSAGEBOXEX_OK     "  OK"
+    IDS_MESSAGEBOXEX_CANCEL "  Annuller"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\n\nProgrammet mangler nogle vigtige filer. Geninstaller programmet for at sikre, at det kører korrekt."
+    IDS_REBOOTSYS_DLG       "Systemet lukkes omgående ned. Gem alle filer, der ikke er gemt. "
+    IDS_REBOOTSYS_DLG_BTN   "   Genstart nu"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Lukker ned om %02d sekunder"
+    IDS_OBE_DLG_ENABLE_BTN  "    Aktiver nu"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN " Afslut"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nSystemsoftwaren Lenovo Instant Reset er blevet aktiveret. Windows Systemgendannelse deaktiveres."
+    IDS_MENU_HELP           "Hjælpefil.lnk"
+    IDS_MENU_UNINSTALL      "Afinstaller.lnk"
+    IDS_MENU_FINDFILE       "Hent filer.lnk"
+    IDS_MENU_INITINSTANT    "Initialiser Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\nVil du afinstallere softwaren?"
+    IDS_UNINSATLL_END       "\n\n    Afinstallationen er udført."
+    IDS_INSTALL_SUCCESS     "\n\n    Installationen blev udført."
+    IDS_OBE_DLG_PAGE2       "Klik p?""Aktiver nu"" for at genstarte computeren og aktivere softwaren. \nDu kan ogs?klikke p?""Afslut"" og starte softwaren senere.\nLæs omhyggeligt kapitel 4 i din brugervejledning, før du bruger softwaren. "
+    IDS_START_NC_NO_FREE_SPACE "\n\n  Ikke tilstrækkelig diskplads."
+    IDS_START_NC_NO_RIGHTS  "\n Du skal have administratorrettigheder for at køre softwaren. "
+END
+
+#endif    // µ¤ÂóÓï(µ¤Âó) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// µÂÓï(µÂ¹ú) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Instant Reset"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "DE.chm"
+    IDS_GOHOME_DLG          "\nDas System wurde bereits auf den Status der ersten Aktivierung von Instant Reset zurückgesetzt. Klicken Sie auf ""Dateien abrufen"", um die Benutzerdateien auf der Systemfestplatte (C:\\) im Ressourcenmanager anzuzeigen. Die Dateien müssen in einen anderen Pfad kopiert werden. Klicken Sie anschließend auf ""Dateien löschen"", um den Speicherplatz effizienter zu nutzen."
+    IDS_GOHOME_DLG_FILDFILE_BTN "  Dateien abrufen"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "  Dateien löschen"
+    IDS_GOHOME_DLG_CHECK_BTN "Nicht wieder anzeigen."
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "Haben Sie die Dateien bereits abgerufen? \nDurch Klicken auf ""OK"" werden die alten Daten mit ""Dateien abrufen"" gelöscht. Das umfasst ""Dokumente"", ""Desktop"", Programmdateien usw. \nVergewissern Sie sich vor dem Fortfahren, dass sie nicht mehr benötigt werden."
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG 
+                            "\n\nDer Speicherort, nach dem Sie suchen, ist nicht vorhanden."
+    IDS_GOHOMEERROR_DLG     "\n\nLeider kann Instant Reset nicht ausgeführt werden. Starten Sie das Betriebssystem neu, um den Fehler zu beheben, oder deinstallieren Sie die Software im Startmen?"
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "   Abbrechen"
+    IDS_OBE_DLG             "\nVielen Dank für die Verwendung der Lenovo Instant Reset-Systemsoftware. Mit dieser können Sie das System schnell auf den Zustand bei der ersten Aktivierung der Software zurücksetzen.\nTipp: Wenn Sie diese Software starten, wird die Windows-Systemwiederherstellungsfunktion automatisch deaktiviert."
+    IDS_GOHOMEFAILED_DLG    "\n\nLeider kann Instant Reset nicht ausgeführt werden. Starten Sie das Betriebssystem neu, um den Fehler zu beheben, oder deinstallieren Sie die Software im Startmen?"
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "  Reparieren"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "  Abbrechen"
+    IDS_IMPORTREG_DLG       "\n\nWarten Sie einen Moment. Instant Reset aktualisiert die Daten."
+    IDS_ISGOHOME_DLG        "\n\nInstant Reset setzt die Systempartitionierungseinstellungen auf den Zustand bei der ersten Aktivierung von Instant Reset zurück. Sichern Sie wichtige Informationen. \nMöchten Sie fortfahren?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "   Fortfahren"
+    IDS_ISGOHOME_DLG_QUIT_BTN "   Abbrechen"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nDie Systempartitionierungen werden auf den Status bei der ersten Aktivierung von Instant Reset zurückgesetzt. Wenn Sie fortfahren, wird das System neu gestartet. Sichern Sie alle wichtigen Informationen."
+    IDS_REPAIROK_MSGDLG     "\n\nSoftwarereparatur erfolgreich."
+    IDS_REPAIRFAILED_MSGDLG "\n\nSoftwarereparatur nicht erfolgreich. Deinstallieren Sie das Programm."
+    IDS_UNINSTALL_DLG       "\n\nMöchten Sie das Programm deinstallieren? Das System wird auf den Status bei der ersten Verwendung dieser Software zurückgesetzt. Benutzerdaten gehen verloren. Sichern Sie diese Daten im System."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\nDurch Klicken auf ""OK"" wird das Betriebssystem neu gestartet und auf den Status bei der ersten Verwendung von Instant Reset zurückgesetzt. Benutzerdateien gehen verloren. Sichern Sie wichtige Daten auf der Systemfestplatte."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "   Fortfahren"
+    IDS_UNINSTALL_DLG_QUIT_BTN "   Abbrechen"
+    IDS_MESSAGEBOXEX_OK     "OK"
+    IDS_MESSAGEBOXEX_CANCEL " Abbrechen"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\nIm Programm fehlen wichtige Dateien. Installieren Sie die Software neu, um einen problemlosen Betrieb zu gewährleisten."
+    IDS_REBOOTSYS_DLG       "Das System wird sofort heruntergefahren. Sichern Sie alle nicht gespeicherten Dateien."
+    IDS_REBOOTSYS_DLG_BTN   "Jetzt neu starten"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Herunterfahren nach: %02d Sekunden"
+    IDS_OBE_DLG_ENABLE_BTN  "   Jetzt aktivieren"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN "    Abbrechen"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nDie Lenovo Instant Reset-Systemsoftware wurde aktiviert. Die Systemwiederherstellungsfunktion von Windows wude deaktiviert."
+    IDS_MENU_HELP           "Hilfe.lnk"
+    IDS_MENU_UNINSTALL      "Deinstallieren.lnk"
+    IDS_MENU_FINDFILE       "Dateien abrufen.lnk"
+    IDS_MENU_INITINSTANT    "Instant Reset initialisieren.lnk"
+    IDS_IS_UNINSTALL        "\n\nMöchten Sie diese Software deinstallieren?"
+    IDS_UNINSATLL_END       "\n\nDeinstallation abgeschlossen."
+    IDS_INSTALL_SUCCESS     "\n\nInstallation erfolgreich abgeschlossen."
+    IDS_OBE_DLG_PAGE2       "Klicken Sie auf ""Jetzt aktivieren"", um das Betriebssystem neu zu starten und die Software zu aktivieren.\nKlicken Sie auf ""Abbrechen"", um die Software später zu starten.\nLesen Sie Kapitel 4 des Benutzerhandbuchs sorgfältig durch, bevor Sie die Software verwenden."
+    IDS_START_NC_NO_FREE_SPACE "\n\n Unzureichende Festplattenkapazität."
+    IDS_START_NC_NO_RIGHTS  "\nSie müssen über Administratorrechte verfügen, um diese Software ausführen zu können."
+END
+
+#endif    // µÂÓï(µÂ¹ú) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Ó¢Óï(ÃÀ¹ú) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,6
+ PRODUCTVERSION 1,1,0,6
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404e4"
+        BEGIN
+            VALUE "CompanyName", "Lenovo (Beijing) Limited"
+            VALUE "FileDescription", "Lenovo Instant Reset"
+            VALUE "FileVersion", "1.1.0.6"
+            VALUE "InternalName", " "
+            VALUE "LegalCopyright", "Lenovo (Beijing) Limited?All Rights Reserved?"
+            VALUE "OriginalFilename", "Interface.exe"
+            VALUE "ProductName", "Lenovo Instant Reset"
+            VALUE "ProductVersion", "1.1.0.6"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About NcInterface..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "EN.chm"
+    IDS_GOHOME_DLG          "\nThe system has already been reset to the state when you enabled Instant Reset for the first time. Click ""Retrieve Files"", the users' files on the original system disk (c:\\) will be displayed in the prompted resource manager window. It is expected for you to promptly copy the files to another disk path! If you have completed the backup, please click ""Clear Files"" to use your disk space more efficiently!"
+    IDS_GOHOME_DLG_FILDFILE_BTN "   Retrieve Files"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "   Clear Files"
+    IDS_GOHOME_DLG_CHECK_BTN "Don't show this next time."
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "Have you already retrieved your files?  \nClicking ""OK"" empty the ""Retrieve Files"",including My Documents,Desktop,Program Files,User-created folders etc.  \nPlease check these files are needless before you continue!"
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG 
+                            "\n\n   The file path you are retrieving does not exist.  "
+    IDS_GOHOMEERROR_DLG     "\n\nSorry! Instant Reset failed in operation. Please restart the operating system to correct it or uninstall this software on the Start menu. "
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "Quit"
+    IDS_OBE_DLG             "\n\nThank you for using Lenovo Instant Reset system software. It can quickly reset your system to the state when this software was initially enabled. \nHint: When you start this software, the system restore function of Windows will be automatically disabled. "
+    IDS_GOHOMEFAILED_DLG    "\n\nSorry! Instant Reset failed in operation. Please restart the operating system to correct it or uninstall this software on the Start menu. "
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "    Repair"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "  Quit"
+    IDS_IMPORTREG_DLG       "\n\nPlease wait a moment. Instant Reset is refreshing. "
+    IDS_ISGOHOME_DLG        "\n\nInstant Reset will reset your system partition settings to the initial state when you enabled Instant Reset. Please back up your important data.  \nDo you want to continue? "
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "   Continue"
+    IDS_ISGOHOME_DLG_QUIT_BTN "   Quit"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nYour system partitions will be reset to the initial state when they were the first time you enabled Instant Reset. The system will restart if you continue. Please back up your important data."
+    IDS_REPAIROK_MSGDLG     "\n      Software repair successful. "
+    IDS_REPAIRFAILED_MSGDLG "\nSoftware repair unsuccessful. Please uninstall this program. "
+    IDS_UNINSTALL_DLG       "\n\nDo you wish to uninstall this program? Your computer will be forced to restore to the state it was the first time this software was used. Users' data will be lost. Please back up users' data from your computer."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\nClicking ""OK"" will restart your operating system and restore it to the state when Instant Reset was used for the first time. Users' files will be lost. Please back up the important data stored on the system disk."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "   Continue "
+    IDS_UNINSTALL_DLG_QUIT_BTN "       Quit"
+    IDS_MESSAGEBOXEX_OK     "  Ok"
+    IDS_MESSAGEBOXEX_CANCEL "  Cancel"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\n\nThere are important files missing from this program. Please reinstall this program to ensure it runs correctly."
+    IDS_REBOOTSYS_DLG       "The system will power down immediately. Please save all unsaved files. "
+    IDS_REBOOTSYS_DLG_BTN   "Restart Now"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Shutdown after: %02d seconds"
+    IDS_OBE_DLG_ENABLE_BTN2 "      Enable Now"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN2 " Quit"
+    IDS_ADDMENU_GOHOME_TIP2 "Reboot the system, the system will be restored to its initial state."
+    IDS_STOPCREATERECOVER_MSGDLG2 
+                            "\n\nLenovo Instant Reset system software has been enabled. The Windows System Restore function is disabled."
+    IDS_MENU_HELP           "Help.lnk"
+    IDS_MENU_UNINSTALL      "Uninstall.lnk"
+    IDS_MENU_FINDFILE       "Retrieve Files.lnk"
+    IDS_MENU_INITINSTANT    "Initialize Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\n   Do you wish to uninstall this software?"
+    IDS_UNINSATLL_END       "\n\n     Uninstall Complete."
+    IDS_INSTALL_SUCCESS     "\n\n     Installation completed successfully."
+    IDS_OBE_DLG_PAGE2       "\nPlease click ""Enable Now"" to restart the operating system for enabling this software. \nYou can also click ""Quit"" and start this software later.\nBefore using this software, please read carefully chapter 4 of UserGuide."
+    IDS_START_NC_NO_FREE_SPACE "\n\n  Insufficient disk space."
+    IDS_START_NC_NO_RIGHTS  "\n You need to run the software in the administrator user. "
+END
+
+#endif    // Ó¢Óï(ÃÀ¹ú) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ·ÒÀ¼Óï(·ÒÀ¼) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FIN)
+LANGUAGE LANG_FINNISH, SUBLANG_DEFAULT
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Instant Reset"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "FI.chm"
+    IDS_GOHOME_DLG          "\nJärjestelm?on jo palautettu tilaan, jossa se oli, kun Instant Reset otettiin käyttöön ensimmäisen kerran. Napsauta ""Hae tiedostot"", jolloin alkuperäisell?järjestelmälevyll?(c:\\) olevat käyttäjän tiedostot näytetään valitussa resurssienhallintaikkunassa. Sinun odotetaan kopioivan nopeasti tiedostot toiseen hakemistopolkuun! Jos olet suorittanut varmuuskopioinnin, napsauta ""Poista tiedostot"" levytilan käytön tehostamiseksi!"
+    IDS_GOHOME_DLG_FILDFILE_BTN "    Hae tiedostot"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "   Poista tiedostot"
+    IDS_GOHOME_DLG_CHECK_BTN "Äl?näyt?tät?seuraavalla kerralla."
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "Oletko jo hakenut tiedostot? \n""OK""-painike tyhjentää ""Hae tiedostot"", mukaan lukien omat tiedostot, työpöydän, ohjelmatiedostot, käyttäjän luomat kansiot jne. \nVarmista ennen jatkamista, ett?näm?tiedostot ovat tarpeettomia."
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG "\n\nEtsimääsi sijaintia ei ole olemassa."
+    IDS_GOHOMEERROR_DLG     "\n\nAnteeksi! Instant Resetiss?tapahtui virhe. Korjaa tilanne käynnistämäll?tietokone uudelleen tai poistamalla tämän ohjelman asennus Käynnist?valikosta. "
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "Lopeta"
+    IDS_OBE_DLG             "\nKiitos, kun käytit Lenovo Instant Reset -järjestelmäohjelmistoa. Se palauttaa järjestelmäsi nopeasti tilaan, jossa se oli, kun täm?ohjelmisto alunperin otettiin käyttöön. \nVihje: Kun käynnistät tämän ohjelmiston, Windowsin järjestelmän palautustoiminto poistetaan automaattisesti käytöst? "
+    IDS_GOHOMEFAILED_DLG    "\n\nAnteeksi! Instant Resetiss?tapahtui virhe. Korjaa tilanne käynnistämäll?tietokone uudelleen tai poistamalla tämän ohjelman asennus Käynnist?valikosta. "
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN " Korjaa"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "Lopeta"
+    IDS_IMPORTREG_DLG       "\n\nOdota hetki. Instant Reseti?päivitetään. "
+    IDS_ISGOHOME_DLG        "\n\nInstant Reset palauttaa järjestelmäosioasetukset tilaan, jossa ne olivat, kun Instant Reset otettiin käyttöön ensimmäisen kerran. Varmuuskopioi tärkeät tiedot. \nHaluatko jatkaa?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN " Jatka"
+    IDS_ISGOHOME_DLG_QUIT_BTN "Lopeta"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nJärjestelmäosiot palautetaan tilaan, jossa ne olivat, kun Instant Reset otettiin käyttöön ensimmäisen kerran. Järjestelm?käynnistetään uudelleen, jos jatkat. Tarkista, ett?olet varmuuskopioinut kaikki tärkeät tiedot."
+    IDS_REPAIROK_MSGDLG     "\n\nOhjelman korjaus onnistui. "
+    IDS_REPAIRFAILED_MSGDLG "\nOhjelman korjaus epäonnistui. Poista tämän ohjelman asennus. "
+    IDS_UNINSTALL_DLG       "\n\nHuomautus: Poistetaanko tämän ohjelman asennus? Tietokone palautetaan pakotetusti tilaan, jossa se oli ensimmäisen kerran tät?ohjelmaa käytettäess? Käyttäjätiedot menetetään. Varmuuskopioi käyttäjätiedot tietokoneesta."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\nJos napsautetaan ""OK"", tietokone käynnistetään uudelleen ja palautetaan tilaan, jossa se oli Instant Resetin ensimmäisell?käyttökerralla. Käyttäjien tiedostot menetetään. Varmuuskopioi järjestelmälevylle tallennetut tärkeät tiedot."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "Jatka"
+    IDS_UNINSTALL_DLG_QUIT_BTN "Lopeta"
+    IDS_MESSAGEBOXEX_OK     "  OK"
+    IDS_MESSAGEBOXEX_CANCEL "  Peruuta"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\n\nTäst?ohjelmasta puuttuu tärkeit?tiedostoja. Asenna ohjelmisto uudelleen sen oikean toiminnan varmistamiseksi. "
+    IDS_REBOOTSYS_DLG       "Järjestelm?sammutetaan välittömästi. Tallenna kaikki tallentamattomat tiedostot."
+    IDS_REBOOTSYS_DLG_BTN   "Käynnist?nyt"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Sammutetaan: %02d sekunnin kuluttua"
+    IDS_OBE_DLG_ENABLE_BTN  "  Käyt?nyt"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN " Lopeta"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nLenovo Instant Reset -järjestelmäohjelmisto on otettu käyttöön. Windowsin järjestelmän palauttamistoiminto on poistettu käytöst?"
+    IDS_MENU_HELP           "Ohje-tiedosto.lnk"
+    IDS_MENU_UNINSTALL      "Poista asennus.lnk"
+    IDS_MENU_FINDFILE       "Hae tiedostot.lnk"
+    IDS_MENU_INITINSTANT    "Alusta Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\nPoistetaanko tämän ohjelmiston asennus?"
+    IDS_UNINSATLL_END       "\n\n Asennuksen poisto valmis."
+    IDS_INSTALL_SUCCESS     "\n\n Asennus onnistui."
+    IDS_OBE_DLG_PAGE2       "Käynnist?tietokone uudelleen ja ota täm?ohjelmisto käyttöön napsauttamalla ""Käyt?nyt"". \n Voit myös napsauttaa ""Lopeta"" ja käynnistää tämän ohjelmiston myöhemmin. \nLue käyttöoppaan luku 4 huolellisesti ennen tämän ohjelmiston käyttöä. "
+    IDS_START_NC_NO_FREE_SPACE "\n\n Riittämätön levytila."
+    IDS_START_NC_NO_RIGHTS  "\nSinun on suoritettava täm?ohjelmisto järjestelmänvalvojana. "
+END
+
+#endif    // ·ÒÀ¼Óï(·ÒÀ¼) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ºÉÀ¼Óï(ºÉÀ¼) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NLD)
+LANGUAGE LANG_DUTCH, SUBLANG_DUTCH
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Instant Reset"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "NL.chm"
+    IDS_GOHOME_DLG          "Het systeem werd al hersteld in de status waarin het zich bevond toen u voor het eerst Instant Reset inschakelde. Klik op ""Bestanden ophalen"" en de bestanden van de gebruikers op de oorspronkelijke systeemschijf (c:\\) worden in het venster van het gevraagde bronbeheer weergegeven. U moet de bestanden onmiddellijk naar een ander schijfpad kopiëren! Na het voltooien van de back-up klikt u op ""Bestanden verwijd"" om uw schijfruimte efficiënter te gebruiken."
+    IDS_GOHOME_DLG_FILDFILE_BTN "Bestanden ophalen"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "Bestanden verwijd"
+    IDS_GOHOME_DLG_CHECK_BTN "Deze melding de volgende keer niet weergeven."
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "Hebt u de bestanden al opgehaald? \nAls u op ""OK"" klikt, gaan bestanden als Mijn documenten, Bureaublad, Program Files,  zelf aangemaakte mappen enz., die u kunt vinden met ""Bestanden ophalen"", verloren. Zorg ervoor dat u deze bestanden niet langer nodig hebt voor u verder gaat."
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG 
+                            "\n\n\n   De gezochte locatie bestaat niet. "
+    IDS_GOHOMEERROR_DLG     "\n\nSorry! Instant Reset kon deze bewerking niet uitvoeren. Start het besturingssysteem opnieuw op om het te corrigeren of verwijder de software uit het menu Start."
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "Afsluiten"
+    IDS_OBE_DLG             "\nBedankt dat u de Lenovo Instant Reset-systeemsoftware gebruikt. Hiermee kunt u uw systeem snel herstellen in de status waarin het zich bevond toen deze software voor het eerst werd geïnstalleerd.\nHint: wanneer u deze software start, wordt de functie Systeemherstel van Windows automatisch uitgeschakeld."
+    IDS_GOHOMEFAILED_DLG    "\n\nSorry! Instant Reset kon deze bewerking niet uitvoeren. Start het besturingssysteem opnieuw op om het te corrigeren of verwijder de software uit het menu Start."
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "Herstellen"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "Afsluiten"
+    IDS_IMPORTREG_DLG       "\n\nEven geduld. Instant Reset is bezig met vernieuwen. "
+    IDS_ISGOHOME_DLG        "\n\nInstant Reset herstelt de partitie-instellingen van het systeem naar de status bij uw eerste gebruik van Instant Reset. Maak een back-up van uw belangrijke gegevens. \nWilt u doorgaan?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "     Doorgaan"
+    IDS_ISGOHOME_DLG_QUIT_BTN "     Afsluiten"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nUw systeempartities worden hersteld naar de status bij het eerste gebruik van Instant Reset. Het systeem wordt herstart als u doorgaat. Maak een back-up van uw belangrijke gegevens."
+    IDS_REPAIROK_MSGDLG     "\n\nSoftwareherstel gelukt. "
+    IDS_REPAIRFAILED_MSGDLG "\n\nSoftwareherstel mislukt. Verwijder dit programma. "
+    IDS_UNINSTALL_DLG       "\n\nOpmerking: wilt u dit programma verwijderen? Uw computer zal hersteld worden naar de status bij het eerste gebruik van deze software. Alle gebruikersgegevens gaan verloren. Maak een back-up van de gebruikersgegevens die op de computer opgeslagen zijn."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\nAls u op ""OK"" klikt, wordt uw computer herstart en wordt de status bij het eerste gebruik van Instant Reset hersteld. De bestanden van de gebruiker gaan verloren. Maak een back-up van belangrijke gegevens die op de systeemschijf opgeslagen zijn."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "    Doorgaan"
+    IDS_UNINSTALL_DLG_QUIT_BTN "    Afsluiten"
+    IDS_MESSAGEBOXEX_OK     "OK"
+    IDS_MESSAGEBOXEX_CANCEL " Annuleren"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\n\nEr ontbreken belangrijke programmabestanden. Installeer het programma opnieuw om ervoor te zorgen dat het correct functioneert."
+    IDS_REBOOTSYS_DLG       "Het systeem zal onmiddellijk uitgeschakeld worden. Sla alle geopende bestanden op.  "
+    IDS_REBOOTSYS_DLG_BTN   "Nu herstarten"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Uitschakelen na: %02d seconden"
+    IDS_OBE_DLG_ENABLE_BTN  "     Nu activeren"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN "  Afsluiten"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nDe Instant Reset-systeemsoftware van Lenovo is ingeschakeld. De functie Systeemherstel van Windows is uitgeschakeld."
+    IDS_MENU_HELP           "Help.lnk"
+    IDS_MENU_UNINSTALL      "Verwijderen.lnk"
+    IDS_MENU_FINDFILE       "Bestanden ophalen.lnk"
+    IDS_MENU_INITINSTANT    "Initialize Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\nWilt u deze software verwijderen?"
+    IDS_UNINSATLL_END       "\n\nOngedaan maken installatie voltooid."
+    IDS_INSTALL_SUCCESS     "\n\nInstallatie gelukt."
+    IDS_OBE_DLG_PAGE2       "Klik op ""Nu activeren"" om het besturingssysteem opnieuw op te starten, om deze software in te kunnen schakelen.\n U kunt ook op ""Afsluiten"" klikken en deze software later starten.\n Lees hoofdstuk 4 van de gebruikershandleiding aandachtig voordat u deze software gebruikt."
+    IDS_START_NC_NO_FREE_SPACE "\n\n Onvoldoende schijfruimte.."
+    IDS_START_NC_NO_RIGHTS  "\n U moet deze software als beheerder uitvoeren."
+END
+
+#endif    // ºÉÀ¼Óï(ºÉÀ¼) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Å²ÍşÓï¡¢²©¿ËÂí¶ûÓï(Å²Íş) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NOR)
+LANGUAGE LANG_NORWEGIAN, SUBLANG_NORWEGIAN_BOKMAL
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Instant Reset"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "NO.chm"
+    IDS_GOHOME_DLG          "\nSystemet har allerede blitt tilbakestilt til tilstanden det var i første gang du aktiverte Instant Reset. Klikk p?""Motta filer"", brukernes filer p?den originale systemdisken (c:\\) vises i vinduet til den forespurte ressursbehandlingen. Det forventes at du straks kopierer filene til en annen diskbane! Hvis du har fullført sikkerhetskopieringen, klikker du p?""Fjern filer"" for ?bruke diskplassen din mer effektivt."
+    IDS_GOHOME_DLG_FILDFILE_BTN "      Motta filer "
+    IDS_GOHOME_DLG_CLEARFILE_BTN "      Fjern filer "
+    IDS_GOHOME_DLG_CHECK_BTN "Ikke vis dette neste gang."
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "\nHar du allerede mottatt filene? \nKlikking p?""OK""-knappen vil tømme ""Motta filer"", inkludert Mine dokumenter, Skrivebord, Programfiler, Brukeropprettede mapper, osv. \nSørg for at du ikke har behov for dem før du fortsetter."
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG "\n\nFilbanen du søker etter finnes ikke."
+    IDS_GOHOMEERROR_DLG     "\n\nBeklager! Instant Reset mislyktes. Start operativsystemet p?nytt for ?rette opp dette eller avinstaller denne programvaren fra Start-menyen."
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "Avslutt "
+    IDS_OBE_DLG             "\n\nTakk for at du bruker Lenovo Instant Reset-systemprogramvare. Denne kan raskt tilbakestille systemet ditt til den tilstanden det var i første gang programvaren ble aktivert. \nTips: Når du starter denne programvaren, deaktiveres systemgjenopprettingsfunksjonen til Windows automatisk."
+    IDS_GOHOMEFAILED_DLG    "\n\nBeklager! Instant Reset mislyktes. Start operativsystemet p?nytt for ?rette opp dette eller avinstaller denne programvaren fra Start-menyen."
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "Reparer"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "Avslutt"
+    IDS_IMPORTREG_DLG       "\n\nVent et øyeblikk.Instant Reset oppdaterer."
+    IDS_ISGOHOME_DLG        "\n\nInstant Reset vil tilbakestille systempartisjonsinnstillingene dine til standardtilstand første gang du aktiverte Instant Reset. Sikkerhetskopier dine viktige data. \nVil du fortsette?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "Fortsett"
+    IDS_ISGOHOME_DLG_QUIT_BTN "Avslutt"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nSystempartisjonene tilbakestilles til tilstandene de var i første gang du aktiverte Instant Reset. Systemet vil starte p?nytt hvis du fortsetter. Sikkerhetskopier alle dine viktige data."
+    IDS_REPAIROK_MSGDLG     "\nSystemreparasjon vellykket."
+    IDS_REPAIRFAILED_MSGDLG "\nSystemreparasjon ikke vellykket.Avinstaller dette programmet."
+    IDS_UNINSTALL_DLG       "\n\nPåminnelse: Vil du avinstallere dette programmet? Systemet blir tvunget til ?nullstille til tilstanden det var i første gang programvaren ble brukt. Personlig data vil g?tapt. Sikkerhetskopier personlig data fra systemet."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\nKlikking p?""OK"" vil starte operativsystemet p?nytt og tilbakestille det til tilstanden det var i første gang Instant Reset ble brukt. Brukers filer vil g?tapt. Sikkerhetskopier viktig data p?systemdisken."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "Fortsett"
+    IDS_UNINSTALL_DLG_QUIT_BTN "Avslutt"
+    IDS_MESSAGEBOXEX_OK     "OK"
+    IDS_MESSAGEBOXEX_CANCEL "Avbryt"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\n\nDette programmet har tapt viktige filer. Installer denne programvaren p?nytt for ?garantere feilfri bruk av programmet."
+    IDS_REBOOTSYS_DLG       "Systemet vil umiddelbart sl?seg av. Lagre alle ulagrede filer."
+    IDS_REBOOTSYS_DLG_BTN   "Start p?nytt n?"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Vil sl?av etter: %02d sekunder"
+    IDS_OBE_DLG_ENABLE_BTN  "     Aktiver n?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN "Avslutt "
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nLenovo Instant Reset-systemprogramvare har blitt aktivert. Windows Systemgjenoppretting-funksjonen er deaktivert."
+    IDS_MENU_HELP           "Hjelp.lnk"
+    IDS_MENU_UNINSTALL      "Avinstaller.lnk"
+    IDS_MENU_FINDFILE       "Motta filer.lnk"
+    IDS_MENU_INITINSTANT    "Initialiser Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\nVil du avinstallere denne programvaren?"
+    IDS_UNINSATLL_END       "\n\nAvinstallasjon fullført."
+    IDS_INSTALL_SUCCESS     "\n\nInstallasjon fullført."
+    IDS_OBE_DLG_PAGE2       "Klikk p?""Aktiver n?"" for ?starte operativsystemet p?nytt for ?aktivere denne programvaren. \nDu kan ogs?klikke p?""Avslutt"" og starte denne programvaren senere.\nFør du bruker denne programvaren, m?du nøye lese kapittel 4 i brukerhåndboken."
+    IDS_START_NC_NO_FREE_SPACE "\n\n Utilstrekkelig ledig diskplass."
+    IDS_START_NC_NO_RIGHTS  "\n Du m?kjøre denne programvaren som en administratorbruker."
+END
+
+#endif    // Å²ÍşÓï¡¢²©¿ËÂí¶ûÓï(Å²Íş) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ÆÏÌÑÑÀÓï(°ÍÎ÷) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PTB)
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Instant Reset"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "PT-BR.chm"
+    IDS_GOHOME_DLG          "\nO sistema j?foi restaurado ao estado da primeira vez que voc?habilitou o Instant Reset. Clique em ""Recuperar Arquivos""; os arquivos dos usuários no disco de sistema (c:\\) serão exibidos no gerenciador de recursos. Copie os arquivos para outro caminho de disco! Caso tenha concluído o backup, clique em ""Limpar Arquivos"" para otimização de seu disco!"
+    IDS_GOHOME_DLG_FILDFILE_BTN "Recuperar arquivos"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "   Excluir arquivos"
+    IDS_GOHOME_DLG_CHECK_BTN "Não mostrar novamentee"
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "Voc?j?recuperou os arquivos? \nClicar no botão ""OK"" ir?esvaziar a pasta ""Recuperar Arquivos"".  Isso pode incluir Meus documentos, Área de trabalho, Arquivos de programa, Pastas do Usuário, etc. \nCertifique-se de que voc?não precisa deles antes de prosseguir!"
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG 
+                            "\n\nO local que voc?est?procurando não existe."
+    IDS_GOHOMEERROR_DLG     "\n\nDesculpe! Falha na operação do Instant Reset. Favor reiniciar o sistema operacional para corrigi-lo ou desinstalar o software no menu Iniciar. "
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "Sair"
+    IDS_OBE_DLG             "\n\nObrigado por usar o programa de sistema Instant Reset da Lenovo. Com ele, voc?poder?restaurar seu sistema ao estado em que estava quando este software foi inicialmente ativado. \nDica: Ao iniciar este software, a função de restauração do sistema do Windows ser?automaticamente desabilitada."
+    IDS_GOHOMEFAILED_DLG    "\n\nDesculpe! Falha na operação do Instant Reset. Favor reiniciar o sistema operacional para corrigi-lo ou desinstalar o software no menu Iniciar. "
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "Reparar"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "Sair"
+    IDS_IMPORTREG_DLG       "\n\nEspere um momento. O Instant Reset est?atualizando os dados."
+    IDS_ISGOHOME_DLG        "\n\nO Instant Reset ir?restaurar as configurações da partição do sistema para o estado original da primeira vez em que o Instant Reset foi usado. Faça o backup de informações importantes. \nDeseja continuar?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "  Continuar"
+    IDS_ISGOHOME_DLG_QUIT_BTN "Sair"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nAs partições do sistema serão restauradas para o estado original em que estava quando o InstantReset foi usado pela primeira vez. O sistema ser?reiniciado para continuar. Certifique-se de que tenha feito o backup de todas as informações importantes."
+    IDS_REPAIROK_MSGDLG     "\nReparo do programa bem-sucedido."
+    IDS_REPAIRFAILED_MSGDLG "\nReparo do programa malsucedido. Desinstale o programa."
+    IDS_UNINSTALL_DLG       "\n\nLembrete: Deseja desinstalar o programa? O computador ser?restaurado compulsoriamente para o status da primeira vez em que esse programa foi usado. Os dados de usuário serão perdidos. Faça o backup de dados de usuário do sistema."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\nAo clicar em ""OK"", o sistema operacional ser?restaurado para o estado em que estava na primeira vez em que o Instant Reset foi usado. Os dados do usuário serão perdidos. Faça o backup de dados importantes armazenados em seu computador."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "  Continuar"
+    IDS_UNINSTALL_DLG_QUIT_BTN "Sair"
+    IDS_MESSAGEBOXEX_OK     "OK"
+    IDS_MESSAGEBOXEX_CANCEL "Cancelar"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\n\nNão foram encontrados alguns arquivos importantes deste programa. Reinstale esse software para garantir que ele funcione corretamente."
+    IDS_REBOOTSYS_DLG       "O sistema ser?desligado imediatamente. Salve todos os arquivos não salvos."
+    IDS_REBOOTSYS_DLG_BTN   "Reiniciar agora"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Desligamento após: %02d segundos"
+    IDS_OBE_DLG_ENABLE_BTN  "     Ativar agora"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN "Sair"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nO programa de sistema Instant Reset da Lenovo foi ativado. A função Restaurar sistema do Windows est?desativada."
+    IDS_MENU_HELP           "Arquivo de ajuda.lnk"
+    IDS_MENU_UNINSTALL      "Desinstalar.lnk"
+    IDS_MENU_FINDFILE       "Recuperar arquivos.lnk"
+    IDS_MENU_INITINSTANT    "Inicializar Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\nDeseja desinstalar seu programa?"
+    IDS_UNINSATLL_END       "\n\nDesinstalação completa."
+    IDS_INSTALL_SUCCESS     "\n\nInstalação concluída com sucesso."
+    IDS_OBE_DLG_PAGE2       "Clique em ""Ativar agora"" para reiniciar o sistema operacional para habilitar este programa. \n Voc?também pode clicar em ""Sair"" e iniciar este programa mais tarde. \n Antes de usar este programa, leia com atenção o capítulo 4 deste manual."
+    IDS_START_NC_NO_FREE_SPACE "\n\n  Espaço insuficiente em disco."
+    IDS_START_NC_NO_RIGHTS  "\nVoc?dever?rodar este programa como usuário administrador."
+END
+
+#endif    // ÆÏÌÑÑÀÓï(°ÍÎ÷) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ÈğµäÓï(Èğµä) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_SVE)
+LANGUAGE LANG_SWEDISH, SUBLANG_SWEDISH
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Instant Reset"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "SV.chm"
+    IDS_GOHOME_DLG          "\nSystemet har redan återställts till det läge det hade den första gången du aktiverade Instant Reset. Klicka p?""Hämta filer"" s?visas användarnas filer p?den ursprungliga systemdisken (c:\\) i det resurshanterarfönster som visas. Du förväntas kopiera filerna genast till en annan katalog! Om du har slutfört säkerhetskopieringen klickar du p?""Rensa filer"" för att använda diskutrymmet mer effektivt!"
+    IDS_GOHOME_DLG_FILDFILE_BTN "     Hämta filer"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "     Rensa filer"
+    IDS_GOHOME_DLG_CHECK_BTN "Visa inte detta nästa gång."
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "\nHar du redan hämtat filerna? \nOm du klickar p?""OK"" rensas ""Hämta filer"", inklusive Mina dokument, Skrivbordet, programfiler, mappar du skapat osv. \nKontrollera att du inte behöver dem innan du fortsätter."
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG "\n\nDen sökväg du söker efter finns inte. "
+    IDS_GOHOMEERROR_DLG     "\n\nInstant Reset kunde tyvärr inte slutföra åtgärden! Starta om operativsystemet för att korrigera det eller avinstallera det här programmet från Start-menyn. "
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "Avsluta"
+    IDS_OBE_DLG             "\n\nTack för att du använder systemprogramvaran Lenovo Instant Reset. Med det här programmet kan du snabbt återställa systemet till det läget det var i när programvaran aktiverades. \nTips: när du startar programmet avaktiveras systemåterställningsfunktionen i Windows. "
+    IDS_GOHOMEFAILED_DLG    "\n\nInstant Reset kunde tyvärr inte slutföra åtgärden! Starta om operativsystemet för att korrigera det eller avinstallera det här programmet från Start-menyn. "
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "Reparera"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "Avsluta"
+    IDS_IMPORTREG_DLG       "\n\nVänta en stund. Instant Reset uppdaterar. "
+    IDS_ISGOHOME_DLG        "\n\nInstant Reset återställer dina systempartitionsinställningar till det läge de var i den första gången du aktiverade Instant Reset. Säkerhetskopiera viktig information. \nVill du fortsätta?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN " Fortsätt"
+    IDS_ISGOHOME_DLG_QUIT_BTN " Avsluta"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nDina systempartitioner återställs till det läge de var i den första gången du aktiverade InstantReset. Om du fortsätter startas datorn om. Kontrollera att du har säkerhetskopierat all viktig information."
+    IDS_REPAIROK_MSGDLG     "\nProgramreparationen lyckades. "
+    IDS_REPAIRFAILED_MSGDLG "\nProgramreparationen misslyckades. Avinstallera programmet. "
+    IDS_UNINSTALL_DLG       "\n\nObs! Vill du avinstallera programmet= Datorn återställs till det läge den hade den första gången programmet användes. Användardata går förlorade. Säkerhetskopiera användardata."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\nOm du klickar p?""OK"" startas datorn om och återställs till det läge den var i den första gången Instant Reset användes. Användardata går förlorade. Säkerhetskopiera viktiga data från systemdisken."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN " Fortsätt"
+    IDS_UNINSTALL_DLG_QUIT_BTN " Avsluta"
+    IDS_MESSAGEBOXEX_OK     "OK"
+    IDS_MESSAGEBOXEX_CANCEL "Avbryt"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\n\nProgrammet saknar viktiga filer. Installera om programmet för att garantera att det fungerar som det ska. "
+    IDS_REBOOTSYS_DLG       "Systemet stängs av. Spara alla filer. "
+    IDS_REBOOTSYS_DLG_BTN   "Starta om nu"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Stänger av efter: %02d sekunder"
+    IDS_OBE_DLG_ENABLE_BTN  "      Aktivera nu"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN "Avsluta"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nLenovo Instant Reset har aktiverats. Windows systemåterställningsfunktion har avaktiverats."
+    IDS_MENU_HELP           "Hjälp.lnk"
+    IDS_MENU_UNINSTALL      "Avinstallera.lnk"
+    IDS_MENU_FINDFILE       "Hämta filer.lnk"
+    IDS_MENU_INITINSTANT    "Initiera Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\nVill du avinstallera det här programmet?"
+    IDS_UNINSATLL_END       "\n\nAvinstallationen är klar."
+    IDS_INSTALL_SUCCESS     "\n\nInstallationen lyckades."
+    IDS_OBE_DLG_PAGE2       "Klicka p?""Aktivera nu"" för att starta om operativsystemet s?att programvaran aktiveras. \n Du kan ocks?klicka p?""Avsluta"" och starta programmet senare. \nInnan du använder det här programmet måste du läsa kapitel 4 i handboken noga. "
+    IDS_START_NC_NO_FREE_SPACE "\n\n  Otillräckligt diskutrymme."
+    IDS_START_NC_NO_RIGHTS  "\n Du måste köra det här programmet som administratör."
+END
+
+#endif    // ÈğµäÓï(Èğµä) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ÆÏÌÑÑÀÓï(ÆÏÌÑÑÀ) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PTG)
+LANGUAGE LANG_PORTUGUESE, SUBLANG_PORTUGUESE
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,6
+ PRODUCTVERSION 1,1,0,6
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404e4"
+        BEGIN
+            VALUE "CompanyName", "Lenovo (Beijing) Limited"
+            VALUE "FileDescription", "Lenovo Instant Reset"
+            VALUE "FileVersion", "1.1.0.6"
+            VALUE "InternalName", " "
+            VALUE "LegalCopyright", "Lenovo (Beijing) Limited?All Rights Reserved?"
+            VALUE "OriginalFilename", "Interface.exe"
+            VALUE "ProductName", "Lenovo Instant Reset"
+            VALUE "ProductVersion", "1.1.0.6"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About NcInterface..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "PT.chm"
+    IDS_GOHOME_DLG          "O sistema j?foi reposto para o estado em que se encontrava quando activou o Instant Reset pela primeira vez. Clique em ""Recup. ficheiros"" e os ficheiros dos utilizadores existentes no disco de sistema original (c:\\) serão apresentados na janela do gestor de recursos apresentada. Espera-se que copie imediatamente os ficheiros para outro caminho de disco! Se tiver concluído a cópia de segurança, clique em ""Limpar ficheiros"" para utilizar o espaço em disco de forma mais eficiente!"
+    IDS_GOHOME_DLG_FILDFILE_BTN "   Recup ficheiros"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "  Limpar ficheiros"
+    IDS_GOHOME_DLG_CHECK_BTN "Não apresentar esta mensagem da próxima vez."
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "J?recuperou os seus ficheiros? \nAo clicar em ""OK"", ir?esvaziar os documentos existentes na opção ""Recup ficheiros"", incluindo Os meus documentos, Ambiente de Trabalho, ficheiros de programas, pastas criadas pelos utilizadores, etc. \nVerifique se estes ficheiros não são realmente necessários antes de prosseguir!"
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG 
+                            "\n\nO caminho de ficheiro que est?a procurar não existe. "
+    IDS_GOHOMEERROR_DLG     "\n\nLamentamos! O Instant Reset não conseguiu concluir esta operação. Reinicie o sistema operativo para corrigir este problema ou desinstale este software no menu Iniciar."
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "Sair"
+    IDS_OBE_DLG             "\nObrigado por utilizar o software de sistema Instant Reset da Lenovo. Este pode repor rapidamente o seu sistema para o estado em que se encontrava quando este software foi activado pela primeira vez. \nSugestão: Quando iniciar este software, a função de restauro do sistema do Windows ser?automaticamente desactivada. "
+    IDS_GOHOMEFAILED_DLG    "\n\nLamentamos! O Instant Reset não conseguiu concluir esta operação. Reinicie o sistema operativo para corrigir este problema ou desinstale este software no menu Iniciar."
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "    Reparar"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "  Sair"
+    IDS_IMPORTREG_DLG       "\n\nAguarde um momento. O Instant Reset est?a actualizar. "
+    IDS_ISGOHOME_DLG        "\n\nO Instant Reset ir?repor as definições da sua partição de sistema para o estado inicial em que se encontravam quando activou o Instant Reset. Efectue uma cópia de segurança dos seus dados importantes. \nPretende continuar? "
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "     Continuar"
+    IDS_ISGOHOME_DLG_QUIT_BTN "Sair"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nAs suas partições de sistema serão repostas para o estado inicial em que se encontravam quando activou pela primeira vez o Instant Reset. O sistema ser?reiniciado se prosseguir. Efectue uma cópia de segurança dos seus dados importantes."
+    IDS_REPAIROK_MSGDLG     "\n Reparação do software efectuada com sucesso. "
+    IDS_REPAIRFAILED_MSGDLG "\n Reparação do software sem êxito. Desinstale este programa. "
+    IDS_UNINSTALL_DLG       "\nSugestão: Pretende desinstalar este programa? O computador ser?forçado a restaurar para o estado em que se encontrava da primeira vez que este software foi utilizado. Os dados dos utilizadores serão perdidos. Efectue uma cópia de segurança dos dados dos utilizadores do computador."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "Ao clicar em ""OK"", ir?reiniciar o sistema operativo e restaur?lo para o estado em que se encontrava quando o Instant Reset foi utilizado pela primeira vez. Os ficheiros dos utilizadores serão perdidos. Efectue uma cópia de segurança dos dados importantes armazenados no disco do sistema."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "     Continuar "
+    IDS_UNINSTALL_DLG_QUIT_BTN "Sair"
+    IDS_MESSAGEBOXEX_OK     "  Ok"
+    IDS_MESSAGEBOXEX_CANCEL "  Cancelar"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\nH?ficheiros importantes em falta neste programa. Volte a instalar este programa para assegurar que este ?correctamente executado."
+    IDS_REBOOTSYS_DLG       "O sistema desligar-se-?imediatamente. Guarde todos os ficheiros não guardados. "
+    IDS_REBOOTSYS_DLG_BTN   "Reiniciar agora"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Encerrar após: %02d segundos"
+    IDS_OBE_DLG_ENABLE_BTN  "     Activar agora"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN "Sair"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nO software de sistema Instant Reset da Lenovo foi activado. A função Restauro do Sistema do Windows est?desactivada."
+    IDS_MENU_HELP           "Ajuda.lnk"
+    IDS_MENU_UNINSTALL      "Desinstalar.lnk"
+    IDS_MENU_FINDFILE       "Recup ficheiros.lnk"
+    IDS_MENU_INITINSTANT    "Inicializar o Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\n   Pretende desinstalar este software?"
+    IDS_UNINSATLL_END       "\n\n     Desinstalação concluída."
+    IDS_INSTALL_SUCCESS     "\n\n     Instalação concluída com sucesso."
+    IDS_OBE_DLG_PAGE2       "Clique em ""Activar agora"" para reiniciar o sistema operativo para activar este software. \nTambém pode clicar em ""Sair"" e iniciar este software mais tarde.\nAntes de utilizar este software, leia atentamente o capítulo 4 do Guia do Utilizador."
+    IDS_START_NC_NO_FREE_SPACE "\n\n Espaço insuficiente em disco."
+    IDS_START_NC_NO_RIGHTS  "\n Tem de executar este software como administrador."
+END
+
+#endif    // ÆÏÌÑÑÀÓï(ÆÏÌÑÑÀ) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Î÷°àÑÀÓï(Î÷°àÑÀ£¬¹ú¼Ê·ç¸ñ) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Instant Reset"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "ES.chm"
+    IDS_GOHOME_DLG          "\nEl sistema ya se restaur?al estado en el que estaba la primera vez que activ?Instant Reset. Haga clic en ""Recuperar arch."", los archivos del usuario en el disco del sistema original (c:\\) aparecerán en la ventana del administrador de recursos solicitado. Debe copiar rápidamente los archivos a otra ruta de disco. Si complet?la copia de seguridad, haga clic en ""Borrar archivos"" para usar el espacio en disco de manera más eficiente."
+    IDS_GOHOME_DLG_FILDFILE_BTN "    Recuperar arch."
+    IDS_GOHOME_DLG_CLEARFILE_BTN "    Borrar archivos"
+    IDS_GOHOME_DLG_CHECK_BTN "No mostrar la próxima vez."
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "¿Ya obtuvo sus archivos? \nAl hacer clic en el botón ""Aceptar"" se limpiarán ""Recuperar arch."", incluidos Mis documentos, Escritorio, Archivos de programa, carpetas creadas por el usuario, etc. \nAsegúrese de que no necesita estos archivos antes de proceder."
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG "\n\nLa ubicación que busca no existe."
+    IDS_GOHOMEERROR_DLG     "\n\nLo sentimos. Instant Reset no pudo completar la operación. Reinicie el sistema operativo para solucionar el problema o desinstale el software en el men?de Inicio."
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "Salir"
+    IDS_OBE_DLG             "\n\nGracias por utilizar el software del sistema Lenovo Instant Reset. Este software resraura su sistema al estado en el que estaba cuando lo instal? por primera vez. \nNota: Cuando inicie el software, la función de Windows para restaurar sistema se desactivar?automáticamente."
+    IDS_GOHOMEFAILED_DLG    "\n\nLo sentimos. Instant Reset no pudo completar la operación. Reinicie el sistema operativo para solucionar el problema o desinstale el software en el men?de Inicio."
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "Reparar"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "Salir"
+    IDS_IMPORTREG_DLG       "\n\nAguarde un momento. Instant Reset est?actualizándose."
+    IDS_ISGOHOME_DLG        "\n\nInstant Reset restaurar?sus configuraciones de partición del sistema al estado en el que se encontraba la primera vez que utiliz?el sistema. Haga copias de seguridad de la información importante.\n¿Desea continuar?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "    Continuar"
+    IDS_ISGOHOME_DLG_QUIT_BTN "Salir"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nLas particiones de su sistema serán restauradas al estado en que se encontraban la primera vez que utiliz?Instant Reset. El sistema se reiniciar?si continúa. Haga copias de seguridad de toda la información importante."
+    IDS_REPAIROK_MSGDLG     "\nReparación de software satisfactoria."
+    IDS_REPAIRFAILED_MSGDLG "\nError en la reparación de software. Desinstale este programa."
+    IDS_UNINSTALL_DLG       "\n\nNota: ¿Desea desinstalar este programa? La computadora ser?restaurada de manera forzosa al estado en que se encontraba la primera vez que se utiliz?este software. Se perderán los datos de los usuarios. Realice copias de seguridad de los datos de los usuarios de su computadora."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "Si hace clic en ""Aceptar"", se reiniciar?su sistema operativo y lo restaurar?al estado en que se encontraba la primera vez que se utiliz?Instant Reset. Se perderán los archivos del usuario. Haga copias de seguridad de los datos importantes guardados en el disco del sistema."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "    Continuar"
+    IDS_UNINSTALL_DLG_QUIT_BTN "Salir"
+    IDS_MESSAGEBOXEX_OK     "   Aceptar"
+    IDS_MESSAGEBOXEX_CANCEL "   Cancelar"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\n\nFaltan archivos importantes de este programa. Reinstale este programa para asegurarse de que funcione correctamente."
+    IDS_REBOOTSYS_DLG       "El sistema se apagar?inmediatamente. Guarde todos los archivos sin guardar."
+    IDS_REBOOTSYS_DLG_BTN   "Reiniciar ahora"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Se cerrar?luego de %02d segundos"
+    IDS_OBE_DLG_ENABLE_BTN  "     Activar ahora"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN "Salir"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nSe ha activado el software del sistema Lenovo Instant Reset. Se ha desactivado la función Restaurar sistema de Windows."
+    IDS_MENU_HELP           "Archivo de Ayuda.lnk"
+    IDS_MENU_UNINSTALL      "Desinstalar.lnk"
+    IDS_MENU_FINDFILE       "Recuperar arch..lnk"
+    IDS_MENU_INITINSTANT    "Inicializar Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\n¿Desea disinatalar este software?"
+    IDS_UNINSATLL_END       "\n\nDesinstalación completa."
+    IDS_INSTALL_SUCCESS     "\n\nLa instalación se ha completado con éxito."
+    IDS_OBE_DLG_PAGE2       "Haga clic en ""Activar ahora"" para reiniciar el sistema operativo y habilitar el software. \nTambién puede hacer clic en ""Salir"" e iniciar el software más tarde. \nAntes de usarlo, lea con atención el capítulo 4 del manual del usuario."
+    IDS_START_NC_NO_FREE_SPACE "\n\n Espacio en disco insuficiente."
+    IDS_START_NC_NO_RIGHTS  "\n Debe ejecutar el software como usuario administrador."
+END
+
+#endif    // Î÷°àÑÀÓï(Î÷°àÑÀ£¬¹ú¼Ê·ç¸ñ) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Ï£À°Óï(Ï£À°) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ELL)
+LANGUAGE LANG_GREEK, SUBLANG_DEFAULT
+#pragma code_page(1253)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Instant Reset"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "EL.chm"
+    IDS_GOHOME_DLG          "Ôï óıóôçì?İ÷åé Şä?åğáíİëèå?óôçí êáôÜóôáó?üğïõ âñéóêüôá?êáôÜ ôç?ğñşô?åíåñãïğïßçóç ôï?Instant Reset. Åğéëİîôå ""ÁíÜêôçóç áñ÷åßù?"", ãé?íá åìöáíéóôïı?ôá áñ÷åßá ÷ñçóôş?ôï?áñ÷éêï?äßóêïõ (c:\\) óô?åìöáíéæüìåíï ğáñÜèõñï äéá÷åßñéóç?ğüñù? Ğñİğåé íá áíôéãñÜøåô?Üìåó?ôá áñ÷åßá óå ìé?Üëëç äéáäñïìŞ äßóêïõ! Áí İ÷åô?ïëïêëçñşóå?ôç äçìéïõñãßá áíôéãñÜöùí áóöáëåßá? åğéëİîôå  ""ÁğáëïéöŞ áñ÷åßù?"" ãé?áğïôåëåóìáôéêüôåñç ÷ñŞó?ôï?÷şñï?ôï?äßóêïõ óá?"
+    IDS_GOHOME_DLG_FILDFILE_BTN "ÁíÜêôçóç áñ÷åßù?"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "ÁğáëïéöŞ áñ÷åßù?"
+    IDS_GOHOME_DLG_CHECK_BTN "Íá ìç?åìöáíéóôåß ôç?åğüìåí?öïñÜ."
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "ÁíáêôŞóáôå ôá áñ÷åßá; \nÁí åğéëİîåô?""OK"", èá áğáëåéöèïı?ôá ğåñéå÷üìåí?ôç?åíôïëŞ?""ÁíÜêôçóç áñ÷åßù?"", üğùò Ôá İããñáö?ìï? ?ÅğéöÜíåé?åñãáóßáò, ôá Áñ÷åßá åöáñìïãş? ôïõò öáêİëïõò ÷ñŞóôç êë? \nÅëİãîô?üô?äå?÷ñåéÜæåóôå áõôÜ ôá áñ÷åßá ğñéí óõíå÷ßóåôå."
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG "\n\n?äéáäñïìŞ ğï?áíáæçôÜô?äå?õğÜñ÷å? "
+    IDS_GOHOMEERROR_DLG     "\n\nËõğïıìáóôå! ?ëåéôïõñãßá ôï?Instant Reset áğİôõ÷? ÅğáíåêêéíŞóô?ôï ëåéôïõñãéê?óıóôçì? ãé?íá äéïñèşóåôå ?íá áğåãêáôáóôŞóåô?áõôü ôï ëïãéóìéê?áğ?ôï ìåíï?¸íáñîç?"
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "   ¸îïäïò "
+    IDS_OBE_DLG             "\nÅõ÷áñéóôïıìå ãé?ôç ÷ñŞó?ôï? ëïãéóìéêïı óõóôŞìáôïò Lenovo Instant Reset. Ìğïñåß íá åğáíáöİñåé ãñŞãïñ?ôï óıóôçì?óá?óôçí êáôÜóôáó?ğï?âñéóêüôá?êáôÜ ôç?ğñşô?åíåñãïğïßçóç áõôï?ôï?ëïãéóìéêïı. \nÓçìåßùóç: ¼ôáí îåêéíŞóåôå áõôü ôï ëïãéóìéê? ?Åğáíáöïñ?óõóôŞìáôïò ôù?Windows èá áğåíåñãïğïéçèå?áõôüìáôá. "
+    IDS_GOHOMEFAILED_DLG    "\n\nËõğïıìáóôå! ?ëåéôïõñãßá ôï?Instant Reset áğİôõ÷? ÅğáíåêêéíŞóô?ôï ëåéôïõñãéê?óıóôçì? ãé?íá äéïñèşóåôå ?íá áğåãêáôáóôŞóåô?áõôü ôï ëïãéóìéê?áğ?ôï ìåíï?¸íáñîç? "
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "Åğéäéüñèùó?"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "   ¸îïäïò "
+    IDS_IMPORTREG_DLG       "\n\nĞåñéìİíåôå ëßãï. Ôï Instant Reset ğñáãìáôïğïéå?áíáíİùóç. "
+    IDS_ISGOHOME_DLG        "\n\nÔï Instant Reset èá åğáíáöİñåé ôé?ñõèìßóåé?äéáìåñßóìáôï?óõóôŞìáôïò óôçí áñ÷éêŞ êáôÜóôáó?üğïõ âñßóêïíôáí êáôÜ ôç?åíåñãïğïßçóç ôï?Instant Reset. ÄçìéïõñãŞóôå áíôßãñáö?áóöáëåßá?ôù?óçìáíôéêşí äåäïìİíù? \nÈİëåôå íá óõíå÷ßóåôå;"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "     Óõíİ÷åéá "
+    IDS_ISGOHOME_DLG_QUIT_BTN "   ¸îïäïò "
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "Èá ãßíå?åğáíáöïñ?ôù?äéáìåñéóìÜôù?óõóôŞìáôïò óôçí êáôÜóôáó?üğïõ âñßóêïíôáí êáôÜ ôç?ğñşô?åíåñãïğïßçóç ôï?Instant Reset. Èá ãßíå?åğáíåêêßíçóç ôï?óõóôŞìáôïò áí óõíå÷ßóåôå. Âåâáéùèåßô?üô?İ÷åô?äçìéïõñãŞóåé áíôßãñáö?üëùí ôù?óçìáíôéêşí äåäïìİíù?"
+    IDS_REPAIROK_MSGDLG     "\n?åğéäéüñèùó?ôï?ëïãéóìéêïı ïëïêëçñşèçêå ìå åğéôõ÷ßá. "
+    IDS_REPAIRFAILED_MSGDLG "\n?åğéäéüñèùó?ôï?ëïãéóìéêïı áğİôõ÷? ÁğåãêáôáóôŞóôå áõôü ôï ğñüãñáìì? "
+    IDS_UNINSTALL_DLG       "\n\nÓçìåßùóç: Èİëåôå íá áğåãêáôáóôŞóåô?ôï ğñüãñáìì? Èá ãßíå?õğï÷ñåùôéê?åğáíáöïñ?ôï?óõóôŞìáôïò óôçí êáôÜóôáó?üğïõ âñéóêüôá?êáôÜ ôç?ğñşô?÷ñŞó?ôï?ëïãéóìéêïı. Ôá äåäïìİíá ÷ñŞóôç èá ÷áèïıí. ÄçìéïõñãŞóôå áíôßãñáö?ôù?äåäïìİíù?÷ñŞóôç áğ?ôï?õğïëïãéóôŞ óá?"
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "Áí åğéëİîåô?""OK"" èá ãßíå?åğáíåêêßíçóç ôï?óõóôŞìáôïò êá?åğáíáöïñ?óôçí êáôÜóôáó?üğïõ âñéóêüôá?êáôÜ ôç?ğñşô?÷ñŞó?ôï?Instant Reset. Ôá áñ÷åßá ÷ñçóôş?èá ÷áèïıí. ÄçìéïõñãŞóôå áíôßãñáö?ôù?óçìáíôéêşí äåäïìİíù?ğï?åßíá?áğïèçêåõìİíá óô?äßóê?óõóôŞìáôïò."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "     Óõíİ÷åéá "
+    IDS_UNINSTALL_DLG_QUIT_BTN "   ¸îïäïò "
+    IDS_MESSAGEBOXEX_OK     "OK"
+    IDS_MESSAGEBOXEX_CANCEL "    ¢êõñ?"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\n\nÁğ?áõôü ôï ğñüãñáìì?ëåßğïõ?óçìáíôéê?áñ÷åßá. ÅğáíåãêáôáóôŞóôå áõôü ôï ğñüãñáìì?ãé?íá äéáóöáëéóôåß ?ïìáë?ëåéôïõñãßá ôï? "
+    IDS_REBOOTSYS_DLG       "Ôï óıóôçì?èá áğåíåñãïğïéçèå?áìİóùò. Áğïèçêåıóô?üë?ôá ìç áğïèçêåõìİíá áñ÷åßá. "
+    IDS_REBOOTSYS_DLG_BTN   "Åğáíåêêßíçóç ôşñá "
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Ôåñìáôéóìü?ìåôÜ áğ? %02d äåõôåñüëåğôá"
+    IDS_OBE_DLG_ENABLE_BTN  "   Åíåñãï? ôşñá "
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN "    ¸îïäïò "
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nÔï ëïãéóìéê?óõóôŞìáôïò Lenovo Instant Reset İ÷åé åíåñãïğïéçèå? ?Åğáíáöïñ?óõóôŞìáôïò ôù?Windows İ÷åé áğåíåñãïğïéçèå?"
+    IDS_MENU_HELP           "ÂïŞèåé?lnk"
+    IDS_MENU_UNINSTALL      "ÁğåãêáôÜóôáó?lnk"
+    IDS_MENU_FINDFILE       "ÁíÜêôçóç áñ÷åßù?lnk"
+    IDS_MENU_INITINSTANT    "Ğñïåôïéìáóßá ôï?Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\nÈİëåôå íá áğåãêáôáóôŞóåô?áõôü ôï ëïãéóìéê?"
+    IDS_UNINSATLL_END       "\n\n?áğåãêáôÜóôáó?ïëïêëçñşèçêå."
+    IDS_INSTALL_SUCCESS     "\n\n?åãêáôÜóôáó?ïëïêëçñşèçêå ìå åğéôõ÷ßá."
+    IDS_OBE_DLG_PAGE2       "Åğéëİîôå ""Åíåñãü? ôşñá"" ãé?íá åğáíåêêéíŞóåôå ôï óıóôçì?êá?íá åíåñãïğïéŞóåôå ôï ëïãéóìéê? \n Ìğïñåßôå åğßóçò íá åğéëİîåô?""¸îïäïò"" êá?íá îåêéíŞóåôå ôï ëïãéóìéê?áñãüôåñá. \nĞñéí ôç ÷ñŞó?ôï?ëïãéóìéêïı äéáâÜóôå ğñïóåêôéêÜ ôï êåöÜëáéï 4 ôï?Ïäçãïı ÷ñŞóçò. "
+    IDS_START_NC_NO_FREE_SPACE "\n\n  ÁíåğáñêŞ?÷şñï?óô?äßóê?"
+    IDS_START_NC_NO_RIGHTS  "\n Ğñİğåé íá åêôåëİóåôå áõôü ôï ëïãéóìéê?ùò äéá÷åéñéóôŞò. "
+END
+
+#endif    // Ï£À°Óï(Ï£À°) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// ÍÁ¶úÆäÓï(ÍÁ¶úÆä) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_TRK)
+LANGUAGE LANG_TURKISH, SUBLANG_DEFAULT
+#pragma code_page(1254)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Instant Reset"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "TR.chm"
+    IDS_GOHOME_DLG          "\nSistem zaten Instant Reset'i ilk etkinleştirdiğiniz duruma sıfırlanmış durumda. ""Dosyalar?Al"" düğmesini tıklayın; orijinal sistem diskindeki (c:\\) kullanıc?dosyalar?açılan kaynak yöneticisinde görüntülenir. Dosyalar?belirtilen süre içerisinde başka bir disk yoluna kopyalamanız gerekir! Yedekleme işlemini tamamladıktan sonra, disk alanın?daha verimli şekilde kullanabilmek için ""Dosyalar?Temizle"" düğmesini tıklayın."
+    IDS_GOHOME_DLG_FILDFILE_BTN "      Dosyalar?Al"
+    IDS_GOHOME_DLG_CLEARFILE_BTN " Dosyalar?Temizle"
+    IDS_GOHOME_DLG_CHECK_BTN "Bunu bir daha gösterme."
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "Dosyalarınız?aldınız m? \n""Tamam"" düğmesine tıklandığında Belgelerim, Masaüst? Program Dosyalar? Kullanıc?Tarafından Oluşturulan Klasörler vb. de dahil olmak üzere ""Dosyalar?Al"" klasör?boşaltılır. \nDevam etmeden önce bu dosyalara ihtiyacınız olmadığından emin olun."
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG "\n\nAradığınız konum bulunmuyor."
+    IDS_GOHOMEERROR_DLG     "\n\nÜzgünüz! Instant Reset çalışmıyor. Lütfen, düzeltmek için işletim sisteminizi yeniden başlatın veya bu program?Başlat menüsünden kaldırın."
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "Çık"
+    IDS_OBE_DLG             "\n\nLenovo Instant Reset sistem programın?kullandığınız için teşekkür ederiz. Sisteminizi bu programın ilk etkinleştirildiği duruma hızl?bir şekilde sıfırlayabilirsiniz. \nİpucu: Bu program?başlattığınızda, Windows sistem geri yükleme işlevi otomatik olarak devre dış?kalır."
+    IDS_GOHOMEFAILED_DLG    "\n\nÜzgünüz! Instant Reset çalışmıyor. Lütfen, düzeltmek için işletim sisteminizi yeniden başlatın veya bu program?Başlat menüsünden kaldırın."
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "Onar"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "Çık"
+    IDS_IMPORTREG_DLG       "\n\nLütfen, bir dakika bekleyin. Instant Reset yenileniyor."
+    IDS_ISGOHOME_DLG        "\n\nInstant Reset, sistem bölme ayarlarınız?Instant Reset'i ilk etkinleştirdiğiniz duruma sıfırlayacaktır. Lütfen, önemli verilerinizi yedekleyin. \nDevam etmek istiyor musunuz?"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "  Devam"
+    IDS_ISGOHOME_DLG_QUIT_BTN "Çık"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nSistem bölme ayarlarınız, Instant Reset'i ilk etkinleştirdiğiniz duruma sıfırlanacaktır. Devam ederseniz, sisteminiz yeniden başlatılır. Lütfen, önemli verilerinizi yedekleyin."
+    IDS_REPAIROK_MSGDLG     "\nProgram başarıl?şekilde onarıld?"
+    IDS_REPAIRFAILED_MSGDLG "\nProgram onarılamad? Lütfen, bu program?kaldırın."
+    IDS_UNINSTALL_DLG       "\n\nNot: Bu program?kaldırmak istiyor musunuz? Bilgisayarınız, bu programın ilk kullanıldığ?duruma geri getirilecektir. Kullanıc?verileri kaybolacaktır. Lütfen, bilgisayarınızdaki kullanıc?verilerini yedekleyin."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\n""Tamam"" düğmesi tıklandığında bilgisayarınız yeniden başlatılır ve Instant Reset'in ilk kullanıldığ?duruma geri getirilir. Kullanıc?dosyalar?kaybolacaktır. Lütfen, bilgisayarınızda kayıtl?olan önemli verilerinizi yedekleyin."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "  Devam"
+    IDS_UNINSTALL_DLG_QUIT_BTN "Çık"
+    IDS_MESSAGEBOXEX_OK     "   Tamam"
+    IDS_MESSAGEBOXEX_CANCEL "İptal"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\n\nBu programın önemli dosyalar?eksik. Lütfen, doğru çalıştığından emin olmak için bu program?yeniden başlatın."
+    IDS_REBOOTSYS_DLG       "Sistem hemen kapanacaktır. Lütfen, kaydedilmemi?dosyalar?kaydedin."
+    IDS_REBOOTSYS_DLG_BTN   "Yeniden Başlat"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Kapatılacak: %02d saniye"
+    IDS_OBE_DLG_ENABLE_BTN  "   Şimdi Etkinleştir"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN "Çık"
+    IDS_STOPCREATERECOVER_MSGDLG 
+                            "\n\nLenovo Instant Reset sistemi program?etkinleştirildi. Windows Sistemi Geri Yükleme işlevi devre dış?bırakıld?"
+    IDS_MENU_HELP           "Yardım dosyas?lnk"
+    IDS_MENU_UNINSTALL      "Kaldır.lnk"
+    IDS_MENU_FINDFILE       "Dosyalar?Al.lnk"
+    IDS_MENU_INITINSTANT    "Instant Reset 'yi başlat.lnk"
+    IDS_IS_UNINSTALL        "\n\nBu program?kaldırmak istiyor musunuz?"
+    IDS_UNINSATLL_END       "\n\nProgram kaldırıld?"
+    IDS_INSTALL_SUCCESS     "\n\nKurulum başarıyla tamamland?"
+    IDS_OBE_DLG_PAGE2       "Bu program?etkinleştirmek için işletim sisteminizi yeniden başlatmak üzere ""Şimdi Etkinleştir"" düğmesini tıklayın. \n Ayrıca, ""Çık"" düğmesini tıklayarak program?daha sonra da başlatabilirsiniz. \n Bu program?kullanmadan önce, lütfen Kullanıc?Kılavuzunun 4. bölümün?dikkatlice okuyun."
+    IDS_START_NC_NO_FREE_SPACE "\n\n Yetersiz disk alan?"
+    IDS_START_NC_NO_RIGHTS  "\nBu program?yönetici olarak oturum açarak çalıştırmanız gerekir."
+END
+
+#endif    // ÍÁ¶úÆäÓï(ÍÁ¶úÆä) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Ï£²®À´Óï(ÒÔÉ«ÁĞ) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_HEB)
+LANGUAGE LANG_HEBREW, SUBLANG_DEFAULT
+#pragma code_page(1255)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,6
+ PRODUCTVERSION 1,1,0,6
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404e4"
+        BEGIN
+            VALUE "CompanyName", "Lenovo (Beijing) Limited"
+            VALUE "FileDescription", "Lenovo Instant Reset"
+            VALUE "FileVersion", "1.1.0.6"
+            VALUE "InternalName", " "
+            VALUE "LegalCopyright", "Lenovo (Beijing) Limited?All Rights Reserved?"
+            VALUE "OriginalFilename", "Interface.exe"
+            VALUE "ProductName", "Lenovo Instant Reset"
+            VALUE "ProductVersion", "1.1.0.6"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About NcInterface..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "EN.chm"
+    IDS_GOHOME_DLG          "\nThe system has already been reset to the state when you enabled Instant Reset for the first time. Click ""Retrieve Files"", the users' files on the original system disk (c:\\) will be displayed in the prompted resource manager window. It is expected for you to promptly copy the files to another disk path! If you have completed the backup, please click ""Clear Files"" to use your disk space more efficiently!"
+    IDS_GOHOME_DLG_FILDFILE_BTN "   Retrieve Files"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "   Clear Files"
+    IDS_GOHOME_DLG_CHECK_BTN "Don't show this next time."
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "Have you already retrieved your files?  \nClicking ""OK"" empty the ""Retrieve Files"",including My Documents,Desktop,Program Files,User-created folders etc.  \nPlease check these files are needless before you continue!"
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG 
+                            "\n\n   The file path you are retrieving does not exist.  "
+    IDS_GOHOMEERROR_DLG     "\n\nSorry! Instant Reset failed in operation. Please restart the operating system to correct it or uninstall this software on the Start menu. "
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "Quit"
+    IDS_OBE_DLG             "\n\nThank you for using Lenovo Instant Reset system software. It can quickly reset your system to the state when this software was initially enabled. \nHint: When you start this software, the system restore function of Windows will be automatically disabled. "
+    IDS_GOHOMEFAILED_DLG    "\n\nSorry! Instant Reset failed in operation. Please restart the operating system to correct it or uninstall this software on the Start menu. "
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "    Repair"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "  Quit"
+    IDS_IMPORTREG_DLG       "\n\nPlease wait a moment. Instant Reset is refreshing. "
+    IDS_ISGOHOME_DLG        "\n\nInstant Reset will reset your system partition settings to the initial state when you enabled Instant Reset. Please back up your important data.  \nDo you want to continue? "
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "   Continue"
+    IDS_ISGOHOME_DLG_QUIT_BTN "   Quit"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nYour system partitions will be reset to the initial state when they were the first time you enabled Instant Reset. The system will restart if you continue. Please back up your important data."
+    IDS_REPAIROK_MSGDLG     "\n      Software repair successful. "
+    IDS_REPAIRFAILED_MSGDLG "\nSoftware repair unsuccessful. Please uninstall this program. "
+    IDS_UNINSTALL_DLG       "\n\nDo you wish to uninstall this program? Your computer will be forced to restore to the state it was the first time this software was used. Users' data will be lost. Please back up users' data from your computer."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\nClicking ""OK"" will restart your operating system and restore it to the state when Instant Reset was used for the first time. Users' files will be lost. Please back up the important data stored on the system disk."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "   Continue "
+    IDS_UNINSTALL_DLG_QUIT_BTN "       Quit"
+    IDS_MESSAGEBOXEX_OK     "  Ok"
+    IDS_MESSAGEBOXEX_CANCEL "  Cancel"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\n\nThere are important files missing from this program. Please reinstall this program to ensure it runs correctly."
+    IDS_REBOOTSYS_DLG       "The system will power down immediately. Please save all unsaved files. "
+    IDS_REBOOTSYS_DLG_BTN   "Restart Now"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Shutdown after: %02d seconds"
+    IDS_OBE_DLG_ENABLE_BTN2 "      Enable Now"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN2 " Quit"
+    IDS_ADDMENU_GOHOME_TIP2 "Reboot the system, the system will be restored to its initial state."
+    IDS_STOPCREATERECOVER_MSGDLG2 
+                            "\n\nLenovo Instant Reset system software has been enabled. The Windows System Restore function is disabled."
+    IDS_MENU_HELP           "Help.lnk"
+    IDS_MENU_UNINSTALL      "Uninstall.lnk"
+    IDS_MENU_FINDFILE       "Retrieve Files.lnk"
+    IDS_MENU_INITINSTANT    "Initialize Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\n   Do you wish to uninstall this software?"
+    IDS_UNINSATLL_END       "\n\n     Uninstall Complete."
+    IDS_INSTALL_SUCCESS     "\n\n     Installation completed successfully."
+    IDS_OBE_DLG_PAGE2       "\nPlease click ""Enable Now"" to restart the operating system for enabling this software. \nYou can also click ""Quit"" and start this software later.\nBefore using this software, please read carefully chapter 4 of UserGuide."
+    IDS_START_NC_NO_FREE_SPACE "\n\n  Insufficient disk space."
+    IDS_START_NC_NO_RIGHTS  "\n You need to run the software in the administrator user. "
+END
+
+#endif    // Ï£²®À´Óï(ÒÔÉ«ÁĞ) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// °¢À­²®Óï(É³ÌØ°¢À­²®) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ARA)
+LANGUAGE LANG_ARABIC, SUBLANG_ARABIC_SAUDI_ARABIA
+#pragma code_page(1256)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,1,0,6
+ PRODUCTVERSION 1,1,0,6
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404e4"
+        BEGIN
+            VALUE "CompanyName", "Lenovo (Beijing) Limited"
+            VALUE "FileDescription", "Lenovo Instant Reset"
+            VALUE "FileVersion", "1.1.0.6"
+            VALUE "InternalName", " "
+            VALUE "LegalCopyright", "Lenovo (Beijing) Limited?All Rights Reserved?"
+            VALUE "OriginalFilename", "Interface.exe"
+            VALUE "ProductName", "Lenovo Instant Reset"
+            VALUE "ProductVersion", "1.1.0.6"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDR_MANIFEST            "1"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About NcInterface..."
+END
+
+STRINGTABLE
+BEGIN
+    IDS_HELPFILE            "EN.chm"
+    IDS_GOHOME_DLG          "\nThe system has already been reset to the state when you enabled Instant Reset for the first time. Click ""Retrieve Files"", the users' files on the original system disk (c:\\) will be displayed in the prompted resource manager window. It is expected for you to promptly copy the files to another disk path! If you have completed the backup, please click ""Clear Files"" to use your disk space more efficiently!"
+    IDS_GOHOME_DLG_FILDFILE_BTN "   Retrieve Files"
+    IDS_GOHOME_DLG_CLEARFILE_BTN "   Clear Files"
+    IDS_GOHOME_DLG_CHECK_BTN "Don't show this next time."
+    IDS_GOHOMECLEARFILE_MSGDLG 
+                            "Have you already retrieved your files?  \nClicking ""OK"" empty the ""Retrieve Files"",including My Documents,Desktop,Program Files,User-created folders etc.  \nPlease check these files are needless before you continue!"
+    IDS_GOHOMEPATHNOTEXIST_MSGDLG 
+                            "\n\n   The file path you are retrieving does not exist.  "
+    IDS_GOHOMEERROR_DLG     "\n\nSorry! Instant Reset failed in operation. Please restart the operating system to correct it or uninstall this software on the Start menu. "
+    IDS_GOHOMEERROR_DLG_QUIT_BTN "Quit"
+    IDS_OBE_DLG             "\n\nThank you for using Lenovo Instant Reset system software. It can quickly reset your system to the state when this software was initially enabled. \nHint: When you start this software, the system restore function of Windows will be automatically disabled. "
+    IDS_GOHOMEFAILED_DLG    "\n\nSorry! Instant Reset failed in operation. Please restart the operating system to correct it or uninstall this software on the Start menu. "
+    IDS_GOHOMEFAILED_DLG_REPAIR_BTN "    Repair"
+    IDS_GOHOMEFAILED_DLG_QUIT_BTN "  Quit"
+    IDS_IMPORTREG_DLG       "\n\nPlease wait a moment. Instant Reset is refreshing. "
+    IDS_ISGOHOME_DLG        "\n\nInstant Reset will reset your system partition settings to the initial state when you enabled Instant Reset. Please back up your important data.  \nDo you want to continue? "
+END
+
+STRINGTABLE
+BEGIN
+    IDS_ISGOHOME_DLG_CONTIUNE_BTN "   Continue"
+    IDS_ISGOHOME_DLG_QUIT_BTN "   Quit"
+    IDS_ISGOHOME_CONTIUNE_MSGDLG 
+                            "\nYour system partitions will be reset to the initial state when they were the first time you enabled Instant Reset. The system will restart if you continue. Please back up your important data."
+    IDS_REPAIROK_MSGDLG     "\n      Software repair successful. "
+    IDS_REPAIRFAILED_MSGDLG "\nSoftware repair unsuccessful. Please uninstall this program. "
+    IDS_UNINSTALL_DLG       "\n\nDo you wish to uninstall this program? Your computer will be forced to restore to the state it was the first time this software was used. Users' data will be lost. Please back up users' data from your computer."
+    IDS_UNINSTALL_CONTIUNE_MSGDLG 
+                            "\nClicking ""OK"" will restart your operating system and restore it to the state when Instant Reset was used for the first time. Users' files will be lost. Please back up the important data stored on the system disk."
+    IDS_UNINSTALL_DLG_CONTIUNE_BTN "   Continue "
+    IDS_UNINSTALL_DLG_QUIT_BTN "       Quit"
+    IDS_MESSAGEBOXEX_OK     "  Ok"
+    IDS_MESSAGEBOXEX_CANCEL "  Cancel"
+    IDS_PROGRAM_FILE_NOT_EXIST 
+                            "\n\nThere are important files missing from this program. Please reinstall this program to ensure it runs correctly."
+    IDS_REBOOTSYS_DLG       "The system will power down immediately. Please save all unsaved files. "
+    IDS_REBOOTSYS_DLG_BTN   "Restart Now"
+    IDS_REBOOTSYS_DLG_COUNT_TIME "Shutdown after: %02d seconds"
+    IDS_OBE_DLG_ENABLE_BTN2 "      Enable Now"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OBE_DLG_DISABLE_BTN2 " Quit"
+    IDS_ADDMENU_GOHOME_TIP2 "Reboot the system, the system will be restored to its initial state."
+    IDS_STOPCREATERECOVER_MSGDLG2 
+                            "\n\nLenovo Instant Reset system software has been enabled. The Windows System Restore function is disabled."
+    IDS_MENU_HELP           "Help.lnk"
+    IDS_MENU_UNINSTALL      "Uninstall.lnk"
+    IDS_MENU_FINDFILE       "Retrieve Files.lnk"
+    IDS_MENU_INITINSTANT    "Initialize Instant Reset.lnk"
+    IDS_IS_UNINSTALL        "\n\n   Do you wish to uninstall this software?"
+    IDS_UNINSATLL_END       "\n\n     Uninstall Complete."
+    IDS_INSTALL_SUCCESS     "\n\n     Installation completed successfully."
+    IDS_OBE_DLG_PAGE2       "\nPlease click ""Enable Now"" to restart the operating system for enabling this software. \nYou can also click ""Quit"" and start this software later.\nBefore using this software, please read carefully chapter 4 of UserGuide."
+    IDS_START_NC_NO_FREE_SPACE "\n\n  Insufficient disk space."
+    IDS_START_NC_NO_RIGHTS  "\n You need to run the software in the administrator user. "
+END
+
+#endif    // °¢À­²®Óï(É³ÌØ°¢À­²®) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\NcInterface.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

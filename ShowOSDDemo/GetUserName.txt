@@ -1,0 +1,716 @@
+
+#include <lm.h>
+#pragma hdrstop
+#include <Psapi.h>
+#pragma comment( lib, "Psapi.lib" )
+#pragma comment( lib, "netapi32.lib" )
+#include "WtsApi32.h"
+#pragma comment(lib,"WtsApi32.lib")
+
+
+
+
+
+
+
+ 
+INT IsAnAdmin()
+{	
+	typedef BOOL(_stdcall * DLLFUNC)(VOID);
+	HINSTANCE hDLL;
+	DLLFUNC isAdmin; 
+
+	hDLL = LoadLibrary( L"shell32.dll");
+	isAdmin = (DLLFUNC)::GetProcAddress( hDLL, "IsUserAnAdmin");
+	if(isAdmin==NULL)
+	{ 
+		return -1;
+	}
+	if ( isAdmin())
+	{ 
+		FreeLibrary( hDLL);			
+		return 1;
+	}
+	else
+	{ 
+		FreeLibrary( hDLL);
+		return -1;	
+	} 	
+	return 0;
+}
+
+
+
+
+
+
+INT IsAnAdmin()
+{	
+	typedef BOOL(_stdcall * DLLFUNC)(VOID);
+	HINSTANCE hDLL;
+	DLLFUNC isAdmin; 
+
+	hDLL = LoadLibrary( L"shell32.dll");
+	isAdmin = (DLLFUNC)::GetProcAddress( hDLL, "IsUserAnAdmin");
+	if(isAdmin==NULL)
+	{ 
+		return -1;
+	}
+	if ( isAdmin())
+	{ 
+		FreeLibrary( hDLL);			
+		return 1;
+	}
+	else
+	{ 
+		FreeLibrary( hDLL);
+		return -1;	
+	} 	
+	return 0;
+}
+#define   ACCESS_READ   1 
+#define   ACCESS_WRITE   2 
+
+/*------------------------------------------------------------------------ 
+Procedure:   IsAdmin   ID:1 
+Purpose:   Test   is   program   Administrator   rights. 
+Input:   None 
+Output:   Return   TRUE   if   user   is   Administrator   or   FALSE   if   not. 
+Errors:   Return   FALSE. 
+Notes:   Win   NT   required. 
+------------------------------------------------------------------------*/ 
+BOOL   IsAdmin(VOID) 
+{ 
+	HANDLE   hToken; 
+	DWORD   dwStatus; 
+	DWORD   dwAccessMask; 
+	DWORD   dwAccessDesired; 
+	DWORD   dwACLSize; 
+	DWORD   dwStructureSize   =   sizeof(PRIVILEGE_SET); 
+	PACL   pACL   =   NULL; 
+	PSID   psidAdmin   =   NULL; 
+	BOOL   bReturn   =   FALSE; 
+	PRIVILEGE_SET   ps; 
+	GENERIC_MAPPING   GenericMapping; 
+	PSECURITY_DESCRIPTOR   psdAdmin   =   NULL; 
+	SID_IDENTIFIER_AUTHORITY   SystemSidAuthority   =   SECURITY_NT_AUTHORITY; 
+
+	if(!ImpersonateSelf(SecurityImpersonation)) 
+		goto   LeaveIsAdmin; 
+
+	if   (!OpenThreadToken(GetCurrentThread(),   TOKEN_QUERY,   FALSE,   &hToken)) 
+	{ 
+		if   (GetLastError()   !=   ERROR_NO_TOKEN) 
+			goto   LeaveIsAdmin; 
+
+		if   (!OpenProcessToken(GetCurrentProcess(),   TOKEN_QUERY,   &hToken)) 
+			goto   LeaveIsAdmin; 
+
+		if   (!OpenProcessToken(GetCurrentProcess(),   TOKEN_QUERY,   &hToken)) 
+			goto   LeaveIsAdmin; 
+	} 
+
+	if   (!AllocateAndInitializeSid(&SystemSidAuthority,   2, 
+		SECURITY_BUILTIN_DOMAIN_RID,   DOMAIN_ALIAS_RID_ADMINS, 
+		0,   0,   0,   0,   0,   0,   &psidAdmin)) 
+		goto   LeaveIsAdmin; 
+
+	psdAdmin   =   LocalAlloc(LPTR,   SECURITY_DESCRIPTOR_MIN_LENGTH); 
+	if   (psdAdmin   ==   NULL) 
+		goto   LeaveIsAdmin; 
+
+	if   (!InitializeSecurityDescriptor(psdAdmin, 
+		SECURITY_DESCRIPTOR_REVISION)) 
+		goto   LeaveIsAdmin; 
+
+	dwACLSize   =   sizeof(ACL)   +   sizeof(ACCESS_ALLOWED_ACE)   + 
+		GetLengthSid(psidAdmin)   -   sizeof(DWORD); 
+
+	pACL   =   (PACL)LocalAlloc(LPTR,   dwACLSize); 
+	if   (pACL   ==   NULL) 
+		goto   LeaveIsAdmin; 
+
+	if   (!InitializeAcl(pACL,   dwACLSize,   ACL_REVISION2)) 
+		goto   LeaveIsAdmin; 
+
+	dwAccessMask=   ACCESS_READ   |   ACCESS_WRITE; 
+
+	if   (!AddAccessAllowedAce(pACL,   ACL_REVISION2,   dwAccessMask,   psidAdmin)) 
+		goto   LeaveIsAdmin; 
+
+	if   (!SetSecurityDescriptorDacl(psdAdmin,   TRUE,   pACL,   FALSE)) 
+		goto   LeaveIsAdmin; 
+
+	if(!SetSecurityDescriptorGroup(psdAdmin,   psidAdmin,   FALSE)) 
+		goto   LeaveIsAdmin; 
+	if(!SetSecurityDescriptorOwner(psdAdmin,   psidAdmin,   FALSE)) 
+		goto   LeaveIsAdmin; 
+
+	if   (!IsValidSecurityDescriptor(psdAdmin)) 
+		goto   LeaveIsAdmin; 
+
+	dwAccessDesired   =   ACCESS_READ; 
+
+	GenericMapping.GenericRead   =   ACCESS_READ; 
+	GenericMapping.GenericWrite   =   ACCESS_WRITE; 
+	GenericMapping.GenericExecute   =   0; 
+	GenericMapping.GenericAll   =   ACCESS_READ   |   ACCESS_WRITE; 
+
+	if   (!AccessCheck(psdAdmin,   hToken,   dwAccessDesired, 
+		&GenericMapping,   &ps,   &dwStructureSize,   &dwStatus,   &bReturn)) 
+		goto   LeaveIsAdmin; 
+
+	if(!RevertToSelf()) 
+		bReturn   =   FALSE; 
+
+LeaveIsAdmin: 
+
+	if   (pACL)   LocalFree(pACL); 
+	if   (psdAdmin)   LocalFree(psdAdmin); 
+	if   (psidAdmin)   FreeSid(psidAdmin); 
+
+	return   bReturn; 
+} 
+
+BOOL    CNcInterfaceApp::IsUserAdminPrivilege(const   CString   &   strUserName,BOOL   &   bAdminPrivilege)   
+{     
+	bAdminPrivilege   =   FALSE;   
+
+	PSID pSid   =   NULL;   
+	DWORD cbSid   =   0;   
+	LPTSTR bufDomain   =   NULL;   
+	DWORD cbDomain   =   0;   
+	SID_NAME_USE type;   
+	LookupAccountName(NULL,strUserName,pSid,&cbSid,bufDomain,&cbDomain,&type);   
+	if(cbSid)   
+	{   
+		pSid   =   new   byte[cbSid];   
+		bufDomain   =   new   TCHAR[cbDomain];   
+		if(LookupAccountName(NULL,strUserName,pSid,&cbSid,bufDomain,&cbDomain,&type))   
+		{   
+			PSID_IDENTIFIER_AUTHORITY   pAutho   =   GetSidIdentifierAuthority(pSid);   
+			DWORD   dwErr   =   GetLastError();   
+			if(!dwErr)   
+			{   
+				SID_IDENTIFIER_AUTHORITY   AdminAuth   =   SECURITY_NT_AUTHORITY;   
+				bAdminPrivilege   =   !memcmp(pAutho,&AdminAuth,sizeof(SID_IDENTIFIER_AUTHORITY));   
+			}   
+		}   
+		delete []pSid;   
+		delete []bufDomain;   
+	}   
+	if(bAdminPrivilege)   
+		return TRUE;   
+
+	DWORD   rc;   
+	USER_INFO_1   *info;   
+	rc   =   NetUserGetInfo(NULL,  LPCWSTR(strUserName),1,(byte**)&info);   
+	if(rc   ==   NERR_Success)   
+	{   
+		bAdminPrivilege   =   info->usri1_priv   ==   USER_PRIV_ADMIN;   
+		NetApiBufferFree(info);   
+	}   
+
+	return rc   ==   NERR_Success;   
+}
+
+bool jerry_coffin_method()
+{
+	bool result;
+	DWORD rc;
+	wchar_t user_name[256];
+	USER_INFO_1 *info;
+	DWORD size = sizeof( user_name );
+
+	GetUserNameW( user_name, &size);
+
+	rc = NetUserGetInfo( NULL, user_name, 1, (byte **) &info );
+	if ( rc != NERR_Success )
+		return false;
+
+	result = info->usri1_priv == USER_PRIV_ADMIN;
+
+	NetApiBufferFree( info );
+	return result;
+}
+DWORD  GetProcessUser(HANDLE hProc,TCHAR*lpUserName,DWORD dwUserSize
+								)
+{
+	DWORD dwDomainSize;
+	TCHAR lpSystemName[MAX_PATH];
+	TCHAR lpDomain[MAX_PATH];
+
+	if(lpUserName ==NULL||lpDomain == NULL)
+		return 0x0000FFFF;
+	//取得TokenInformation需要的内存长度
+	HANDLE hToken = NULL;
+	SID_NAME_USE SidType;
+	TOKEN_USER *pTokenUser = NULL;
+	__try
+	{
+		g_EnableDebugPriv();
+		if(!OpenProcessToken(hProc,TOKEN_ADJUST_PRIVILEGES|TOKEN_QUERY,&hToken))
+		{
+			return 0x0000000F;
+		}
+		DWORD dwLength = 0;
+		GetTokenInformation(hToken,TokenUser,NULL,dwLength,&dwLength);
+		if(dwLength != 0)
+			pTokenUser = (TOKEN_USER*)LocalAlloc(LPTR,dwLength);
+		else
+			__leave;
+		if(!GetTokenInformation(hToken,TokenUser,pTokenUser,dwLength,&dwLength))
+			__leave;
+		if(!LookupAccountSid(lpSystemName,pTokenUser->User.Sid,(LPWSTR)lpUserName,&dwUserSize,lpDomain,&dwDomainSize,&SidType))
+			__leave;
+	}
+	__finally
+	{
+		if(hToken != NULL)
+		{
+			CloseHandle(hToken);    
+		}
+		if(pTokenUser != NULL)
+		{
+			LocalFree(pTokenUser);
+		 
+		}
+	}
+	return GetLastError();
+}
+LPCTSTR GetProcessUserName(DWORD dwID) // 进程ID
+{
+	HANDLE hProcess=OpenProcess(PROCESS_QUERY_INFORMATION,FALSE,dwID);
+	if( hProcess==NULL )
+		return NULL;
+
+	HANDLE hToken =NULL;
+	BOOL bResult =FALSE;
+	DWORD dwSize =0;
+
+	static TCHAR szUserName[256]={0};
+	TCHAR szDomain[256]={0};
+	DWORD dwDomainSize=256;
+	DWORD dwNameSize=256;
+
+	SID_NAME_USE SNU;
+	PTOKEN_USER pTokenUser=NULL;
+	__try
+	{  
+		if( !OpenProcessToken(hProcess,TOKEN_QUERY,&hToken) )
+		{
+			bResult = FALSE;
+			__leave;
+		}
+
+		if( !GetTokenInformation(hToken,TokenUser,pTokenUser,dwSize,&dwSize) )
+		{
+			if( GetLastError() != ERROR_INSUFFICIENT_BUFFER )
+			{
+				bResult = FALSE ;  
+				__leave;
+			}
+		}
+
+		pTokenUser = NULL;
+		pTokenUser = (PTOKEN_USER)malloc(dwSize);
+		if( pTokenUser == NULL )
+		{
+			bResult = FALSE;
+			__leave;
+		}
+
+		if( !GetTokenInformation(hToken,TokenUser,pTokenUser,dwSize,&dwSize) )
+		{
+			bResult = FALSE;
+			__leave;
+		}
+
+		if( LookupAccountSid(NULL,pTokenUser->User.Sid,szUserName,&dwNameSize,szDomain,&dwDomainSize,&SNU) != 0 )
+		{
+			return szUserName;
+		}
+	}
+	__finally
+	{
+		if( pTokenUser!=NULL )
+			free(pTokenUser);
+	}
+
+	return NULL;
+}
+//获取win2000登陆用户      
+BOOL  GetLogonUser(CString& strName)
+{
+	BOOL bRet = FALSE;
+	HANDLE hSnapshot = NULL;
+	strName = _T("");
+  
+	__try
+	{
+		// Get a snapshot of the processes in the system
+		hSnapshot = CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
+		if (hSnapshot == NULL)
+		{            
+			__leave;
+		}
+
+		PROCESSENTRY32 pe32;
+		pe32.dwSize = sizeof(pe32);
+
+		// Find the "System" process
+		BOOL fProcess = Process32First(hSnapshot, &pe32);
+		while (fProcess)
+		{
+			if (lstrcmpi(pe32.szExeFile, TEXT("explorer.exe")) == 0)
+			{	
+				strName = GetProcessUserName(pe32.th32ProcessID );
+				if (strName != L"")
+				{
+					bRet = TRUE;
+				}
+				break;
+			}
+			fProcess = Process32Next(hSnapshot, &pe32);
+		}
+		if (!fProcess)
+		{			
+			__leave;    // Didn''t find "System" process
+		}
+	}
+	__finally
+	{
+		// Cleanup the snapshot
+		if (hSnapshot != NULL)
+			CloseHandle(hSnapshot);
+	}
+
+	return bRet;	
+}
+
+BOOL  GetLogUserXP(CString& strName)
+{
+	BOOL bRet = FALSE;
+	strName = _T("");
+
+	//for xp or above
+	TCHAR *szLogName = NULL;
+	DWORD dwSize = 0;
+	if (WTSQuerySessionInformation(WTS_CURRENT_SERVER_HANDLE,
+		WTS_CURRENT_SESSION,
+		WTSUserName,
+		&szLogName,
+		&dwSize))
+	{			
+		strName = szLogName;
+		WTSFreeMemory(szLogName);
+		bRet = TRUE;
+	}
+
+	return bRet;
+} 
+
+
+
+
+BOOL CNcInterfaceApp::InitInstance()
+{
+     g_EnableDebugPriv();
+	 AdjustToken();
+  
+	INITCOMMONCONTROLSEX InitCtrls;
+	InitCtrls.dwSize = sizeof(InitCtrls);
+ 
+	InitCtrls.dwICC = ICC_WIN95_CLASSES;
+	InitCommonControlsEx(&InitCtrls);
+
+	CWinApp::InitInstance();
+
+	AfxEnableControlContainer();
+
+	SetRegistryKey(_T("Local AppWizard-Generated Applications"));
+
+	//SetThreadLocale(0x0408); 
+	//CString strText; 
+	//strText.LoadString(IDS_INSTALL_SUCCESS); 
+	//AfxMessageBox(strText); 
+
+
+    g_InitValueFromLanguage(); // 初始化多语言
+  
+	int iCount = __argc;
+ 
+	CString cmd = __wargv[0];
+	CString cmd2 = __wargv[0] ;
+ 	BOOL  bIsOOBEInterface = FALSE;
+ 
+	if (__wargv[1] != NULL)
+	{
+		cmd2 = __wargv[1];
+	}
+
+	bool j;
+
+	j = jerry_coffin_method();
+ 
+
+	OutputDebugStringWEx( L"NetUserGetInfo(): The current user is %s an Administrator.n",j?L"":L"not " );
+
+
+
+	CString   strUserName;
+	BOOL   bAdminPrivilege=FALSE;
+	wchar_t user_name[256];
+ 	DWORD size = sizeof( user_name );
+
+	GetUserNameW( user_name, &size);
+	OutputDebugStringWEx( L"GetUserNameW  %s   ", user_name); 
+	TCHAR lpszDesktopPath[MAX_PATH]; 
+	if(::SHGetSpecialFolderPath(NULL,lpszDesktopPath,CSIDL_DESKTOP,NULL)) 
+	{ 
+		//AfxMessageBox(lpszDesktopPath); 
+		CString strTestBuf = lpszDesktopPath;
+
+		AfxExtractSubString(strUserName,strTestBuf, 2, L'\\'); 
+		OutputDebugStringWEx( L"SHGetSpecialFolderPath  %s   ", strTestBuf); 
+	}
+	strUserName ="";
+GetLogUserXP(strUserName);
+	OutputDebugStringWEx( L"GetLogonUser  %s   ", (LPWSTR)(LPCWSTR)strUserName); 
+
+	strUserName ="";
+	if (!  GetLogonUser(strUserName))
+	{
+		OutputDebugStringWEx( L"GetLogonUser  %s return error %d  ", strUserName,GetLastError() ); 
+	}
+	else
+	{
+		OutputDebugStringWEx( L"GetLogonUser  %s   ", (LPWSTR)(LPCWSTR)strUserName); 
+ 
+	}
+ 
+	IsUserAdminPrivilege(  strUserName , bAdminPrivilege) ;
+	if (bAdminPrivilege)
+	{
+		OutputDebugStringWEx( L"IsUserAdminPrivilege You %s are   an   administratorn ", strUserName); 
+	} 
+	else
+	{
+		OutputDebugStringWEx( L"IsUserAdminPrivilege You %s  are   not   an   administratorn ",strUserName); 
+	}
+
+	if   (IsAdmin()) 
+		OutputDebugStringWEx( L"IsAdmin You   are   an   administratorn "); 
+	else 
+		OutputDebugStringWEx( L"IsAdmin You   are   not   an   administratorn "); 
+
+
+
+
+
+LPCTSTR GetProcessUserName(DWORD dwID) // 进程ID
+{
+	HANDLE hProcess=OpenProcess(PROCESS_QUERY_INFORMATION,FALSE,dwID);
+	if( hProcess==NULL )
+		return NULL;
+
+	HANDLE hToken =NULL;
+	BOOL bResult =FALSE;
+	DWORD dwSize =0;
+
+	static TCHAR szUserName[256]={0};
+	TCHAR szDomain[256]={0};
+	DWORD dwDomainSize=256;
+	DWORD dwNameSize=256;
+
+	SID_NAME_USE SNU;
+	PTOKEN_USER pTokenUser=NULL;
+	__try
+	{  
+		if( !OpenProcessToken(hProcess,TOKEN_QUERY,&hToken) )
+		{
+			bResult = FALSE;
+			__leave;
+		}
+
+		if( !GetTokenInformation(hToken,TokenUser,pTokenUser,dwSize,&dwSize) )
+		{
+			if( GetLastError() != ERROR_INSUFFICIENT_BUFFER )
+			{
+				bResult = FALSE ;  
+				__leave;
+			}
+		}
+
+		pTokenUser = NULL;
+		pTokenUser = (PTOKEN_USER)malloc(dwSize);
+		if( pTokenUser == NULL )
+		{
+			bResult = FALSE;
+			__leave;
+		}
+
+		if( !GetTokenInformation(hToken,TokenUser,pTokenUser,dwSize,&dwSize) )
+		{
+			bResult = FALSE;
+			__leave;
+		}
+
+		if( LookupAccountSid(NULL,pTokenUser->User.Sid,szUserName,&dwNameSize,szDomain,&dwDomainSize,&SNU) != 0 )
+		{
+			return szUserName;
+		}
+	}
+	__finally
+	{
+		if( pTokenUser!=NULL )
+			free(pTokenUser);
+	}
+
+	return NULL;
+}
+BOOL   IsAdmin(HANDLE handle ) 
+{ 
+	HANDLE   hToken; 
+	DWORD   dwStatus; 
+	DWORD   dwAccessMask; 
+	DWORD   dwAccessDesired; 
+	DWORD   dwACLSize; 
+	DWORD   dwStructureSize   =   sizeof(PRIVILEGE_SET); 
+	PACL   pACL   =   NULL; 
+	PSID   psidAdmin   =   NULL; 
+	BOOL   bReturn   =   FALSE; 
+	PRIVILEGE_SET   ps; 
+	GENERIC_MAPPING   GenericMapping; 
+	PSECURITY_DESCRIPTOR   psdAdmin   =   NULL; 
+	SID_IDENTIFIER_AUTHORITY   SystemSidAuthority   =   SECURITY_NT_AUTHORITY; 
+
+	if(!ImpersonateSelf(SecurityImpersonation)) 
+		goto   LeaveIsAdmin; 
+
+	if   (!OpenThreadToken(handle,   TOKEN_QUERY,   FALSE,   &hToken)) 
+	{ 
+		if   (GetLastError()   !=   ERROR_NO_TOKEN) 
+			goto   LeaveIsAdmin; 
+
+		if   (!OpenProcessToken(handle,   TOKEN_QUERY,   &hToken)) 
+			goto   LeaveIsAdmin; 
+
+		if   (!OpenProcessToken(handle,   TOKEN_QUERY,   &hToken)) 
+			goto   LeaveIsAdmin; 
+	} 
+
+	if   (!AllocateAndInitializeSid(&SystemSidAuthority,   2, 
+		SECURITY_BUILTIN_DOMAIN_RID,   DOMAIN_ALIAS_RID_ADMINS, 
+		0,   0,   0,   0,   0,   0,   &psidAdmin)) 
+		goto   LeaveIsAdmin; 
+
+	psdAdmin   =   LocalAlloc(LPTR,   SECURITY_DESCRIPTOR_MIN_LENGTH); 
+	if   (psdAdmin   ==   NULL) 
+		goto   LeaveIsAdmin; 
+
+	if   (!InitializeSecurityDescriptor(psdAdmin, 
+		SECURITY_DESCRIPTOR_REVISION)) 
+		goto   LeaveIsAdmin; 
+
+	dwACLSize   =   sizeof(ACL)   +   sizeof(ACCESS_ALLOWED_ACE)   + 
+		GetLengthSid(psidAdmin)   -   sizeof(DWORD); 
+
+	pACL   =   (PACL)LocalAlloc(LPTR,   dwACLSize); 
+	if   (pACL   ==   NULL) 
+		goto   LeaveIsAdmin; 
+
+	if   (!InitializeAcl(pACL,   dwACLSize,   ACL_REVISION2)) 
+		goto   LeaveIsAdmin; 
+
+	dwAccessMask=   ACCESS_READ   |   ACCESS_WRITE; 
+
+	if   (!AddAccessAllowedAce(pACL,   ACL_REVISION2,   dwAccessMask,   psidAdmin)) 
+		goto   LeaveIsAdmin; 
+
+	if   (!SetSecurityDescriptorDacl(psdAdmin,   TRUE,   pACL,   FALSE)) 
+		goto   LeaveIsAdmin; 
+
+	if(!SetSecurityDescriptorGroup(psdAdmin,   psidAdmin,   FALSE)) 
+		goto   LeaveIsAdmin; 
+	if(!SetSecurityDescriptorOwner(psdAdmin,   psidAdmin,   FALSE)) 
+		goto   LeaveIsAdmin; 
+
+	if   (!IsValidSecurityDescriptor(psdAdmin)) 
+		goto   LeaveIsAdmin; 
+
+	dwAccessDesired   =   ACCESS_READ; 
+
+	GenericMapping.GenericRead   =   ACCESS_READ; 
+	GenericMapping.GenericWrite   =   ACCESS_WRITE; 
+	GenericMapping.GenericExecute   =   0; 
+	GenericMapping.GenericAll   =   ACCESS_READ   |   ACCESS_WRITE; 
+
+	if   (!AccessCheck(psdAdmin,   hToken,   dwAccessDesired, 
+		&GenericMapping,   &ps,   &dwStructureSize,   &dwStatus,   &bReturn)) 
+		goto   LeaveIsAdmin; 
+
+	if(!RevertToSelf()) 
+		bReturn   =   FALSE; 
+
+LeaveIsAdmin: 
+
+	if   (pACL)   LocalFree(pACL); 
+	if   (psdAdmin)   LocalFree(psdAdmin); 
+	if   (psidAdmin)   FreeSid(psidAdmin); 
+
+	return   bReturn; 
+} 
+ 
+ 
+//获取win2000登陆用户      
+BOOL  GetLogonUser(/*CString& strName*/)
+{
+	BOOL bRet = FALSE;
+	HANDLE hSnapshot = NULL;
+	//strName = _T("");
+  
+	__try
+	{
+		// Get a snapshot of the processes in the system
+		hSnapshot = CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
+		if (hSnapshot == NULL)
+		{            
+			__leave;
+		}
+
+		PROCESSENTRY32 pe32;
+		pe32.dwSize = sizeof(pe32);
+
+		// Find the "System" process
+		BOOL fProcess = Process32First(hSnapshot, &pe32);
+		while (fProcess)
+		{
+
+			if (lstrcmpi(pe32.szExeFile, TEXT("explorer.exe")) == 0)
+			{	
+				HANDLE handle =   OpenProcess(PROCESS_QUERY_INFORMATION,FALSE,pe32.th32ProcessID);
+				if (  IsAdmin(  handle ) )
+				//strName = GetProcessUserName(pe32.th32ProcessID );
+				//if (strName != L"")
+				{
+					bRet = TRUE;
+				}
+				break;
+			}
+			fProcess = Process32Next(hSnapshot, &pe32);
+		}
+		if (!fProcess)
+		{			
+			__leave;    // Didn''t find "System" process
+		}
+	}
+	__finally
+	{
+		// Cleanup the snapshot
+		if (hSnapshot != NULL)
+			CloseHandle(hSnapshot);
+	}
+
+	return bRet;	
+}

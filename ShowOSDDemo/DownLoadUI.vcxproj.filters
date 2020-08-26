@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GdipButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageBoxEx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NcInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xSkinButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GdipButtonPic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cgdiplusbitmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="commonfactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GdipButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MemDC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageBoxEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NcInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xSkinButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GdipButtonPic.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\LOGO.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\NcInterface.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\program.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\01auto.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\02min.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\03max.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\04douse.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\camera_off.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\camera_on.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\CapsLock_off.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\CapsLock_on.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\FnLock_off.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\FnLock_on.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\ITS4_FA_Tachometer_alt_fast.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\ITS4_LE_Battery_Life_mode.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\ITS4_LE_IntelligentCooling.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\MicClose.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\MicOpen.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\NumberLock_off.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\NumberLock_on.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\TP_off.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\TP_on.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\InstantReset.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\messageboxerror.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Shut_dwown.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Shut_mask.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Shut_normal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\Shut_on.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\fx1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\fx2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\fx3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\fx4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\fx5.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\big_bg.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\480X310.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\500X320.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\big_bg0.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\360x220.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\1-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\2-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\3-1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\1-4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\2-4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\3-4.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\1-3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\2-3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\3-3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\1_close.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\2_close.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\1_1_Result.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\1_1_time.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\1_2_Result.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\1_2_time.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\1_3_Result.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\1_3_time.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\1_4_time.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\1_Check.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\1_Default.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\1s.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\2s.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\3s.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\4s.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\5s.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\always.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\frame.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\1s_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\2s_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\3s_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\4s_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\5s_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Images\OSD\always_1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NcInterface.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\NcInterface.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rt_manif.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="GetUserName.txt" />
+    <Text Include="pngBG.txt" />
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
